@@ -15,8 +15,8 @@
   </head>
   <body>
     <script>
-      var width = 900;
-      var height = 600;
+      var width = 2200;
+      var height = 1500;
 
      // var projection = d3.geo.mercator();
       
@@ -29,10 +29,10 @@
 
       var projection = d3.geo.albersUsa()
                        .translate([width/2, height/2])
-                       .scale([500]);
+                       .scale([10000000]);
     //  var g = svg.append("g");
       
-      d3.json("streets.json", function(json) {
+      d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/streets.json", function(json) {
             console.log(json);
           svg.selectAll("path")
             .data(json.features)
