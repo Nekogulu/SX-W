@@ -32,7 +32,7 @@
                        .scale([10000000]);
     //  var g = svg.append("g");
       
-      d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/streets.json", function(json) {
+      d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/streets.json", function(json) {
             console.log(json);
           svg.selectAll("path")
             .data(json.features)
