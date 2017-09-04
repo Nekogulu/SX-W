@@ -7,13 +7,31 @@
     <script src="http://echarts.baidu.com/dist/echarts.js" type="text/javascript"></script>
     <script src="d3/d3.js" type="text/javascript"></script>
     <script src="echarts/guangdong.js"></script>
+    <script src="Data/output.js"></script>
 </head>
 
 
 <body>
     <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
-    <div id="main" style="width: 1200px;height:960px;"></div>
- <!--
+    <div id="main" style="width: 2200px;height:1560px;"></div>
+ 
+ <!--  
+  <script>
+        
+    var path = d3.geo.path();
+    d3.json("Data/output.js", function(json)) {
+
+        svg.selectAll("path")
+            .data(json.features)
+            .enter()
+            .append("path")
+            .attr("d", path)
+    }
+
+
+    </script>
+
+ 
     <script>
         // 基于准备好的dom，初始化echarts实例
        
@@ -42,9 +60,9 @@
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
     </script>
+
+
 -->
-
-
     <script>
         
 
@@ -53,8 +71,8 @@
         
         mapTest.setOption({  
             series: [{  
-                type: 'map',  
-                map: '广东'  
+                type: 'map' ,
+                map : 'Snow John'
             }]  
         });  
      
