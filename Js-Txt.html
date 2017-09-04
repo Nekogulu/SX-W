@@ -1,0 +1,17 @@
+<html>  
+<head>  
+<title>JS操作文本文件</title>  
+</head>  
+<body>  
+  
+<script>  
+var fso = new ActiveXObject("Scripting.FileSystemObject");
+var f = fso.OpenTextFile("C:\\VDAE\SX-W\SX-W\Data\streets.txt", ForReading, false); //读文件
+echo(f.ReadLine());//读一行
+echo('1');
+</script>  
+  
+ 
+  
+</body>  
+</html>  

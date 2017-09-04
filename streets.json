@@ -1,0 +1,14 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+     {
+       "type": "Feature",
+       "id": "01",
+       "properties": { "name": "The 1 street" },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [[[16.7380009,18.6959991],
+           [17.6599998,18.7119999]
+          ]]
+      }
+    }
