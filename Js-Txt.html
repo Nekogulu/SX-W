@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <html>  
 <head>  
 <title>JS操作文本文件</title>  
@@ -14,4 +15,22 @@ echo('1');
  
   
 </body>  
+=======
+<html>  
+<head>  
+<title>JS操作文本文件</title>  
+</head>  
+<body>  
+  
+<script>  
+var fso = new ActiveXObject("Scripting.FileSystemObject");
+var f = fso.OpenTextFile("C:\\VDAE\SX-W\SX-W\Data\streets.txt", ForReading, false); //读文件
+echo(f.ReadLine());//读一行
+echo('1');
+</script>  
+  
+ 
+  
+</body>  
+>>>>>>> dc3f3d78507aa806b796c3a1b4f3b8e57cba5a56
 </html>  
