@@ -4,14 +4,21 @@
     <meta charset="utf-8">
     <title>D3 World Map</title>
     <style>
-      
+      path {
+              fill: none;
+              stroke: #000;
+              stroke-width: .1px;
+              stroke-linejoin: round;
+              stroke-linecap: round;
+            }
     </style>
     <script src="d3/d3.v3.min.js" type="text/javascript"></script>
     <script src="d3/d3-geo-projection.js" type="text/javascript"></script>
+    <script src="topojson-1.0.0/topojson.js"></script>
   </head>
   <body>
     <script>
-      var width = 2200;
+ /*       var width = 2200;
       var height = 1500;
 
      // var projection = d3.geo.mercator();
@@ -21,7 +28,7 @@
           .attr("height", height);
 
       var path = d3.geo.path()
-            .projection(projection);
+    //        .projection(projection);
         
 
      // var projection = d3.geo.albersUsa()
@@ -29,13 +36,13 @@
     //                  .scale([10000000]);
     //  var g = svg.append("g");
 
-    var projection = d3.geo.mercator()  
-                        .center([16, 18])  
-                       .scale(8500000000)  ;
-                      //  .translate([width/2, height/2]); 
-    console.log(projection);
+   // var projection = d3.geo.mercator()  
+   //                     .center([16, 18])  
+    //                   .scale(8500000000)  
+    //                   .translate([width/2, height/2]); 
+    //console.log(projection);
       
-   /*   d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/streets.json", function(json) {
+    d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/streets.json", function(json) {
            // console.log(json);
           svg.selectAll("path")
             .data(json.features)
@@ -44,16 +51,52 @@
             .attr("d", path);
       });
 
-    */
+    
+
+     //  var projection = d3.geo.transverseMercator()
+     //    .center([16, 18])
+    //     .rotate([16, 0])
+     //    .scale((height * 750.5) / 3)
+     //    .translate([(width/2), (height/2)]);
 
         d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/streets.json", function(json) {
            // console.log(json);
           svg.selectAll("path")
             .data(json.features)
             .enter()
-            .append("line")
-            .attr("d", path);
+            .append("path")
+       //     .attr("class", "line")
+            .attr("d", path)
+
+       //     .style("fill", "white")
+        //    .style("stroke", "#cccccc");
       });
+
+*/
+
+
+            var width = 960,
+                height = 700;
+
+            var path = d3.geo.path()
+                .projection(null);
+
+
+            var svg = d3.select("body").append("svg")
+                .attr("width", width)
+                .attr("height", height);
+
+            d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/streets.json", function(error, json) {
+              if (error) throw error;
+
+              svg.selectAll("path")
+                  .data(json.features)
+                  .enter()
+                  .append("path")
+                  .attr("d", path);
+            });
+
+           // d3.select(self.frameElement).style("height", height + "px");
 
 
 
