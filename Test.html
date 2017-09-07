@@ -61,8 +61,8 @@
 
                 var points = json.features.filter(function(d){return d.geometry.type == "Point";});
                 var lines = json.features.filter(function(d){return d.geometry.type == "LineString";});
-                var workHouse = json.features.filter(function(d){return d.properties.name == "workHouse";});
-                var brewery = json.features.filter(function(d){return d.properties.name == "brewery";});
+                var workHouse = json.features.filter(function(d){return d.properties.name == "WorkHouse";});
+                var brewery = json.features.filter(function(d){return d.properties.name == "Brewery";});
 
                 var pointSvg = svg.append("g")
                                 .attr("class", "point");
