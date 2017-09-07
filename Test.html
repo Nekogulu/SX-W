@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>D3 World Map</title>
+    <title>D3 Map</title>
     <style>
       path {
               fill: none;
@@ -14,91 +14,80 @@
     </style>
     <script src="d3/d3.v3.min.js" type="text/javascript"></script>
     <script src="d3/d3-geo-projection.js" type="text/javascript"></script>
-    <script src="topojson-1.0.0/topojson.js"></script>
+
   </head>
   <body>
     <script>
- /*       var width = 2200;
-      var height = 1500;
-
-     // var projection = d3.geo.mercator();
-      
-      var svg = d3.select("body").append("svg")
-          .attr("width", width)
-          .attr("height", height);
-
-      var path = d3.geo.path()
-    //        .projection(projection);
-        
-
-     // var projection = d3.geo.albersUsa()
-    //                   .translate([width/2, height/2])
-    //                  .scale([10000000]);
-    //  var g = svg.append("g");
-
-   // var projection = d3.geo.mercator()  
-   //                     .center([16, 18])  
-    //                   .scale(8500000000)  
-    //                   .translate([width/2, height/2]); 
-    //console.log(projection);
-      
-    d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/streets.json", function(json) {
-           // console.log(json);
-          svg.selectAll("path")
-            .data(json.features)
-            .enter()
-            .append("path")
-            .attr("d", path);
-      });
-
-    
-
-     //  var projection = d3.geo.transverseMercator()
-     //    .center([16, 18])
-    //     .rotate([16, 0])
-     //    .scale((height * 750.5) / 3)
-     //    .translate([(width/2), (height/2)]);
-
-        d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/streets.json", function(json) {
-           // console.log(json);
-          svg.selectAll("path")
-            .data(json.features)
-            .enter()
-            .append("path")
-       //     .attr("class", "line")
-            .attr("d", path)
-
-       //     .style("fill", "white")
-        //    .style("stroke", "#cccccc");
-      });
-
-*/
-
-
-            var width = 960,
+            var width = 700,
                 height = 700;
-
-            var path = d3.geo.path()
-                .projection(null);
 
 
             var svg = d3.select("body").append("svg")
                 .attr("width", width)
                 .attr("height", height);
 
+
             d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/streets.json", function(error, json) {
               if (error) throw error;
 
-              svg.selectAll("path")
-                  .data(json.features)
-                  .enter()
-                  .append("path")
-                  .attr("d", path);
-            });
+                // create a first guess for the projection
+                var center = d3.geo.centroid(json)
+                var scale  = 80;
+                var offset = [width/2, height/2];
+                var projection = d3.geo.mercator().scale(scale).center(center)
+                    .translate(offset);
 
-           // d3.select(self.frameElement).style("height", height + "px");
+                // create the path
+                var path = d3.geo.path().projection(projection);
+
+                // using the path determine the bounds of the current map and use 
+                // these to determine better values for the scale and translation
+                var bounds  = path.bounds(json);
+                var hscale  = scale*width  / (bounds[1][0] - bounds[0][0]) -150 ;
+                var vscale  = scale*height / (bounds[1][1] - bounds[0][1]) ;
+                var scale   = (hscale < vscale) ? hscale : vscale;
+                var offset  = [width - (bounds[0][0] + bounds[1][0])/2,
+                                    height - (bounds[0][1] + bounds[1][1] )/2];
+
+                // new projection
+                projection = d3.geo.mercator().center(center)
+                    .scale(scale).translate(offset);
+                path = path.projection(projection);
+console.log(center);
+console.log(scale);
+console.log(offset);
+                svg.selectAll("path")
+                    .data(json.features)
+                    .enter()
+                    .append("path")
+                    .attr("d", path)
+                    .style("stroke-width", "2")
+                    .style("stroke", "black");
 
 
+                svg.selectAll("text")
+                    .data(json.features)
+                    .enter()
+                    .append("svg:text")
+                    .text(function(d){
+                        return d.properties.name;
+                    })
+                    .attr('transform', function(d) {
+                    return 'translate('+path.centroid(d)[0]+','+path.centroid(d)[1]+') rotate(-45);'
+                    })
+            /*        .attr("x", function(d){
+                        return path.centroid(d)[0];
+                    })
+                    .attr("y", function(d){
+                        return  path.centroid(d)[1];
+                    })
+            */
+                    .attr("text-anchor","middle")
+                    .attr('font-size','6pt');
+                });
+
+        
+ 
 
     </script>
   </body>
