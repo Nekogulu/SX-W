@@ -59,44 +59,66 @@
                     .scale(scale).translate(offset);
                 path = path.projection(projection);
 
-              svg.selectAll("path")
-                    .data(json.features.filter(function(d){return d.geometry.type == "Point"; }))
+                var points = json.features.filter(function(d){return d.geometry.type == "Point";});
+                var lines = json.features.filter(function(d){return d.geometry.type == "LineString";});
+                var workHouse = json.features.filter(function(d){return d.properties.name == "workHouse";});
+                var brewery = json.features.filter(function(d){return d.properties.name == "brewery";});
+
+                var pointSvg = svg.append("g")
+                                .attr("class", "point");
+                var lineSvg = svg.append("g")
+                                .attr("class", "lineString");
+                var workHosueSvg = svg.append("g")
+                                    .attr("class", "workHouse");
+                var brewerySvg = svg.append("g")
+                                    .attr("class", "brewery");
+
+              pointSvg.selectAll("path")
+                    .data(points)
                     .enter()
                     .append("path")
                     .attr("d", path)
-                    .style("fill", "green");
+                    .style("fill", "green")
+                    .style("stroke-width", "2")
+                    .style("stroke", "black");
 
-
-              svg.selectAll("path")
-                    .data(json.features)
+              lineSvg.selectAll("path")
+                    .data(lines)
                     .enter()
                     .append("path")
                     .attr("d", path)
                     .style("stroke-width", "2")
-                    .style("stroke", "black");
-
-              
-                    
-
-              
-           /*       svg.selectAll("text")
+                    .style("stroke", "black");                                
+              lineSvg.selectAll("text")
                     .data(json.features)
                     .enter()
                     .append("svg:text")
                     .text(function(d){
                         return d.properties.name;
                     })
-
                     .attr("x", function(d){
                         return path.centroid(d)[0];
                     })
                     .attr("y", function(d){
                         return  path.centroid(d)[1];
                     })
-
                     .attr("text-anchor","middle")
                     .attr('font-size','6pt');
-        */
+
+              workHosueSvg.selectAll("path")
+                    .data(workHouse)
+                    .enter()
+                    .append("path")
+                    .attr("d", path)
+                    .style("fill", "yellow");
+
+              brewerySvg.selectAll("path")
+                    .data(brewery)
+                    .enter()
+                    .append("path")
+                    .attr("d", path)
+                    .style("fill", "pink");
+        
                 });
     
   
