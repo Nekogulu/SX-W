@@ -43,7 +43,7 @@
                 // using the path determine the bounds of the current map and use 
                 // these to determine better values for the scale and translation
                 var bounds  = path.bounds(json);
-                var hscale  = scale*width  / (bounds[1][0] - bounds[0][0]) -150 ;
+                var hscale  = scale*width  / (bounds[1][0] - bounds[0][0]) -380 ;
                 var vscale  = scale*height / (bounds[1][1] - bounds[0][1]) ;
                 var scale   = (hscale < vscale) ? hscale : vscale;
                 var offset  = [width - (bounds[0][0] + bounds[1][0])/2,
@@ -57,7 +57,7 @@ console.log(center);
 console.log(scale);
 console.log(offset);
 
-           /*     svg.selectAll("path")
+              svg.selectAll("path")
                     .data(json.features)
                     .enter()
                     .append("path")
@@ -65,7 +65,7 @@ console.log(offset);
                     .style("stroke-width", "2")
                     .style("stroke", "black");
 
-                svg.selectAll("text")
+           /*       svg.selectAll("text")
                     .data(json.features)
                     .enter()
                     .append("svg:text")
@@ -83,11 +83,46 @@ console.log(offset);
                     .attr("text-anchor","middle")
                     .attr('font-size','6pt');
         */
+                });
 
+             d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/pump.json", function(error, json) {
+              if (error) throw error;
 
-                
-});
-        
+                // create a first guess for the projection
+                var center = d3.geo.centroid(json)
+                var scale  = 50;
+                var offset = [width/2, height/2];
+                var projection = d3.geo.mercator().scale(scale).center(center)
+                    .translate(offset);
+
+                // create the path
+                var path = d3.geo.path().projection(projection);
+
+                // using the path determine the bounds of the current map and use 
+                // these to determine better values for the scale and translation
+                var bounds  = path.bounds(json);
+                var hscale  = scale*width  / (bounds[1][0] - bounds[0][0])  ;
+                var vscale  = scale*height / (bounds[1][1] - bounds[0][1]) ;
+                var scale   = (hscale < vscale) ? hscale : vscale;
+                var offset  = [width - (bounds[0][0] + bounds[1][0])/2,
+                                    height - (bounds[0][1] + bounds[1][1] )/2];
+
+                // new projection
+                projection = d3.geo.mercator().center(center)
+                    .scale(scale).translate(offset);
+                path = path.projection(projection);
+console.log(center);
+console.log(scale);
+console.log(offset);
+
+              svg.selectAll("path")
+                    .data(json.features)
+                    .enter()
+                    .append("path")
+                    .attr("d", path)
+                    .style("fill", "green")
+                    .style("stroke", "black");
+        });
  
 
     </script>
