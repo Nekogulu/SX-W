@@ -64,8 +64,26 @@ console.log(offset);
                     .style("stroke-width", "2")
                     .style("stroke", "black");
 
+                svg.selectAll("text")
+                    .data(json.features)
+                    .enter()
+                    .append("svg:text")
+                    .text(function(d){
+                        return d.properties.name;
+                    })
 
- 
+                    .attr("x", function(d){
+                        return path.centroid(d)[0];
+                    })
+                    .attr("y", function(d){
+                        return  path.centroid(d)[1];
+                    })
+
+                    .attr("text-anchor","middle")
+                    .attr('font-size','6pt');
+
+
+
                 
 });
         
