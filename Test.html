@@ -65,27 +65,9 @@ console.log(offset);
                     .style("stroke", "black");
 
 
-                svg.selectAll("text")
-                    .data(json.features)
-                    .enter()
-                    .append("svg:text")
-                    .text(function(d){
-                        return d.properties.name;
-                    })
-                    .attr('transform', function(d) {
-                    return 'translate('+path.centroid(d)[0]+','+path.centroid(d)[1]+') rotate(-45);'
-                    })
-            /*        .attr("x", function(d){
-                        return path.centroid(d)[0];
-                    })
-                    .attr("y", function(d){
-                        return  path.centroid(d)[1];
-                    })
-            */
-                    .attr("text-anchor","middle")
-                    .attr('font-size','6pt');
-                });
-
+ 
+                
+});
         
  
 
