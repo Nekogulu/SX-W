@@ -59,18 +59,12 @@
                     .scale(scale).translate(offset);
                 path = path.projection(projection);
 
-                d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/pump.json", function(error, json){
-                    if (error) throw error;
-                    var path = d3.geo.path().projection(projection);
-                    svg.selectAll("path")
-                    .data(json.features)
+              svg.selectAll("path")
+                    .data(json.features.filter(function(d){return d.geometry.type == "Point"; }))
                     .enter()
                     .append("path")
                     .attr("d", path)
-                   
-                    .style("fill", "black");
-                })
-
+                    .style("fill", "green");
 
 
               svg.selectAll("path")
