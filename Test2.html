@@ -26,17 +26,31 @@
                 .attr("width", width)
                 .attr("height", height);
 
-            var deathJson = d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/deathsage.js",function(error, json) {
+        var streets =  d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/streets.json", function(error, json) {
               if (error) throw error;
-             });
-          
+              
+          });
 
-            d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/streets.json", function(error, json) {
+        var streetsJson = d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/streets.json", function(error, json) {
               if (error) throw error;
-     console.log(json);
-             
+              else return json;
+          });
+console.log(streetsJson);
+
+           var streetsJsonPoint =  d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/streets.json", function(error, json) {
+              if (error) throw error;
+              else var a = json.features.filter(function(d){return d.geometry.type == "Point";});console.log(a); return a;
+          });
+
+           var streetJsonLine = d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/streets.json", function(error, json) {
+              if (error) throw error;
+              else  var b = json.features.filter(function(d){return d.geometry.type == "LineString";}); return b;
+          });
+
+console.log(streetsJsonPoint);
+
                 // create a first guess for the projection
-                var center = d3.geo.centroid(json)
+                var center = d3.geo.centroid(streetsJson)
                 var scale  = 80;
                 var offset = [width/2, height/2];
                 var projection = d3.geo.mercator().scale(scale).center(center)
@@ -47,7 +61,7 @@
 
                 // using the path determine the bounds of the current map and use 
                 // these to determine better values for the scale and translation
-                var bounds  = path.bounds(json);
+                var bounds  = path.bounds(streetsJson);
                 var hscale  = scale*width  / (bounds[1][0] - bounds[0][0]) -180 ;
                 var vscale  = scale*height / (bounds[1][1] - bounds[0][1]) ;
                 var scale   = (hscale < vscale) ? hscale : vscale;
@@ -61,12 +75,11 @@
                 projection = d3.geo.mercator().center(center)
                     .scale(scale).translate(offset);
                 path = path.projection(projection);
-    console.log(path);
-
-                var points = json.features.filter(function(d){return d.geometry.type == "Point";});
-                var lines = json.features.filter(function(d){return d.geometry.type == "LineString";});
-                var workHouse = json.features.filter(function(d){return d.properties.name == "WorkHouse";});
-                var brewery = json.features.filter(function(d){return d.properties.name == "Brewery";});
+/*
+                var points = streetsJson.features.filter(function(d){return d.geometry.type == "Point";});
+                var lines = streetsJson.features.filter(function(d){return d.geometry.type == "LineString";});
+                var workHouse = streetsJson.features.filter(function(d){return d.properties.name == "WorkHouse";});
+                var brewery = streetsJson.features.filter(function(d){return d.properties.name == "Brewery";});
 
                 var pointSvg = svg.append("g")
                                 .attr("class", "point");
@@ -78,12 +91,12 @@
                                     .attr("class", "brewery");
 
                pointSvg.selectAll("circle")
-                    .data(points)
+                    .data(streetsJsonPoint)
                     .enter()
                     .append("circle")
                     .attr("r", 3)
                     .attr("transform", function(d) {
-                             /*whatever transformation that needs to be done*/
+                             
                             return "translate(" + projection(d.geometry.coordinates) + ")";
                         })
                     .style("fill", "green")
@@ -162,9 +175,34 @@
                     .attr("text-anchor","middle")
                     .attr('font-size','6pt');
         
-                });
+          */      
     
-  
+  var pointSvg = svg.append("g")
+                                .attr("class", "point");
+ pointSvg.selectAll("circle")
+                    .data(streetsJsonPoint)
+                    .enter()
+                    .append("circle")
+                    .attr("r", 3)
+                    .attr("transform", function(d) {
+                             
+                            return "translate(" + projection(d.geometry.coordinates) + ")";
+                        })
+                    .style("fill", "green")
+                    .style("stroke-width", "1")
+                    .style("stroke", "black")
+                    .classed("pin", true);
+
+                    var lineSvg = svg.append("g")
+                                .attr("class", "lineString");
+
+                    lineSvg.selectAll("path")
+                    .data(streetJsonLine)
+                    .enter()
+                    .append("path")
+                    .attr("d", path)
+                    .style("stroke-width", "2")
+                    .style("stroke", "black");
  
 
     </script>

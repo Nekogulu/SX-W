@@ -1,0 +1,177 @@
+Princes Street:St65,St70,St101,St184,St132
+Regent Street:St17,St49,St96,St131,St145,St166,St177,St223,St230,St279,St307,St313,St337,St350,St351,St388,St408,St413,St436,St472,St499
+Regents Quadrant:St455,St522,St523,St534,St463,St453
+Phoenix Yard:St78,St89,St88,St110
+Castle Street:St69,St48,St35,St23
+Castle Street East:St18,St13
+John Street: St36,St67,St91
+Oxford Street:St113,St109,St99,St95,St94,St90,St87,St83,St81,St80,St76,St72,St68,St64,St51,St50,St42,St38,St33,St32,St25,St22,St20
+Margaret Court:St29
+Margaret Street: St30,St27,St16
+Market Row:St66,St45
+Market Street:St82
+Martet Place:St39
+Market Court:St84
+Turns Head Yard:St77
+Hanover Street:St183,St175
+Pollen Street:St220
+Winsley Street:St73
+Wells Street:St61
+Berners Street:St43
+Adam & Eve Court:St44
+Newman Streer:St34
+Perry's Place:St26
+Rathbone Place:St23
+Hanway Street:St21
+Swallow Place:St133
+Argyll Street:St130,St162
+Little Argtll Street:St144
+Argyll Place:St171,St172,St161
+Great Marlborough Street:St151,St135
+Blenheim Street:St107,St136
+Swallow Street:St528
+Vine Street:St497,St527,St525,St526
+Air Street:St502
+Piccadilly Street:St501,St471,St460
+Blenheim Mews:St106
+Marlborough Mews:St116
+Queen Street:St126
+Maddox Street:St266,St250,St219,St284,St273
+Masons Arms Yard:St251
+George Street:St274,St344
+Mill Street:St299,St314
+Bruton Street:St396
+Conduit Street:St381,St343,St298
+New Bond Street:St382,St425,St440,St481,St514
+Grafton Street:St468,St467,St454
+Dover Street:St518
+Albemarle Street:St516
+Clifford Street:St424,St407
+Queen Street:St173,St157,St154
+Batemans Buildings:St155
+Frith Street:St158,St214,St241
+Nags Head Yard:St117
+Cork Street:St456,St476
+Cork Mews:St459
+Burlington Arcade:St512
+Burlington Gardens:St480,St475,St457
+Old Burlington Street:St289,St458
+Old Burlington Mews:St305
+Coach & Horses Yard:St385
+New Burlington Street:St349
+Saville Row:St451
+Vigo Street:St450,St445
+Albany Street:St510
+Boule Street:St354
+Sackville Street:St508
+Jermyn Street:St482,St485
+Haymarket Street:St470,St477,St474,St490
+Panton Street:St488,St478
+Oxendon Street:St462,St479,St484
+Arundel Place:St473
+Princes Street:St466,St488
+Glasshouse Street:St435
+Vine Street:St520
+Leicester Street:St401,St412,St417
+Heddon Street:St402
+Heddon Court:St367,St377
+New Burlington Mews:St362
+Fouberts Place:St229
+King Street:St180,St191,St209,St258,St288,St319
+Chapel Place:St306
+Beak Street:St336
+Silver Street:St328,St318,St308,St300,St289,St275,St270,St262,St256
+Charles Street:St71
+Falconberg Mews:St41,St40,St63
+Sutton Street:St85
+Creek Street:St143
+Old Compton Street:St238,St213,St281
+Church Street:St271
+King Street:St294,St323
+Richmond Street:St345
+Dean Street:St75,St92,St112,St127,St146,St174,St192,St210,St239,St272,St295
+Macclesfield Street:St310
+Gerrard Street:St352
+George Yard:St334
+Lisle Street:St383,St370
+Leicester Street:406
+Sidney Alley:St414
+Warwick Street:St371,St422
+Leigester Street:St387
+Marylebone Street:St428,St430,St439
+Tichborne Street:St444,St449
+Coventry Street:St446,St443,St441,St437,St431,St433
+Princes Street:St335,St353,St366,St384,St415,St426
+Rupert Street:St434,St380,St346,St329,St327,St311
+Wardour Street:St57,St60,St124,St150,St156,St164,St188,St204,St233,St268,St278,St324
+Carslisle Street:St120,St111
+Crown Court:St97
+Titchfield Street:St54
+Great Chapel Street:St53,St55,St58,St105,St120
+Little Chapel Street:St123
+Hollen Street:St56
+Noel Street:St118,St103,St59
+Berwick Street:St104,St129,St152,St169,St171,St186,St222,St231,St253,St254,
+Walker Court:St287
+Great Crown Court:St303
+Little Dean Street:St267
+Meards Court:St232
+Peter Street:St252,St254,St264,St269,St283
+Arundel Street:St442
+Angel Court:St420
+Catherine Wheel Yard:St394
+Queen Street:St410,St403
+Great Windmill Street:St447,St416,St398,St395,St386,St356,St339,St333
+Archer Street:St355
+Plouch Yard:St338
+Smiths Court:St363
+Ham Yard:St378,St365,St364,St376,St372
+Wellington Mews:St404
+Sherrard Street:St392,St411,St438
+Kings Arms Yard:St429
+Francis Street:St427
+Brewer Street:St421,St309,St374,St357,St340
+Queens Head Court:St332
+Great Crown Court:St320,St321
+Little Crown Court:St302
+Little Pulteney Street:St322,St316,St304,St296,St286
+Low James Street:St375
+Lower John Street:St378,St400
+Up James Street:St315
+Up John Street:St331
+Cross Street:St257,St246,St227
+Green Dragon Yard:St179
+Little Marlborough Street:St190
+Tyler Street:St208
+Bridle Street:St358
+Great Pulteney Street:St341
+Little Windmill Street:St326
+William And Mary Yard:St317
+Husband Street:St259
+New Street:St224,St226
+Cock Court:St225
+Hopkins Street:St215,St245,St265
+Tyler Court:St181
+Marshall Street:St201,St235,St276
+Carnaby Street:St301,St261,St228,St207,St202,St200
+Lowndes Court:St199
+West Street:St185,St195,St212
+South Row:St211
+Poland Street:St122,St140,St194
+Portland Street:St139,St134,St128,St125
+Wardour Mews:St153
+Portland Mews:St160
+Bentinck Street:St167,St159
+Edward Street:St168,St165
+Dufours Place:St217
+Broad Street:St234,St216,St203,St193,St187,St178
+Cambridge Street:St243
+Pulteney Court:St242
+Duck Lane:St198
+St Anns Court:St137
+Richmond Buildings:St189
+
+
+
+
+
