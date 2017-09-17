@@ -36,18 +36,13 @@
               else return json;
           });
 console.log(streetsJson);
+console.log(streets);
 
-           var streetsJsonPoint =  d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/streets.json", function(error, json) {
-              if (error) throw error;
-              else var a = json.features.filter(function(d){return d.geometry.type == "Point";});console.log(a); return a;
-          });
+           var pump =  d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/pump.json");
 
-           var streetJsonLine = d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/streets.json", function(error, json) {
-              if (error) throw error;
-              else  var b = json.features.filter(function(d){return d.geometry.type == "LineString";}); return b;
-          });
 
-console.log(streetsJsonPoint);
+
+console.log(pump);
 
                 // create a first guess for the projection
                 var center = d3.geo.centroid(streetsJson)

@@ -5,8 +5,9 @@
          "type":"Feature",
          "id":"13.58801\t11.0956\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female",
+            "deathday": "19-Aug"
          },
          "geometry":{  
             "type":"Point",
@@ -20,8 +21,8 @@
          "type":"Feature",
          "id":"9.878124\t12.55918\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -35,8 +36,8 @@
          "type":"Feature",
          "id":"14.65398\t10.18044\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -50,8 +51,8 @@
          "type":"Feature",
          "id":"15.22057\t9.993003\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -65,8 +66,8 @@
          "type":"Feature",
          "id":"13.16265\t12.96319\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -80,8 +81,8 @@
          "type":"Feature",
          "id":"13.80617\t8.889046\t2\t1\n",
          "properties":{  
-            "age":"2",
-            "sex":"1"
+            "age":"21-40",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -95,8 +96,8 @@
          "type":"Feature",
          "id":"13.10214\t10.56081\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -110,8 +111,8 @@
          "type":"Feature",
          "id":"11.00403\t11.86713\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -125,8 +126,8 @@
          "type":"Feature",
          "id":"15.15475\t11.70451\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -140,8 +141,8 @@
          "type":"Feature",
          "id":"11.12639\t9.643859\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -155,8 +156,8 @@
          "type":"Feature",
          "id":"11.7104\t13.59038\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -170,8 +171,8 @@
          "type":"Feature",
          "id":"12.34107\t11.48214\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -185,8 +186,8 @@
          "type":"Feature",
          "id":"10.58664\t11.86681\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -200,8 +201,8 @@
          "type":"Feature",
          "id":"14.56957\t10.57711\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -215,8 +216,8 @@
          "type":"Feature",
          "id":"16.56765\t14.32268\t3\t0\n",
          "properties":{  
-            "age":"3",
-            "sex":"0"
+            "age":"41-60",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -230,8 +231,8 @@
          "type":"Feature",
          "id":"9.511439\t10.67225\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -245,8 +246,8 @@
          "type":"Feature",
          "id":"13.33699\t10.70585\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -260,8 +261,8 @@
          "type":"Feature",
          "id":"15.03486\t10.19459\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -275,8 +276,8 @@
          "type":"Feature",
          "id":"15.13973\t10.04012\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -290,8 +291,8 @@
          "type":"Feature",
          "id":"10.87104\t9.823215\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -305,8 +306,8 @@
          "type":"Feature",
          "id":"12.54631\t11.9826\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -320,8 +321,8 @@
          "type":"Feature",
          "id":"11.82367\t11.7979\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -335,8 +336,8 @@
          "type":"Feature",
          "id":"12.19227\t10.38389\t2\t1\n",
          "properties":{  
-            "age":"2",
-            "sex":"1"
+            "age":"21-40",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -350,8 +351,8 @@
          "type":"Feature",
          "id":"13.87589\t12.75045\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -365,8 +366,8 @@
          "type":"Feature",
          "id":"12.30798\t11.85122\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -380,8 +381,8 @@
          "type":"Feature",
          "id":"10.97379\t11.85359\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -395,8 +396,8 @@
          "type":"Feature",
          "id":"10.98912\t9.759229\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -410,8 +411,8 @@
          "type":"Feature",
          "id":"13.50803\t13.34022\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -425,8 +426,8 @@
          "type":"Feature",
          "id":"10.80653\t11.66098\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -440,8 +441,8 @@
          "type":"Feature",
          "id":"12.20569\t13.64252\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -455,8 +456,8 @@
          "type":"Feature",
          "id":"13.89933\t13.98826\t2\t1\n",
          "properties":{  
-            "age":"2",
-            "sex":"1"
+            "age":"21-40",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -470,8 +471,8 @@
          "type":"Feature",
          "id":"12.51938\t11.61548\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -485,8 +486,8 @@
          "type":"Feature",
          "id":"15.74902\t12.65131\t2\t1\n",
          "properties":{  
-            "age":"2",
-            "sex":"1"
+            "age":"21-40",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -500,8 +501,8 @@
          "type":"Feature",
          "id":"12.85563\t9.896143\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -515,8 +516,8 @@
          "type":"Feature",
          "id":"12.98866\t10.1677\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -530,8 +531,8 @@
          "type":"Feature",
          "id":"13.6861\t11.40649\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -545,8 +546,8 @@
          "type":"Feature",
          "id":"13.08889\t11.11662\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -560,8 +561,8 @@
          "type":"Feature",
          "id":"13.42064\t11.08226\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -575,8 +576,8 @@
          "type":"Feature",
          "id":"14.75734\t9.368398\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -590,8 +591,8 @@
          "type":"Feature",
          "id":"13.205\t13.16882\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -605,8 +606,8 @@
          "type":"Feature",
          "id":"9.847669\t12.53263\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -620,8 +621,8 @@
          "type":"Feature",
          "id":"12.53966\t12.00474\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -635,8 +636,8 @@
          "type":"Feature",
          "id":"13.40522\t10.24531\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -650,8 +651,8 @@
          "type":"Feature",
          "id":"14.43222\t11.61986\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -665,8 +666,8 @@
          "type":"Feature",
          "id":"15.98592\t14.18579\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -680,8 +681,8 @@
          "type":"Feature",
          "id":"10.8983\t12.01404\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -695,8 +696,8 @@
          "type":"Feature",
          "id":"12.54032\t13.41382\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -710,8 +711,8 @@
          "type":"Feature",
          "id":"15.84175\t12.38042\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -725,8 +726,8 @@
          "type":"Feature",
          "id":"16.54906\t14.34902\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -740,8 +741,8 @@
          "type":"Feature",
          "id":"11.19962\t8.586758\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -755,8 +756,8 @@
          "type":"Feature",
          "id":"15.77734\t12.17214\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -770,8 +771,8 @@
          "type":"Feature",
          "id":"11.01652\t9.782825\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -785,8 +786,8 @@
          "type":"Feature",
          "id":"11.68324\t13.5818\t2\t1\n",
          "properties":{  
-            "age":"2",
-            "sex":"1"
+            "age":"21-40",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -800,8 +801,8 @@
          "type":"Feature",
          "id":"11.54616\t12.27906\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -815,8 +816,8 @@
          "type":"Feature",
          "id":"11.79539\t15.07723\t2\t1\n",
          "properties":{  
-            "age":"2",
-            "sex":"1"
+            "age":"21-40",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -830,8 +831,8 @@
          "type":"Feature",
          "id":"13.04533\t13.88243\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -845,8 +846,8 @@
          "type":"Feature",
          "id":"14.14244\t13.1333\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -860,8 +861,8 @@
          "type":"Feature",
          "id":"14.84649\t10.01118\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -875,8 +876,8 @@
          "type":"Feature",
          "id":"12.58271\t11.01057\t3\t0\n",
          "properties":{  
-            "age":"3",
-            "sex":"0"
+            "age":"41-60",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -890,8 +891,8 @@
          "type":"Feature",
          "id":"14.63834\t12.92149\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -905,8 +906,8 @@
          "type":"Feature",
          "id":"12.47289\t11.21463\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -920,8 +921,8 @@
          "type":"Feature",
          "id":"14.4973\t8.744322\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -935,8 +936,8 @@
          "type":"Feature",
          "id":"9.224811\t10.83608\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -950,8 +951,8 @@
          "type":"Feature",
          "id":"17.93893\t7.189272\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -965,8 +966,8 @@
          "type":"Feature",
          "id":"11.17129\t14.73371\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -980,8 +981,8 @@
          "type":"Feature",
          "id":"9.487955\t10.70568\t1\t0\n",
          "properties":{  
-            "age":"1",
-            "sex":"0"
+            "age":"11-20",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -995,8 +996,8 @@
          "type":"Feature",
          "id":"10.80275\t9.933474\t1\t1\n",
          "properties":{  
-            "age":"1",
-            "sex":"1"
+            "age":"11-20",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1010,8 +1011,8 @@
          "type":"Feature",
          "id":"16.06981\t14.11234\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1025,8 +1026,8 @@
          "type":"Feature",
          "id":"10.38257\t10.56815\t1\t1\n",
          "properties":{  
-            "age":"1",
-            "sex":"1"
+            "age":"11-20",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1040,8 +1041,8 @@
          "type":"Feature",
          "id":"13.68547\t8.984794\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -1055,8 +1056,8 @@
          "type":"Feature",
          "id":"15.80461\t13.92831\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1070,8 +1071,8 @@
          "type":"Feature",
          "id":"12.17318\t11.80932\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1085,8 +1086,8 @@
          "type":"Feature",
          "id":"11.49627\t10.73456\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -1100,8 +1101,8 @@
          "type":"Feature",
          "id":"15.40609\t11.19265\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1115,8 +1116,8 @@
          "type":"Feature",
          "id":"15.91103\t12.20705\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -1130,8 +1131,8 @@
          "type":"Feature",
          "id":"10.1881\t11.91827\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1145,8 +1146,8 @@
          "type":"Feature",
          "id":"14.0004\t12.77549\t3\t0\n",
          "properties":{  
-            "age":"3",
-            "sex":"0"
+            "age":"41-60",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -1160,8 +1161,8 @@
          "type":"Feature",
          "id":"16.54684\t11.39338\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -1175,8 +1176,8 @@
          "type":"Feature",
          "id":"17.51501\t11.22888\t1\t0\n",
          "properties":{  
-            "age":"1",
-            "sex":"0"
+            "age":"11-20",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -1190,8 +1191,8 @@
          "type":"Feature",
          "id":"13.77803\t8.864945\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -1205,8 +1206,8 @@
          "type":"Feature",
          "id":"14.11088\t10.56043\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1220,8 +1221,8 @@
          "type":"Feature",
          "id":"14.68581\t11.45555\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -1235,8 +1236,8 @@
          "type":"Feature",
          "id":"12.57377\t13.43932\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -1250,8 +1251,8 @@
          "type":"Feature",
          "id":"11.70552\t10.36466\t2\t1\n",
          "properties":{  
-            "age":"2",
-            "sex":"1"
+            "age":"21-40",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1265,8 +1266,8 @@
          "type":"Feature",
          "id":"14.36912\t12.55025\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1280,8 +1281,8 @@
          "type":"Feature",
          "id":"15.21281\t16.9593\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -1295,8 +1296,8 @@
          "type":"Feature",
          "id":"15.81613\t13.89809\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -1310,8 +1311,8 @@
          "type":"Feature",
          "id":"13.89643\t12.72108\t3\t0\n",
          "properties":{  
-            "age":"3",
-            "sex":"0"
+            "age":"41-60",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -1325,8 +1326,8 @@
          "type":"Feature",
          "id":"15.18307\t11.5893\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -1340,8 +1341,8 @@
          "type":"Feature",
          "id":"13.17116\t12.932\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1355,8 +1356,8 @@
          "type":"Feature",
          "id":"12.65285\t11.26382\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1370,8 +1371,8 @@
          "type":"Feature",
          "id":"15.13931\t13.20189\t1\t0\n",
          "properties":{  
-            "age":"1",
-            "sex":"0"
+            "age":"11-20",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -1385,8 +1386,8 @@
          "type":"Feature",
          "id":"12.8446\t11.61027\t1\t0\n",
          "properties":{  
-            "age":"1",
-            "sex":"0"
+            "age":"11-20",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -1400,8 +1401,8 @@
          "type":"Feature",
          "id":"13.55442\t13.17523\t2\t1\n",
          "properties":{  
-            "age":"2",
-            "sex":"1"
+            "age":"21-40",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1415,8 +1416,8 @@
          "type":"Feature",
          "id":"14.02949\t13.07497\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -1430,8 +1431,8 @@
          "type":"Feature",
          "id":"15.43982\t13.27819\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1445,8 +1446,8 @@
          "type":"Feature",
          "id":"14.84585\t14.86907\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1460,8 +1461,8 @@
          "type":"Feature",
          "id":"10.27732\t11.36702\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1475,8 +1476,8 @@
          "type":"Feature",
          "id":"10.52977\t11.62937\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -1490,8 +1491,8 @@
          "type":"Feature",
          "id":"9.933102\t12.30593\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1505,8 +1506,8 @@
          "type":"Feature",
          "id":"14.15951\t9.238947\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1520,8 +1521,8 @@
          "type":"Feature",
          "id":"13.61841\t12.54927\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1535,8 +1536,8 @@
          "type":"Feature",
          "id":"14.95599\t9.839847\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1550,8 +1551,8 @@
          "type":"Feature",
          "id":"15.69362\t12.38079\t1\t0\n",
          "properties":{  
-            "age":"1",
-            "sex":"0"
+            "age":"11-20",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -1565,8 +1566,8 @@
          "type":"Feature",
          "id":"9.200059\t11.97217\t1\t0\n",
          "properties":{  
-            "age":"1",
-            "sex":"0"
+            "age":"11-20",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -1580,8 +1581,8 @@
          "type":"Feature",
          "id":"16.83013\t11.39388\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -1595,8 +1596,8 @@
          "type":"Feature",
          "id":"13.31452\t10.31512\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -1610,8 +1611,8 @@
          "type":"Feature",
          "id":"10.56304\t11.58176\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1625,8 +1626,8 @@
          "type":"Feature",
          "id":"8.311067\t7.202524\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -1640,8 +1641,8 @@
          "type":"Feature",
          "id":"13.39306\t13.03761\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1655,8 +1656,8 @@
          "type":"Feature",
          "id":"14.51838\t8.716039\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -1670,8 +1671,8 @@
          "type":"Feature",
          "id":"16.80886\t11.42717\t1\t1\n",
          "properties":{  
-            "age":"1",
-            "sex":"1"
+            "age":"11-20",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1685,8 +1686,8 @@
          "type":"Feature",
          "id":"14.71134\t11.91757\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1700,8 +1701,8 @@
          "type":"Feature",
          "id":"10.31367\t11.38647\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1715,8 +1716,8 @@
          "type":"Feature",
          "id":"13.15651\t11.15159\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -1730,8 +1731,8 @@
          "type":"Feature",
          "id":"9.083952\t13.21588\t3\t0\n",
          "properties":{  
-            "age":"3",
-            "sex":"0"
+            "age":"41-60",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -1745,8 +1746,8 @@
          "type":"Feature",
          "id":"15.19022\t9.974836\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1760,8 +1761,8 @@
          "type":"Feature",
          "id":"8.436085\t7.393596\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1775,8 +1776,8 @@
          "type":"Feature",
          "id":"15.34814\t9.820333\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1790,8 +1791,8 @@
          "type":"Feature",
          "id":"13.31339\t12.3789\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1805,8 +1806,8 @@
          "type":"Feature",
          "id":"13.23216\t9.731717\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -1820,8 +1821,8 @@
          "type":"Feature",
          "id":"12.55331\t11.54684\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1835,8 +1836,8 @@
          "type":"Feature",
          "id":"13.89099\t10.95253\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1850,8 +1851,8 @@
          "type":"Feature",
          "id":"13.49273\t12.51423\t1\t1\n",
          "properties":{  
-            "age":"1",
-            "sex":"1"
+            "age":"11-20",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1865,8 +1866,8 @@
          "type":"Feature",
          "id":"15.24806\t16.97276\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1880,8 +1881,8 @@
          "type":"Feature",
          "id":"11.58812\t11.09262\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1895,8 +1896,8 @@
          "type":"Feature",
          "id":"9.442908\t10.76749\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1910,8 +1911,8 @@
          "type":"Feature",
          "id":"11.36395\t9.602994\t2\t1\n",
          "properties":{  
-            "age":"2",
-            "sex":"1"
+            "age":"21-40",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1925,8 +1926,8 @@
          "type":"Feature",
          "id":"11.15694\t14.775\t1\t1\n",
          "properties":{  
-            "age":"1",
-            "sex":"1"
+            "age":"11-20",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1940,8 +1941,8 @@
          "type":"Feature",
          "id":"11.89653\t10.2304\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1955,8 +1956,8 @@
          "type":"Feature",
          "id":"15.01308\t10.21483\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1970,8 +1971,8 @@
          "type":"Feature",
          "id":"13.61045\t11.49483\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -1985,8 +1986,8 @@
          "type":"Feature",
          "id":"14.1069\t13.60306\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2000,8 +2001,8 @@
          "type":"Feature",
          "id":"10.46296\t11.20981\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2015,8 +2016,8 @@
          "type":"Feature",
          "id":"10.30772\t9.4627\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2030,8 +2031,8 @@
          "type":"Feature",
          "id":"13.77892\t12.69592\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2045,8 +2046,8 @@
          "type":"Feature",
          "id":"13.41328\t12.42838\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2060,8 +2061,8 @@
          "type":"Feature",
          "id":"12.56326\t11.04593\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2075,8 +2076,8 @@
          "type":"Feature",
          "id":"15.66159\t13.93562\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2090,8 +2091,8 @@
          "type":"Feature",
          "id":"13.83545\t8.909176\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2105,8 +2106,8 @@
          "type":"Feature",
          "id":"13.22668\t12.33923\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2120,8 +2121,8 @@
          "type":"Feature",
          "id":"15.11869\t10.0674\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2135,8 +2136,8 @@
          "type":"Feature",
          "id":"13.24604\t10.51404\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2150,8 +2151,8 @@
          "type":"Feature",
          "id":"14.62721\t11.42144\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2165,8 +2166,8 @@
          "type":"Feature",
          "id":"14.38883\t10.29258\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2180,8 +2181,8 @@
          "type":"Feature",
          "id":"15.02184\t14.11212\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2195,8 +2196,8 @@
          "type":"Feature",
          "id":"13.14793\t10.59459\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2210,8 +2211,8 @@
          "type":"Feature",
          "id":"13.39042\t8.81647\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2225,8 +2226,8 @@
          "type":"Feature",
          "id":"11.77328\t9.525179\t3\t0\n",
          "properties":{  
-            "age":"3",
-            "sex":"0"
+            "age":"41-60",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2240,8 +2241,8 @@
          "type":"Feature",
          "id":"16.04067\t14.35417\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2255,8 +2256,8 @@
          "type":"Feature",
          "id":"10.62561\t10.92979\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2270,8 +2271,8 @@
          "type":"Feature",
          "id":"14.55994\t10.6003\t1\t0\n",
          "properties":{  
-            "age":"1",
-            "sex":"0"
+            "age":"11-20",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2285,8 +2286,8 @@
          "type":"Feature",
          "id":"9.327332\t12.16842\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2300,8 +2301,8 @@
          "type":"Feature",
          "id":"14.50837\t11.50046\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2315,8 +2316,8 @@
          "type":"Feature",
          "id":"10.52485\t12.31847\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2330,8 +2331,8 @@
          "type":"Feature",
          "id":"13.9858\t12.80076\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2345,8 +2346,8 @@
          "type":"Feature",
          "id":"10.55035\t11.602\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2360,8 +2361,8 @@
          "type":"Feature",
          "id":"10.64812\t11.70659\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2375,8 +2376,8 @@
          "type":"Feature",
          "id":"15.7345\t6.090047\t1\t0\n",
          "properties":{  
-            "age":"1",
-            "sex":"0"
+            "age":"11-20",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2390,8 +2391,8 @@
          "type":"Feature",
          "id":"11.8024\t11.16029\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2405,8 +2406,8 @@
          "type":"Feature",
          "id":"11.76803\t10.26851\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2420,8 +2421,8 @@
          "type":"Feature",
          "id":"11.57369\t11.1289\t1\t1\n",
          "properties":{  
-            "age":"1",
-            "sex":"1"
+            "age":"11-20",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2435,8 +2436,8 @@
          "type":"Feature",
          "id":"15.76205\t14.02013\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2450,8 +2451,8 @@
          "type":"Feature",
          "id":"10.6587\t11.67938\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2465,8 +2466,8 @@
          "type":"Feature",
          "id":"13.40605\t13.28477\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2480,8 +2481,8 @@
          "type":"Feature",
          "id":"11.24757\t11.45161\t1\t0\n",
          "properties":{  
-            "age":"1",
-            "sex":"0"
+            "age":"11-20",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2495,8 +2496,8 @@
          "type":"Feature",
          "id":"15.53659\t12.76087\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2510,8 +2511,8 @@
          "type":"Feature",
          "id":"14.02418\t10.70804\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2525,8 +2526,8 @@
          "type":"Feature",
          "id":"13.39872\t12.45665\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2540,8 +2541,8 @@
          "type":"Feature",
          "id":"14.57784\t16.18932\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2555,8 +2556,8 @@
          "type":"Feature",
          "id":"15.32621\t13.43324\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2570,8 +2571,8 @@
          "type":"Feature",
          "id":"14.47304\t8.777501\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2585,8 +2586,8 @@
          "type":"Feature",
          "id":"11.39957\t9.887847\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2600,8 +2601,8 @@
          "type":"Feature",
          "id":"12.48731\t11.17735\t2\t1\n",
          "properties":{  
-            "age":"2",
-            "sex":"1"
+            "age":"21-40",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2615,8 +2616,8 @@
          "type":"Feature",
          "id":"13.78123\t11.1606\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2630,8 +2631,8 @@
          "type":"Feature",
          "id":"10.56813\t11.02786\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2645,8 +2646,8 @@
          "type":"Feature",
          "id":"10.53582\t11.01035\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2660,8 +2661,8 @@
          "type":"Feature",
          "id":"14.75957\t10.75233\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2675,8 +2676,8 @@
          "type":"Feature",
          "id":"14.2318\t12.04069\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2690,8 +2691,8 @@
          "type":"Feature",
          "id":"13.34694\t11.97577\t2\t1\n",
          "properties":{  
-            "age":"2",
-            "sex":"1"
+            "age":"21-40",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2705,8 +2706,8 @@
          "type":"Feature",
          "id":"10.43855\t11.80709\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2720,8 +2721,8 @@
          "type":"Feature",
          "id":"12.51876\t10.58196\t3\t0\n",
          "properties":{  
-            "age":"3",
-            "sex":"0"
+            "age":"41-60",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2735,8 +2736,8 @@
          "type":"Feature",
          "id":"14.99982\t11.99344\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2750,8 +2751,8 @@
          "type":"Feature",
          "id":"10.64479\t9.882927\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2765,8 +2766,8 @@
          "type":"Feature",
          "id":"13.12517\t11.13206\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2780,8 +2781,8 @@
          "type":"Feature",
          "id":"10.0868\t11.47022\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2795,8 +2796,8 @@
          "type":"Feature",
          "id":"11.2153\t11.4361\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2810,8 +2811,8 @@
          "type":"Feature",
          "id":"12.9097\t11.73742\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2825,8 +2826,8 @@
          "type":"Feature",
          "id":"12.17253\t9.965585\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2840,8 +2841,8 @@
          "type":"Feature",
          "id":"12.44094\t11.28124\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2855,8 +2856,8 @@
          "type":"Feature",
          "id":"11.9171\t10.20203\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2870,8 +2871,8 @@
          "type":"Feature",
          "id":"11.47169\t11.38392\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2885,8 +2886,8 @@
          "type":"Feature",
          "id":"11.65302\t13.57026\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2900,8 +2901,8 @@
          "type":"Feature",
          "id":"12.45562\t11.50935\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2915,8 +2916,8 @@
          "type":"Feature",
          "id":"14.77868\t12.31298\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2930,8 +2931,8 @@
          "type":"Feature",
          "id":"14.018\t12.74917\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2945,8 +2946,8 @@
          "type":"Feature",
          "id":"12.50406\t13.39938\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -2960,8 +2961,8 @@
          "type":"Feature",
          "id":"9.217884\t12.33342\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2975,8 +2976,8 @@
          "type":"Feature",
          "id":"10.39745\t11.306\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -2990,8 +2991,8 @@
          "type":"Feature",
          "id":"12.74603\t9.155196\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -3005,8 +3006,8 @@
          "type":"Feature",
          "id":"9.105901\t6.343998\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -3020,8 +3021,8 @@
          "type":"Feature",
          "id":"8.342558\t7.136541\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3035,8 +3036,8 @@
          "type":"Feature",
          "id":"15.31736\t13.56758\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3050,8 +3051,8 @@
          "type":"Feature",
          "id":"11.18297\t11.41759\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -3065,8 +3066,8 @@
          "type":"Feature",
          "id":"11.78689\t11.19158\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3080,8 +3081,8 @@
          "type":"Feature",
          "id":"12.7135\t11.30091\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -3095,8 +3096,8 @@
          "type":"Feature",
          "id":"11.76649\t11.22997\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3110,8 +3111,8 @@
          "type":"Feature",
          "id":"12.17855\t13.63494\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3125,8 +3126,8 @@
          "type":"Feature",
          "id":"12.68321\t11.28437\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -3140,8 +3141,8 @@
          "type":"Feature",
          "id":"13.62292\t13.38845\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -3155,8 +3156,8 @@
          "type":"Feature",
          "id":"8.812553\t15.13408\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3170,8 +3171,8 @@
          "type":"Feature",
          "id":"12.22264\t11.33782\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3185,8 +3186,8 @@
          "type":"Feature",
          "id":"16.18479\t14.29076\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3200,8 +3201,8 @@
          "type":"Feature",
          "id":"12.8446\t11.61027\t1\t0\n",
          "properties":{  
-            "age":"1",
-            "sex":"0"
+            "age":"11-20",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3215,8 +3216,8 @@
          "type":"Feature",
          "id":"13.60953\t13.42772\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -3230,8 +3231,8 @@
          "type":"Feature",
          "id":"12.69358\t10.21487\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3245,8 +3246,8 @@
          "type":"Feature",
          "id":"15.025\t11.85505\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3260,8 +3261,8 @@
          "type":"Feature",
          "id":"13.91299\t12.69277\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3275,8 +3276,8 @@
          "type":"Feature",
          "id":"13.60802\t9.07513\t2\t1\n",
          "properties":{  
-            "age":"2",
-            "sex":"1"
+            "age":"21-40",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -3290,8 +3291,8 @@
          "type":"Feature",
          "id":"12.47179\t13.01132\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -3305,8 +3306,8 @@
          "type":"Feature",
          "id":"9.870624\t12.40407\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -3320,8 +3321,8 @@
          "type":"Feature",
          "id":"17.5951\t7.335869\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3335,8 +3336,8 @@
          "type":"Feature",
          "id":"11.10299\t11.11242\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -3350,8 +3351,8 @@
          "type":"Feature",
          "id":"16.66206\t14.40429\t1\t0\n",
          "properties":{  
-            "age":"1",
-            "sex":"0"
+            "age":"11-20",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3365,8 +3366,8 @@
          "type":"Feature",
          "id":"9.693037\t11.00984\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3380,8 +3381,8 @@
          "type":"Feature",
          "id":"13.40353\t13.00439\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3395,8 +3396,8 @@
          "type":"Feature",
          "id":"13.12842\t10.58083\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3410,8 +3411,8 @@
          "type":"Feature",
          "id":"13.7408\t10.07836\t2\t1\n",
          "properties":{  
-            "age":"2",
-            "sex":"1"
+            "age":"21-40",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -3425,8 +3426,8 @@
          "type":"Feature",
          "id":"11.67779\t11.12924\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -3440,8 +3441,8 @@
          "type":"Feature",
          "id":"13.14523\t11.81876\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3455,8 +3456,8 @@
          "type":"Feature",
          "id":"13.1237\t11.84915\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3470,8 +3471,8 @@
          "type":"Feature",
          "id":"12.29844\t11.88042\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -3485,8 +3486,8 @@
          "type":"Feature",
          "id":"14.90404\t12.763\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3500,8 +3501,8 @@
          "type":"Feature",
          "id":"11.53711\t12.58766\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -3515,8 +3516,8 @@
          "type":"Feature",
          "id":"12.87284\t11.62384\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3530,8 +3531,8 @@
          "type":"Feature",
          "id":"11.04585\t11.23151\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -3545,8 +3546,8 @@
          "type":"Feature",
          "id":"15.77554\t13.98787\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -3560,8 +3561,8 @@
          "type":"Feature",
          "id":"12.90019\t10.33882\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3575,8 +3576,8 @@
          "type":"Feature",
          "id":"12.31552\t11.51159\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -3590,8 +3591,8 @@
          "type":"Feature",
          "id":"9.794394\t11.77236\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3605,8 +3606,8 @@
          "type":"Feature",
          "id":"12.65285\t11.26382\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3620,8 +3621,8 @@
          "type":"Feature",
          "id":"12.67759\t12.0546\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3635,8 +3636,8 @@
          "type":"Feature",
          "id":"15.9603\t9.162499\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -3650,8 +3651,8 @@
          "type":"Feature",
          "id":"11.03126\t11.87971\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3665,8 +3666,8 @@
          "type":"Feature",
          "id":"14.08877\t9.337553\t1\t0\n",
          "properties":{  
-            "age":"1",
-            "sex":"0"
+            "age":"11-20",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3680,8 +3681,8 @@
          "type":"Feature",
          "id":"11.0271\t11.74557\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3695,8 +3696,8 @@
          "type":"Feature",
          "id":"14.54157\t8.684826\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3710,8 +3711,8 @@
          "type":"Feature",
          "id":"15.55098\t11.28022\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -3725,8 +3726,8 @@
          "type":"Feature",
          "id":"9.579331\t11.78081\t2\t1\n",
          "properties":{  
-            "age":"2",
-            "sex":"1"
+            "age":"21-40",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -3740,8 +3741,8 @@
          "type":"Feature",
          "id":"15.46573\t11.09663\t3\t0\n",
          "properties":{  
-            "age":"3",
-            "sex":"0"
+            "age":"41-60",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3755,8 +3756,8 @@
          "type":"Feature",
          "id":"14.44191\t12.15951\t1\t0\n",
          "properties":{  
-            "age":"1",
-            "sex":"0"
+            "age":"11-20",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3770,8 +3771,8 @@
          "type":"Feature",
          "id":"11.38291\t9.910148\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3785,8 +3786,8 @@
          "type":"Feature",
          "id":"13.74064\t11.31248\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3800,8 +3801,8 @@
          "type":"Feature",
          "id":"11.39099\t11.03369\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3815,8 +3816,8 @@
          "type":"Feature",
          "id":"16.01572\t9.072348\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3830,8 +3831,8 @@
          "type":"Feature",
          "id":"9.921976\t11.86345\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3845,8 +3846,8 @@
          "type":"Feature",
          "id":"10.80179\t9.687121\t1\t0\n",
          "properties":{  
-            "age":"1",
-            "sex":"0"
+            "age":"11-20",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3860,8 +3861,8 @@
          "type":"Feature",
          "id":"12.6326\t11.62268\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3875,8 +3876,8 @@
          "type":"Feature",
          "id":"9.262066\t10.66323\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -3890,8 +3891,8 @@
          "type":"Feature",
          "id":"13.78464\t13.81561\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -3905,8 +3906,8 @@
          "type":"Feature",
          "id":"13.75736\t13.79555\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -3920,8 +3921,8 @@
          "type":"Feature",
          "id":"14.70788\t9.969954\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3935,8 +3936,8 @@
          "type":"Feature",
          "id":"15.29153\t10.04976\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3950,8 +3951,8 @@
          "type":"Feature",
          "id":"14.14686\t12.42262\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -3965,8 +3966,8 @@
          "type":"Feature",
          "id":"13.76823\t10.09442\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -3980,8 +3981,8 @@
          "type":"Feature",
          "id":"10.9726\t11.34485\t1\t1\n",
          "properties":{  
-            "age":"1",
-            "sex":"1"
+            "age":"11-20",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -3995,8 +3996,8 @@
          "type":"Feature",
          "id":"12.36505\t10.48427\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4010,8 +4011,8 @@
          "type":"Feature",
          "id":"14.81631\t10.04214\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -4025,8 +4026,8 @@
          "type":"Feature",
          "id":"15.04986\t13.61393\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -4040,8 +4041,8 @@
          "type":"Feature",
          "id":"15.36158\t13.45471\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -4055,8 +4056,8 @@
          "type":"Feature",
          "id":"12.793\t14.31211\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -4070,8 +4071,8 @@
          "type":"Feature",
          "id":"11.324\t9.79492\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -4085,8 +4086,8 @@
          "type":"Feature",
          "id":"10.45107\t11.77685\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4100,8 +4101,8 @@
          "type":"Feature",
          "id":"11.01349\t11.211\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4115,8 +4116,8 @@
          "type":"Feature",
          "id":"13.38261\t9.455654\t1\t1\n",
          "properties":{  
-            "age":"1",
-            "sex":"1"
+            "age":"11-20",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4130,8 +4131,8 @@
          "type":"Feature",
          "id":"10.33884\t11.39608\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4145,8 +4146,8 @@
          "type":"Feature",
          "id":"9.610787\t11.80735\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -4160,8 +4161,8 @@
          "type":"Feature",
          "id":"14.54691\t12.2733\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -4175,8 +4176,8 @@
          "type":"Feature",
          "id":"11.45123\t11.4183\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4190,8 +4191,8 @@
          "type":"Feature",
          "id":"12.74049\t10.73864\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4205,8 +4206,8 @@
          "type":"Feature",
          "id":"14.95969\t11.96889\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -4220,8 +4221,8 @@
          "type":"Feature",
          "id":"12.31692\t14.83151\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4235,8 +4236,8 @@
          "type":"Feature",
          "id":"12.88335\t10.78442\t1\t0\n",
          "properties":{  
-            "age":"1",
-            "sex":"0"
+            "age":"11-20",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -4250,8 +4251,8 @@
          "type":"Feature",
          "id":"15.2704\t9.139883\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -4265,8 +4266,8 @@
          "type":"Feature",
          "id":"15.77505\t9.566566\t1\t0\n",
          "properties":{  
-            "age":"1",
-            "sex":"0"
+            "age":"11-20",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -4280,8 +4281,8 @@
          "type":"Feature",
          "id":"13.06382\t13.85009\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4295,8 +4296,8 @@
          "type":"Feature",
          "id":"12.92922\t11.70606\t2\t1\n",
          "properties":{  
-            "age":"2",
-            "sex":"1"
+            "age":"21-40",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4310,8 +4311,8 @@
          "type":"Feature",
          "id":"15.28385\t12.10795\t1\t1\n",
          "properties":{  
-            "age":"1",
-            "sex":"1"
+            "age":"11-20",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4325,8 +4326,8 @@
          "type":"Feature",
          "id":"13.01865\t11.78975\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4340,8 +4341,8 @@
          "type":"Feature",
          "id":"12.45943\t11.2489\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4355,8 +4356,8 @@
          "type":"Feature",
          "id":"15.76892\t12.95444\t1\t1\n",
          "properties":{  
-            "age":"1",
-            "sex":"1"
+            "age":"11-20",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4370,8 +4371,8 @@
          "type":"Feature",
          "id":"14.03004\t13.35564\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4385,8 +4386,8 @@
          "type":"Feature",
          "id":"12.98116\t14.37319\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4400,8 +4401,8 @@
          "type":"Feature",
          "id":"13.8822\t14.63515\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4415,8 +4416,8 @@
          "type":"Feature",
          "id":"10.93752\t9.725004\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -4430,8 +4431,8 @@
          "type":"Feature",
          "id":"16.02412\t14.00992\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -4445,8 +4446,8 @@
          "type":"Feature",
          "id":"15.09569\t10.09361\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4460,8 +4461,8 @@
          "type":"Feature",
          "id":"13.46457\t12.56776\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4475,8 +4476,8 @@
          "type":"Feature",
          "id":"11.58543\t12.29345\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -4490,8 +4491,8 @@
          "type":"Feature",
          "id":"10.69892\t12.00221\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -4505,8 +4506,8 @@
          "type":"Feature",
          "id":"16.8394\t11.6017\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4520,8 +4521,8 @@
          "type":"Feature",
          "id":"13.90569\t14.60172\t1\t1\n",
          "properties":{  
-            "age":"1",
-            "sex":"1"
+            "age":"11-20",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4535,8 +4536,8 @@
          "type":"Feature",
          "id":"13.70339\t11.11278\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4550,8 +4551,8 @@
          "type":"Feature",
          "id":"13.28895\t9.631591\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4565,8 +4566,8 @@
          "type":"Feature",
          "id":"15.6604\t12.3693\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4580,8 +4581,8 @@
          "type":"Feature",
          "id":"15.46487\t11.2269\t3\t0\n",
          "properties":{  
-            "age":"3",
-            "sex":"0"
+            "age":"41-60",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -4595,8 +4596,8 @@
          "type":"Feature",
          "id":"10.99125\t11.19733\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4610,8 +4611,8 @@
          "type":"Feature",
          "id":"15.50104\t11.11599\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4625,8 +4626,8 @@
          "type":"Feature",
          "id":"11.70601\t9.637946\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4640,8 +4641,8 @@
          "type":"Feature",
          "id":"12.35546\t11.44285\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4655,8 +4656,8 @@
          "type":"Feature",
          "id":"11.12872\t11.52963\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4670,8 +4671,8 @@
          "type":"Feature",
          "id":"9.595812\t10.9393\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -4685,8 +4686,8 @@
          "type":"Feature",
          "id":"8.325407\t7.166975\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4700,8 +4701,8 @@
          "type":"Feature",
          "id":"14.00061\t13.33951\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -4715,8 +4716,8 @@
          "type":"Feature",
          "id":"13.24529\t12.99792\t3\t0\n",
          "properties":{  
-            "age":"3",
-            "sex":"0"
+            "age":"41-60",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -4730,8 +4731,8 @@
          "type":"Feature",
          "id":"15.28504\t9.337882\t3\t0\n",
          "properties":{  
-            "age":"3",
-            "sex":"0"
+            "age":"41-60",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -4745,8 +4746,8 @@
          "type":"Feature",
          "id":"15.4973\t11.24314\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -4760,8 +4761,8 @@
          "type":"Feature",
          "id":"15.38694\t7.330029\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4775,8 +4776,8 @@
          "type":"Feature",
          "id":"16.05814\t14.31984\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4790,8 +4791,8 @@
          "type":"Feature",
          "id":"12.3847\t13.69473\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4805,8 +4806,8 @@
          "type":"Feature",
          "id":"12.18887\t11.78904\t1\t0\n",
          "properties":{  
-            "age":"1",
-            "sex":"0"
+            "age":"11-20",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -4820,8 +4821,8 @@
          "type":"Feature",
          "id":"15.12332\t11.68831\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -4835,8 +4836,8 @@
          "type":"Feature",
          "id":"13.95376\t12.86237\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -4850,8 +4851,8 @@
          "type":"Feature",
          "id":"9.618408\t10.91289\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -4865,8 +4866,8 @@
          "type":"Feature",
          "id":"16.29265\t14.33811\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -4880,8 +4881,8 @@
          "type":"Feature",
          "id":"12.64394\t10.64805\t2\t1\n",
          "properties":{  
-            "age":"2",
-            "sex":"1"
+            "age":"21-40",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4895,8 +4896,8 @@
          "type":"Feature",
          "id":"10.49377\t12.87479\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4910,8 +4911,8 @@
          "type":"Feature",
          "id":"13.97831\t12.83293\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4925,8 +4926,8 @@
          "type":"Feature",
          "id":"15.52151\t11.26509\t1\t0\n",
          "properties":{  
-            "age":"1",
-            "sex":"0"
+            "age":"11-20",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -4940,8 +4941,8 @@
          "type":"Feature",
          "id":"10.96399\t11.18275\t3\t0\n",
          "properties":{  
-            "age":"3",
-            "sex":"0"
+            "age":"41-60",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -4955,8 +4956,8 @@
          "type":"Feature",
          "id":"13.29801\t12.91595\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -4970,8 +4971,8 @@
          "type":"Feature",
          "id":"13.91508\t13.56587\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -4985,8 +4986,8 @@
          "type":"Feature",
          "id":"13.31653\t9.643641\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5000,8 +5001,8 @@
          "type":"Feature",
          "id":"12.74707\t10.7125\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5015,8 +5016,8 @@
          "type":"Feature",
          "id":"15.44155\t11.208\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -5030,8 +5031,8 @@
          "type":"Feature",
          "id":"15.69372\t13.87902\t1\t0\n",
          "properties":{  
-            "age":"1",
-            "sex":"0"
+            "age":"11-20",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -5045,8 +5046,8 @@
          "type":"Feature",
          "id":"13.83759\t11.05554\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5060,8 +5061,8 @@
          "type":"Feature",
          "id":"11.67728\t10.47627\t1\t0\n",
          "properties":{  
-            "age":"1",
-            "sex":"0"
+            "age":"11-20",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -5075,8 +5076,8 @@
          "type":"Feature",
          "id":"16.07268\t14.29056\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5090,8 +5091,8 @@
          "type":"Feature",
          "id":"12.59532\t10.98533\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -5105,8 +5106,8 @@
          "type":"Feature",
          "id":"15.35726\t11.29407\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -5120,8 +5121,8 @@
          "type":"Feature",
          "id":"16.284\t14.36028\t2\t1\n",
          "properties":{  
-            "age":"2",
-            "sex":"1"
+            "age":"21-40",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5135,8 +5136,8 @@
          "type":"Feature",
          "id":"12.50162\t12.06644\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5150,8 +5151,8 @@
          "type":"Feature",
          "id":"15.65\t12.90427\t1\t1\n",
          "properties":{  
-            "age":"1",
-            "sex":"1"
+            "age":"11-20",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5165,8 +5166,8 @@
          "type":"Feature",
          "id":"11.54975\t12.56442\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5180,8 +5181,8 @@
          "type":"Feature",
          "id":"14.21522\t12.068\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5195,8 +5196,8 @@
          "type":"Feature",
          "id":"16.25294\t10.09349\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -5210,8 +5211,8 @@
          "type":"Feature",
          "id":"13.62379\t11.20419\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -5225,8 +5226,8 @@
          "type":"Feature",
          "id":"12.61527\t10.3553\t3\t0\n",
          "properties":{  
-            "age":"3",
-            "sex":"0"
+            "age":"41-60",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -5240,8 +5241,8 @@
          "type":"Feature",
          "id":"11.65745\t11.17163\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5255,8 +5256,8 @@
          "type":"Feature",
          "id":"8.771104\t10.94251\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5270,8 +5271,8 @@
          "type":"Feature",
          "id":"10.9025\t14.69996\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -5285,8 +5286,8 @@
          "type":"Feature",
          "id":"11.61652\t11.05411\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5300,8 +5301,8 @@
          "type":"Feature",
          "id":"13.03883\t11.24061\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -5315,8 +5316,8 @@
          "type":"Feature",
          "id":"13.70734\t11.29599\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5330,8 +5331,8 @@
          "type":"Feature",
          "id":"11.06231\t11.75703\t1\t0\n",
          "properties":{  
-            "age":"1",
-            "sex":"0"
+            "age":"11-20",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -5345,8 +5346,8 @@
          "type":"Feature",
          "id":"14.57227\t12.29128\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -5360,8 +5361,8 @@
          "type":"Feature",
          "id":"10.43663\t11.56376\t3\t0\n",
          "properties":{  
-            "age":"3",
-            "sex":"0"
+            "age":"41-60",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -5375,8 +5376,8 @@
          "type":"Feature",
          "id":"13.1377\t12.28358\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -5390,8 +5391,8 @@
          "type":"Feature",
          "id":"11.87974\t14.16151\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -5405,8 +5406,8 @@
          "type":"Feature",
          "id":"13.33869\t10.33806\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -5420,8 +5421,8 @@
          "type":"Feature",
          "id":"9.854939\t12.17599\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -5435,8 +5436,8 @@
          "type":"Feature",
          "id":"12.74439\t12.84671\t2\t1\n",
          "properties":{  
-            "age":"2",
-            "sex":"1"
+            "age":"21-40",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5450,8 +5451,8 @@
          "type":"Feature",
          "id":"9.285564\t10.63081\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5465,8 +5466,8 @@
          "type":"Feature",
          "id":"11.59055\t9.53944\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5480,8 +5481,8 @@
          "type":"Feature",
          "id":"13.1202\t12.3159\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5495,8 +5496,8 @@
          "type":"Feature",
          "id":"11.40942\t10.99734\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -5510,8 +5511,8 @@
          "type":"Feature",
          "id":"13.63869\t11.5084\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5525,8 +5526,8 @@
          "type":"Feature",
          "id":"11.76579\t13.61152\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -5540,8 +5541,8 @@
          "type":"Feature",
          "id":"16.26833\t14.38156\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5555,8 +5556,8 @@
          "type":"Feature",
          "id":"8.73591\t12.05172\t1\t1\n",
          "properties":{  
-            "age":"1",
-            "sex":"1"
+            "age":"11-20",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5570,8 +5571,8 @@
          "type":"Feature",
          "id":"15.74913\t12.16057\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5585,8 +5586,8 @@
          "type":"Feature",
          "id":"12.18563\t11.40151\t2\t1\n",
          "properties":{  
-            "age":"2",
-            "sex":"1"
+            "age":"21-40",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5600,8 +5601,8 @@
          "type":"Feature",
          "id":"14.78633\t14.09387\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5615,8 +5616,8 @@
          "type":"Feature",
          "id":"13.45084\t8.860812\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5630,8 +5631,8 @@
          "type":"Feature",
          "id":"15.73667\t12.94093\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5645,8 +5646,8 @@
          "type":"Feature",
          "id":"11.91194\t14.17201\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5660,8 +5661,8 @@
          "type":"Feature",
          "id":"12.5272\t12.7851\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -5675,8 +5676,8 @@
          "type":"Feature",
          "id":"14.3738\t13.07674\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5690,8 +5691,8 @@
          "type":"Feature",
          "id":"12.21672\t14.14109\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5705,8 +5706,8 @@
          "type":"Feature",
          "id":"15.28043\t11.42152\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -5720,8 +5721,8 @@
          "type":"Feature",
          "id":"11.53864\t10.75491\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -5735,8 +5736,8 @@
          "type":"Feature",
          "id":"9.046618\t11.20749\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -5750,8 +5751,8 @@
          "type":"Feature",
          "id":"10.75256\t8.843783\t1\t1\n",
          "properties":{  
-            "age":"1",
-            "sex":"1"
+            "age":"11-20",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5765,8 +5766,8 @@
          "type":"Feature",
          "id":"14.9461\t10.10509\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -5780,8 +5781,8 @@
          "type":"Feature",
          "id":"13.22677\t11.90959\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5795,8 +5796,8 @@
          "type":"Feature",
          "id":"13.41574\t8.835455\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5810,8 +5811,8 @@
          "type":"Feature",
          "id":"14.35785\t12.03667\t1\t0\n",
          "properties":{  
-            "age":"1",
-            "sex":"0"
+            "age":"11-20",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -5825,8 +5826,8 @@
          "type":"Feature",
          "id":"12.20415\t11.37017\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5840,8 +5841,8 @@
          "type":"Feature",
          "id":"12.00341\t14.56914\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -5855,8 +5856,8 @@
          "type":"Feature",
          "id":"13.58721\t11.60537\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5870,8 +5871,8 @@
          "type":"Feature",
          "id":"8.757473\t12.02333\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5885,8 +5886,8 @@
          "type":"Feature",
          "id":"13.38881\t10.9706\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5900,8 +5901,8 @@
          "type":"Feature",
          "id":"12.57046\t12.79843\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -5915,8 +5916,8 @@
          "type":"Feature",
          "id":"15.56334\t14.17455\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -5930,8 +5931,8 @@
          "type":"Feature",
          "id":"12.52108\t12.03208\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5945,8 +5946,8 @@
          "type":"Feature",
          "id":"12.40901\t11.34986\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5960,8 +5961,8 @@
          "type":"Feature",
          "id":"12.36903\t11.4156\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5975,8 +5976,8 @@
          "type":"Feature",
          "id":"13.44909\t12.60106\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -5990,8 +5991,8 @@
          "type":"Feature",
          "id":"12.03297\t11.36891\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6005,8 +6006,8 @@
          "type":"Feature",
          "id":"9.944605\t11.83905\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6020,8 +6021,8 @@
          "type":"Feature",
          "id":"12.14346\t13.6315\t1\t0\n",
          "properties":{  
-            "age":"1",
-            "sex":"0"
+            "age":"11-20",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6035,8 +6036,8 @@
          "type":"Feature",
          "id":"14.40612\t13.09598\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6050,8 +6051,8 @@
          "type":"Feature",
          "id":"15.70642\t12.9274\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6065,8 +6066,8 @@
          "type":"Feature",
          "id":"13.75891\t11.14193\t2\t1\n",
          "properties":{  
-            "age":"2",
-            "sex":"1"
+            "age":"21-40",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6080,8 +6081,8 @@
          "type":"Feature",
          "id":"11.44538\t10.93066\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6095,8 +6096,8 @@
          "type":"Feature",
          "id":"13.7965\t14.16886\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6110,8 +6111,8 @@
          "type":"Feature",
          "id":"15.57711\t11.30424\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6125,8 +6126,8 @@
          "type":"Feature",
          "id":"14.99393\t10.24519\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6140,8 +6141,8 @@
          "type":"Feature",
          "id":"14.1129\t13.12017\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6155,8 +6156,8 @@
          "type":"Feature",
          "id":"13.17422\t9.835811\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6170,8 +6171,8 @@
          "type":"Feature",
          "id":"13.26078\t12.96562\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6185,8 +6186,8 @@
          "type":"Feature",
          "id":"10.93261\t12.03151\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6200,8 +6201,8 @@
          "type":"Feature",
          "id":"12.14729\t9.951969\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6215,8 +6216,8 @@
          "type":"Feature",
          "id":"13.95731\t13.88316\t3\t0\n",
          "properties":{  
-            "age":"3",
-            "sex":"0"
+            "age":"41-60",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6230,8 +6231,8 @@
          "type":"Feature",
          "id":"11.26415\t10.80238\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6245,8 +6246,8 @@
          "type":"Feature",
          "id":"13.42597\t12.96798\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6260,8 +6261,8 @@
          "type":"Feature",
          "id":"13.51533\t12.48783\t1\t0\n",
          "properties":{  
-            "age":"1",
-            "sex":"0"
+            "age":"11-20",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6275,8 +6276,8 @@
          "type":"Feature",
          "id":"14.7689\t11.9578\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6290,8 +6291,8 @@
          "type":"Feature",
          "id":"12.9731\t10.95023\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6305,8 +6306,8 @@
          "type":"Feature",
          "id":"12.42551\t11.31754\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6320,8 +6321,8 @@
          "type":"Feature",
          "id":"12.34805\t14.77593\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6335,8 +6336,8 @@
          "type":"Feature",
          "id":"13.10475\t12.3512\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6350,8 +6351,8 @@
          "type":"Feature",
          "id":"14.77894\t13.19966\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6365,8 +6366,8 @@
          "type":"Feature",
          "id":"9.813148\t12.50214\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6380,8 +6381,8 @@
          "type":"Feature",
          "id":"14.14413\t10.57392\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6395,8 +6396,8 @@
          "type":"Feature",
          "id":"12.03469\t14.58466\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6410,8 +6411,8 @@
          "type":"Feature",
          "id":"16.09884\t14.23706\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6425,8 +6426,8 @@
          "type":"Feature",
          "id":"12.68321\t11.28437\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6440,8 +6441,8 @@
          "type":"Feature",
          "id":"14.69502\t10.12684\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6455,8 +6456,8 @@
          "type":"Feature",
          "id":"8.840331\t12.13417\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6470,8 +6471,8 @@
          "type":"Feature",
          "id":"10.54701\t12.32713\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6485,8 +6486,8 @@
          "type":"Feature",
          "id":"12.24902\t14.15759\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6500,8 +6501,8 @@
          "type":"Feature",
          "id":"11.73556\t13.59899\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6515,8 +6516,8 @@
          "type":"Feature",
          "id":"8.280715\t11.56829\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6530,8 +6531,8 @@
          "type":"Feature",
          "id":"12.38503\t13.21802\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6545,8 +6546,8 @@
          "type":"Feature",
          "id":"16.73377\t8.447514\t3\t0\n",
          "properties":{  
-            "age":"3",
-            "sex":"0"
+            "age":"41-60",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6560,8 +6561,8 @@
          "type":"Feature",
          "id":"15.72296\t7.17813\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6575,8 +6576,8 @@
          "type":"Feature",
          "id":"16.08321\t14.26035\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6590,8 +6591,8 @@
          "type":"Feature",
          "id":"14.27252\t10.4667\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6605,8 +6606,8 @@
          "type":"Feature",
          "id":"9.736776\t12.35915\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6620,8 +6621,8 @@
          "type":"Feature",
          "id":"13.28041\t12.94127\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6635,8 +6636,8 @@
          "type":"Feature",
          "id":"16.06733\t9.970328\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6650,8 +6651,8 @@
          "type":"Feature",
          "id":"14.35376\t10.35223\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6665,8 +6666,8 @@
          "type":"Feature",
          "id":"13.40536\t10.94129\t1\t0\n",
          "properties":{  
-            "age":"1",
-            "sex":"0"
+            "age":"11-20",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6680,8 +6681,8 @@
          "type":"Feature",
          "id":"14.51969\t9.029811\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6695,8 +6696,8 @@
          "type":"Feature",
          "id":"14.57164\t11.38928\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6710,8 +6711,8 @@
          "type":"Feature",
          "id":"13.71177\t13.9442\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6725,8 +6726,8 @@
          "type":"Feature",
          "id":"16.23636\t14.1988\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6740,8 +6741,8 @@
          "type":"Feature",
          "id":"16.25586\t14.41581\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6755,8 +6756,8 @@
          "type":"Feature",
          "id":"12.80755\t14.28284\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6770,8 +6771,8 @@
          "type":"Feature",
          "id":"13.3605\t11.94751\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6785,8 +6786,8 @@
          "type":"Feature",
          "id":"11.17751\t8.616005\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6800,8 +6801,8 @@
          "type":"Feature",
          "id":"11.64155\t12.17337\t2\t1\n",
          "properties":{  
-            "age":"2",
-            "sex":"1"
+            "age":"21-40",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6815,8 +6816,8 @@
          "type":"Feature",
          "id":"14.73854\t11.93963\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6830,8 +6831,8 @@
          "type":"Feature",
          "id":"9.423313\t10.79384\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6845,8 +6846,8 @@
          "type":"Feature",
          "id":"9.466473\t10.73907\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6860,8 +6861,8 @@
          "type":"Feature",
          "id":"15.71121\t11.60836\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6875,8 +6876,8 @@
          "type":"Feature",
          "id":"14.26207\t12.49088\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6890,8 +6891,8 @@
          "type":"Feature",
          "id":"14.18834\t13.43268\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6905,8 +6906,8 @@
          "type":"Feature",
          "id":"11.48419\t10.41928\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6920,8 +6921,8 @@
          "type":"Feature",
          "id":"15.02863\t10.36174\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6935,8 +6936,8 @@
          "type":"Feature",
          "id":"13.08718\t12.37853\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6950,8 +6951,8 @@
          "type":"Feature",
          "id":"10.95782\t12.04313\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -6965,8 +6966,8 @@
          "type":"Feature",
          "id":"11.939\t14.17458\t1\t1\n",
          "properties":{  
-            "age":"1",
-            "sex":"1"
+            "age":"11-20",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6980,8 +6981,8 @@
          "type":"Feature",
          "id":"13.48189\t8.887023\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -6995,8 +6996,8 @@
          "type":"Feature",
          "id":"14.06296\t13.09025\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -7010,8 +7011,8 @@
          "type":"Feature",
          "id":"10.94726\t16.4859\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7025,8 +7026,8 @@
          "type":"Feature",
          "id":"14.20514\t9.438095\t1\t0\n",
          "properties":{  
-            "age":"1",
-            "sex":"0"
+            "age":"11-20",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7040,8 +7041,8 @@
          "type":"Feature",
          "id":"10.38407\t11.159\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -7055,8 +7056,8 @@
          "type":"Feature",
          "id":"15.60473\t11.31529\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -7070,8 +7071,8 @@
          "type":"Feature",
          "id":"11.27275\t11.46122\t1\t0\n",
          "properties":{  
-            "age":"1",
-            "sex":"0"
+            "age":"11-20",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7085,8 +7086,8 @@
          "type":"Feature",
          "id":"13.02248\t9.609664\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -7100,8 +7101,8 @@
          "type":"Feature",
          "id":"13.57891\t13.14179\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7115,8 +7116,8 @@
          "type":"Feature",
          "id":"11.07647\t11.64163\t2\t1\n",
          "properties":{  
-            "age":"2",
-            "sex":"1"
+            "age":"21-40",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -7130,8 +7131,8 @@
          "type":"Feature",
          "id":"14.5969\t11.4039\t1\t1\n",
          "properties":{  
-            "age":"1",
-            "sex":"1"
+            "age":"11-20",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -7145,8 +7146,8 @@
          "type":"Feature",
          "id":"15.24637\t8.629816\t1\t1\n",
          "properties":{  
-            "age":"1",
-            "sex":"1"
+            "age":"11-20",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -7160,8 +7161,8 @@
          "type":"Feature",
          "id":"13.36475\t10.36409\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -7175,8 +7176,8 @@
          "type":"Feature",
          "id":"16.14358\t10.90531\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7190,8 +7191,8 @@
          "type":"Feature",
          "id":"14.299\t10.43223\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -7205,8 +7206,8 @@
          "type":"Feature",
          "id":"16.41171\t14.39729\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7220,8 +7221,8 @@
          "type":"Feature",
          "id":"12.59053\t14.97835\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7235,8 +7236,8 @@
          "type":"Feature",
          "id":"13.25468\t10.81906\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7250,8 +7251,8 @@
          "type":"Feature",
          "id":"10.99315\t12.06159\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7265,8 +7266,8 @@
          "type":"Feature",
          "id":"10.10162\t10.64977\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7280,8 +7281,8 @@
          "type":"Feature",
          "id":"15.62137\t12.55621\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7295,8 +7296,8 @@
          "type":"Feature",
          "id":"14.21592\t13.44473\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7310,8 +7311,8 @@
          "type":"Feature",
          "id":"13.36865\t12.51622\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -7325,8 +7326,8 @@
          "type":"Feature",
          "id":"10.77831\t11.64841\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -7340,8 +7341,8 @@
          "type":"Feature",
          "id":"13.17832\t10.61175\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7355,8 +7356,8 @@
          "type":"Feature",
          "id":"13.80602\t12.6384\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7370,8 +7371,8 @@
          "type":"Feature",
          "id":"11.42396\t10.96806\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -7385,8 +7386,8 @@
          "type":"Feature",
          "id":"12.91849\t9.794238\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7400,8 +7401,8 @@
          "type":"Feature",
          "id":"13.60765\t11.07225\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7415,8 +7416,8 @@
          "type":"Feature",
          "id":"13.33782\t14.33142\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -7430,8 +7431,8 @@
          "type":"Feature",
          "id":"12.16919\t11.43683\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7445,8 +7446,8 @@
          "type":"Feature",
          "id":"14.36735\t10.32597\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -7460,8 +7461,8 @@
          "type":"Feature",
          "id":"8.863929\t12.10775\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -7475,8 +7476,8 @@
          "type":"Feature",
          "id":"15.54189\t14.20994\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7490,8 +7491,8 @@
          "type":"Feature",
          "id":"14.3156\t10.40692\t3\t0\n",
          "properties":{  
-            "age":"3",
-            "sex":"0"
+            "age":"41-60",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7505,8 +7506,8 @@
          "type":"Feature",
          "id":"10.02774\t11.28289\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -7520,8 +7521,8 @@
          "type":"Feature",
          "id":"13.20859\t14.26238\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -7535,8 +7536,8 @@
          "type":"Feature",
          "id":"10.48503\t12.45631\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7550,8 +7551,8 @@
          "type":"Feature",
          "id":"9.53302\t10.64486\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7565,8 +7566,8 @@
          "type":"Feature",
          "id":"10.43369\t11.19426\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -7580,8 +7581,8 @@
          "type":"Feature",
          "id":"10.92631\t14.62447\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7595,8 +7596,8 @@
          "type":"Feature",
          "id":"13.3186\t11.02381\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7610,8 +7611,8 @@
          "type":"Feature",
          "id":"12.6148\t10.95197\t1\t1\n",
          "properties":{  
-            "age":"1",
-            "sex":"1"
+            "age":"11-20",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -7625,8 +7626,8 @@
          "type":"Feature",
          "id":"13.08049\t14.20134\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -7640,8 +7641,8 @@
          "type":"Feature",
          "id":"11.64594\t10.45675\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7655,8 +7656,8 @@
          "type":"Feature",
          "id":"13.56385\t10.07179\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7670,8 +7671,8 @@
          "type":"Feature",
          "id":"13.37551\t13.06693\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -7685,8 +7686,8 @@
          "type":"Feature",
          "id":"13.7367\t11.13027\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7700,8 +7701,8 @@
          "type":"Feature",
          "id":"10.68826\t12.45906\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -7715,8 +7716,8 @@
          "type":"Feature",
          "id":"12.18764\t14.13755\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7730,8 +7731,8 @@
          "type":"Feature",
          "id":"13.96921\t13.32231\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -7745,8 +7746,8 @@
          "type":"Feature",
          "id":"14.77023\t9.210511\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7760,8 +7761,8 @@
          "type":"Feature",
          "id":"15.08261\t10.12219\t1\t0\n",
          "properties":{  
-            "age":"1",
-            "sex":"0"
+            "age":"11-20",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7775,8 +7776,8 @@
          "type":"Feature",
          "id":"16.23659\t9.914474\t1\t0\n",
          "properties":{  
-            "age":"1",
-            "sex":"0"
+            "age":"11-20",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7790,8 +7791,8 @@
          "type":"Feature",
          "id":"15.31356\t11.4458\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7805,8 +7806,8 @@
          "type":"Feature",
          "id":"12.54972\t11.07519\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -7820,8 +7821,8 @@
          "type":"Feature",
          "id":"14.65652\t11.439\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -7835,8 +7836,8 @@
          "type":"Feature",
          "id":"12.53218\t11.10452\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7850,8 +7851,8 @@
          "type":"Feature",
          "id":"10.91304\t14.67075\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7865,8 +7866,8 @@
          "type":"Feature",
          "id":"15.67918\t12.91381\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7880,8 +7881,8 @@
          "type":"Feature",
          "id":"11.65278\t12.62286\t3\t0\n",
          "properties":{  
-            "age":"3",
-            "sex":"0"
+            "age":"41-60",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7895,8 +7896,8 @@
          "type":"Feature",
          "id":"9.501461\t11.54471\t1\t1\n",
          "properties":{  
-            "age":"1",
-            "sex":"1"
+            "age":"11-20",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -7910,8 +7911,8 @@
          "type":"Feature",
          "id":"13.26943\t14.79979\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7925,8 +7926,8 @@
          "type":"Feature",
          "id":"13.61611\t15.32844\t3\t0\n",
          "properties":{  
-            "age":"3",
-            "sex":"0"
+            "age":"41-60",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7940,8 +7941,8 @@
          "type":"Feature",
          "id":"13.43057\t10.2633\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7955,8 +7956,8 @@
          "type":"Feature",
          "id":"13.48013\t12.53947\t3\t1\n",
          "properties":{  
-            "age":"3",
-            "sex":"1"
+            "age":"41-60",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -7970,8 +7971,8 @@
          "type":"Feature",
          "id":"11.07184\t11.10491\t3\t0\n",
          "properties":{  
-            "age":"3",
-            "sex":"0"
+            "age":"41-60",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -7985,8 +7986,8 @@
          "type":"Feature",
          "id":"12.92878\t10.93291\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -8000,8 +8001,8 @@
          "type":"Feature",
          "id":"12.84456\t16.01885\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -8015,8 +8016,8 @@
          "type":"Feature",
          "id":"15.31608\t9.794086\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -8030,8 +8031,8 @@
          "type":"Feature",
          "id":"12.78222\t11.34187\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -8045,8 +8046,8 @@
          "type":"Feature",
          "id":"9.207745\t11.08172\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -8060,8 +8061,8 @@
          "type":"Feature",
          "id":"14.37433\t12.00336\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -8075,8 +8076,8 @@
          "type":"Feature",
          "id":"15.58141\t10.92052\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -8090,8 +8091,8 @@
          "type":"Feature",
          "id":"10.40739\t11.17765\t3\t0\n",
          "properties":{  
-            "age":"3",
-            "sex":"0"
+            "age":"41-60",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -8105,8 +8106,8 @@
          "type":"Feature",
          "id":"12.98045\t10.66068\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -8120,8 +8121,8 @@
          "type":"Feature",
          "id":"13.24918\t11.87218\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -8135,8 +8136,8 @@
          "type":"Feature",
          "id":"10.96288\t9.745629\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -8150,8 +8151,8 @@
          "type":"Feature",
          "id":"13.51754\t11.0086\t2\t1\n",
          "properties":{  
-            "age":"2",
-            "sex":"1"
+            "age":"21-40",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -8165,8 +8166,8 @@
          "type":"Feature",
          "id":"9.582069\t10.58299\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -8180,8 +8181,8 @@
          "type":"Feature",
          "id":"14.53736\t10.6277\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -8195,8 +8196,8 @@
          "type":"Feature",
          "id":"12.51176\t11.1419\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -8210,8 +8211,8 @@
          "type":"Feature",
          "id":"10.71447\t12.47066\t2\t0\n",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -8225,8 +8226,8 @@
          "type":"Feature",
          "id":"13.3154\t12.87661\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -8240,8 +8241,8 @@
          "type":"Feature",
          "id":"9.378991\t10.9628\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -8255,8 +8256,8 @@
          "type":"Feature",
          "id":"13.37906\t11.91917\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -8270,8 +8271,8 @@
          "type":"Feature",
          "id":"13.52166\t11.13973\t3\t0\n",
          "properties":{  
-            "age":"3",
-            "sex":"0"
+            "age":"41-60",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -8285,8 +8286,8 @@
          "type":"Feature",
          "id":"13.49601\t11.03899\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -8300,8 +8301,8 @@
          "type":"Feature",
          "id":"13.63715\t9.099265\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -8315,8 +8316,8 @@
          "type":"Feature",
          "id":"14.26445\t15.6235\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -8330,8 +8331,8 @@
          "type":"Feature",
          "id":"9.556584\t10.61644\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -8345,8 +8346,8 @@
          "type":"Feature",
          "id":"14.07245\t15.51041\t0\t0\n",
          "properties":{  
-            "age":"0",
-            "sex":"0"
+            "age":"0-10",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -8360,8 +8361,8 @@
          "type":"Feature",
          "id":"12.94471\t13.7879\t4\t0\n",
          "properties":{  
-            "age":"4",
-            "sex":"0"
+            "age":"61-80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -8375,8 +8376,8 @@
          "type":"Feature",
          "id":"15.41332\t13.8084\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -8390,8 +8391,8 @@
          "type":"Feature",
          "id":"13.78938\t12.6617\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -8405,8 +8406,8 @@
          "type":"Feature",
          "id":"11.41806\t9.855504\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -8420,8 +8421,8 @@
          "type":"Feature",
          "id":"12.39045\t11.3782\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -8435,8 +8436,8 @@
          "type":"Feature",
          "id":"12.74481\t11.31843\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -8450,8 +8451,8 @@
          "type":"Feature",
          "id":"13.58522\t11.48222\t5\t0\n",
          "properties":{  
-            "age":"5",
-            "sex":"0"
+            "age":">80",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
@@ -8465,8 +8466,8 @@
          "type":"Feature",
          "id":"14.08854\t13.10222\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -8480,8 +8481,8 @@
          "type":"Feature",
          "id":"15.06661\t10.14866\t2\t1\n",
          "properties":{  
-            "age":"2",
-            "sex":"1"
+            "age":"21-40",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -8495,8 +8496,8 @@
          "type":"Feature",
          "id":"15.27804\t13.55018\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -8510,8 +8511,8 @@
          "type":"Feature",
          "id":"14.67613\t10.15019\t4\t1\n",
          "properties":{  
-            "age":"4",
-            "sex":"1"
+            "age":"61-80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -8525,8 +8526,8 @@
          "type":"Feature",
          "id":"13.37922\t12.48901\t5\t1\n",
          "properties":{  
-            "age":"5",
-            "sex":"1"
+            "age":">80",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -8540,8 +8541,8 @@
          "type":"Feature",
          "id":"12.27691\t11.91081\t0\t1\n",
          "properties":{  
-            "age":"0",
-            "sex":"1"
+            "age":"0-10",
+            "sex":"Female"
          },
          "geometry":{  
             "type":"Point",
@@ -8555,8 +8556,8 @@
          "type":"Feature",
          "id":"14.33308\t10.37359\t2\t0",
          "properties":{  
-            "age":"2",
-            "sex":"0"
+            "age":"21-40",
+            "sex":"Male"
          },
          "geometry":{  
             "type":"Point",
