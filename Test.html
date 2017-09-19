@@ -264,24 +264,23 @@
             d3.selectAll(".deathdaysFilter").on("change", updateDeaths);
             updateDeaths();
 
-            function updateDeaths(){
-                    
+            function updateDeaths(){                    
                     var choices = [];
                     d3.selectAll(".deathdaysFilter").each(function(d){
-                        cb = d3.select(this);
-                        if(cb.property("checked")){
-                            choices.push(cb.property("value"));
+                        cb = this; 
+                        if(cb.checked){
+                            choices.push(cb.id);
                         }
                     });
       
                     if(choices.length > 0){
-                        newData = deaths.features.filter(function(d,i){return choices.includes(d);});
+                        newData = deaths.features.filter(function(d,i){return d.properties.deathday == choices;});
                     } else {
                         newData = deaths.features;     
                     } 
         
                     newRows = deathSvg.selectAll("circle")
-                                    .data(newData,function(d){return d;});
+                                    .data(newData,function(d){return d.id;});
                     newRows.enter()
                             .append("circle")
                             .attr("r", 2)
@@ -295,6 +294,8 @@
                             .classed("pin", true);    
                     
                     newRows.exit().remove();   
+console.log(newData);
+               
             }   
 
     }); 
