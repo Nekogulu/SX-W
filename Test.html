@@ -274,7 +274,12 @@
                     });
       
                     if(choices.length > 0){
-                        newData = deaths.features.filter(function(d,i){return d.properties.deathday == choices;});
+                        choices.forEach(function(){
+                            newData.push(deaths.features.filter(function(d){return d.properties.deathday == choices;}));
+                        });
+                            
+  console.log(newData);                      
+                        
                     } else {
                         newData = deaths.features;     
                     } 
@@ -294,7 +299,7 @@
                             .classed("pin", true);    
                     
                     newRows.exit().remove();   
-console.log(newData);
+
                
             }   
 
