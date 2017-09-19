@@ -274,16 +274,15 @@
                     });
       
                     if(choices.length > 0){
-                        choices.forEach(function(){
-                            newData.push(deaths.features.filter(function(d){return d.properties.deathday == choices;}));
-                        });
+                        newData = deaths.features.filter(function(d){return choices.includes(d.properties.deathday);})
                             
-  console.log(newData);                      
+                       
                         
                     } else {
                         newData = deaths.features;     
                     } 
-        
+                    
+                   
                     newRows = deathSvg.selectAll("circle")
                                     .data(newData,function(d){return d.id;});
                     newRows.enter()
