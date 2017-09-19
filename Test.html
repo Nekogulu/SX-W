@@ -104,47 +104,6 @@
             ];
 
 
-            var deathdaySvg = svg2.attr("class", "deathdays");
-
-            deathdaySvg.selectAll("foreignObject")
-                        .data(deathdays)
-                        .enter()
-                        .append("foreignObject")
-                        .attr("width", width)
-                        .attr("height",height)
-                        .attr("x", 0)
-                        .attr("y", function(d,i){return (i)*20;})
-                        .append("xhtml:body")
-                        .html(function(d){ return "<form><input type=checkbox class=deathdaysFilter id="+d.label+" />"+d.label+"</form>"});
-            deathdaySvg.selectAll(".deathdaysFilter").on("change", updateDeaths);
-  
-                        
-            function updateDeaths(){
-                    
-                var newData = deaths.features.filter(function(d){return d.properties.deathday !== this.id;});console.log(newData);
-                var newDataSvg = svg.selectAll(".deaths").data(newData,function(d){console.log(d);return d.id;});
-               
-                newDataSvg.exit().remove();             
-                newDataSvg.enter().append("circle")
-                                    .attr("r", 2)
-                                    .attr("transform", function(d) {return "translate(" + projection(d.geometry.coordinates) + ")";})
-                                    // whatever transformation that needs to be done                
-                                    .style("fill", "red")
-                                    .style("stroke-width", "1")
-                                    .style("stroke", "black")
-                                    .classed("pin", true);      
-                
-             console.log(deathSvg.data);
-            }            
-           
-
-
-            
-                
-
-
-
-
                 // create a first guess for the projection
                 var center = d3.geo.centroid(json)
                 var scale  = 80;
@@ -180,7 +139,8 @@
                 var lineSvg = svg.append("g").attr("class", "lineString");
                 var workHosueSvg = svg.append("g").attr("class", "workHouse");
                 var brewerySvg = svg.append("g").attr("class", "brewery");
-                var deathSvg = svg.append("g").attr("class", "deaths").selectAll("circle").data(deaths.features, function(d){return d.id;});  
+                var deathSvg = svg.append("g").attr("class", "deaths");
+                var deathdaySvg = svg2.attr("class", "deathdays");  
 
              
 
@@ -277,19 +237,65 @@
                     })
                     .attr("text-anchor","middle")
                     .attr('font-size','6pt');
-*/           
+           
              var deathSvgEnter = deathSvg.enter();
                     deathSvgEnter.append("circle")
                     .attr("r", 2)
                     .attr("transform", function(d) {
-                             /*whatever transformation that needs to be done*/
+                             //whatever transformation that needs to be done
                             return "translate(" + projection(d.geometry.coordinates) + ")";
                         })
                     .style("fill", "red")
                     .style("stroke-width", "1")
                     .style("stroke", "black")
                     .classed("pin", true);   
-              // deathSvg.exit().remove(); 
+               deathSvg.exit().remove(); 
+*/
+             deathdaySvg.selectAll("foreignObject")
+                        .data(deathdays)
+                        .enter()
+                        .append("foreignObject")
+                        .attr("width", width)
+                        .attr("height",height)
+                        .attr("x", 0)
+                        .attr("y", function(d,i){return (i)*20;})
+                        .append("xhtml:body")
+                        .html(function(d){ return "<form><input type=checkbox class=deathdaysFilter id="+d.label+" />"+d.label+"</form>"});
+            d3.selectAll(".deathdaysFilter").on("change", updateDeaths);
+            updateDeaths();
+
+            function updateDeaths(){
+                    
+                    var choices = [];
+                    d3.selectAll(".deathdaysFilter").each(function(d){
+                        cb = d3.select(this);
+                        if(cb.property("checked")){
+                            choices.push(cb.property("value"));
+                        }
+                    });
+      
+                    if(choices.length > 0){
+                        newData = deaths.features.filter(function(d,i){return choices.includes(d);});
+                    } else {
+                        newData = deaths.features;     
+                    } 
+        
+                    newRows = deathSvg.selectAll("circle")
+                                    .data(newData,function(d){return d;});
+                    newRows.enter()
+                            .append("circle")
+                            .attr("r", 2)
+                            .attr("transform", function(d) {
+                                //whatever transformation that needs to be done
+                                return "translate(" + projection(d.geometry.coordinates) + ")";
+                            })
+                            .style("fill", "red")
+                            .style("stroke-width", "1")
+                            .style("stroke", "black")
+                            .classed("pin", true);    
+                    
+                    newRows.exit().remove();   
+            }   
 
     }); 
   });
