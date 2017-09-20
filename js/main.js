@@ -1,70 +1,11 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>D3 Map</title>
-    <style>
-      path {
-              fill: none;
-              stroke: #000;
-              stroke-width: .1px;
-              stroke-linejoin: round;
-              stroke-linecap: round;
-            }
-      h2{
-        margin:0;
-        padding:0;
-        font-size:18px;
-        font-weight:bold;
-        line-height:200%;
-      }
 
-    .axis {
-      font-size: : 10px;
-      stroke: #000;
-      shape-rendering: crispEdges;
-      stroke-width: 1.5px;
-    }
-
-    
-    .axis path, line {
-      fill: black;
-      stroke: #000;
-      shape-rendering: crispEdges;
-      stroke-width: 1px;
-    }
-
-    .chart1 text{
-        font-size: 10px;
-    }
-
-    </style>
-    <script src="http://d3js.org/d3.v3.min.js" type="text/javascript"></script>
-    <script src="d3/d3-geo-projection.js" type="text/javascript"></script>
-
-  </head>
-  <body>
-    <h2>Shuxian Wu's project1</h2>
-    <script>
         d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/streetsall.json", function(error, json) {
             if (error) throw error;
         d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/deathsage.json",function(error, deaths) {
               if (error) throw error;  
 
-        var deathdays = [
-                {"label": "19-Aug","number": 1},{"label": "20-Aug","number": 1},{"label": "21-Aug","number": 1},{"label": "22-Aug","number": 0},
-                {"label": "23-Aug","number": 1},{"label": "24-Aug","number": 1},{"label": "25-Aug","number": 0},{"label": "26-Aug","number": 1},
-                {"label": "27-Aug","number": 1},{"label": "28-Aug","number": 1},{"label": "29-Aug","number": 1},{"label": "30-Aug","number": 8},
-                {"label": "31-Aug","number": 56},{"label": "1-Sep","number": 143},{"label": "2-Sep","number": 116},{"label": "3-Sep","number": 54},
-                {"label": "4-Sep","number": 46},{"label": "5-Sep","number": 36},{"label": "6-Sep","number": 20},{"label": "7-Sep","number": 28},
-                {"label": "8-Sep","number": 12},{"label": "9-Sep","number": 11},{"label": "10-Sep","number": 5},{"label": "11-Sep","number": 5},
-                {"label": "12-Sep","number": 1},{"label": "13-Sep","number": 3},{"label": "14-Sep","number": 0},{"label": "15-Sep","number": 1},
-                {"label": "16-Sep","number": 4},{"label": "17-Sep","number": 2},{"label": "18-Sep","number": 3},{"label": "19-Sep","number": 0},
-                {"label": "20-Sep","number": 0},{"label": "21-Sep","number": 2},{"label": "22-Sep","number": 1},{"label": "23-Sep","number": 1},
-                {"label": "24-Sep","number": 1},{"label": "25-Sep","number": 1},{"label": "26-Sep","number": 1},{"label": "27-Sep","number": 1},
-                {"label": "28-Sep","number": 0},{"label": "29-Sep","number": 0}
-            ];    
-            
+            var width = 700,
+                height = 850;
 
 //放大缩小（不可用）     
 /*
@@ -116,35 +57,26 @@
                             .scaleExtent([1, 20])
                             .on("zoom", zoomed);
 */
-            var width = 700,
-                height = 850;
-            var barPadding = 1;
-            
-            var margin = {"top": 20, "right": 20, "bottom": 70, "left": 40},
-                widthChart = 600- margin.left - margin.right,
-                heightChart =  300 - margin.top - margin.bottom;
-            var x = d3.scale.ordinal().rangeRoundBands([0, widthChart], .05);
-            var y = d3.scale.linear().range([heightChart, 0]);
 
             var svg2 = d3.select("body").append("svg").attr("width", 100).attr("height", height);
             var svg = d3.select("body").append("svg").attr("width", width).attr("height", height);
-            var svg3 = d3.select("body").append("svg").attr("width",widthChart).attr("height", height)
-                        .attr("transform", "translate(" + margin.left + "," + margin.top + ")") ;
-
-            
-
-            var xAxis = d3.svg.axis().scale(x).orient("bottom");
-                //.tickFormat(d3.time.format("%d-%m"))
-
-            var yAxis = d3.svg.axis().scale(y).orient("left").ticks(10);
-
-
-
-
-            x.domain(deathdays.map(function(d) { return d.label; }));
-            y.domain([0, d3.max(deathdays, function(d) { return d.number; })]);
-
+                
            
+            var deathdays = [
+                {"label": "19-Aug","number": 1},{"label": "20-Aug","number": 1},{"label": "21-Aug","number": 1},{"label": "22-Aug","number": 0},
+                {"label": "23-Aug","number": 1},{"label": "24-Aug","number": 1},{"label": "25-Aug","number": 0},{"label": "26-Aug","number": 1},
+                {"label": "27-Aug","number": 1},{"label": "28-Aug","number": 1},{"label": "29-Aug","number": 1},{"label": "30-Aug","number": 8},
+                {"label": "31-Aug","number": 56},{"label": "1-Sep","number": 143},{"label": "2-Sep","number": 116},{"label": "3-Sep","number": 54},
+                {"label": "4-Sep","number": 46},{"label": "5-Sep","number": 36},{"label": "6-Sep","number": 20},{"label": "7-Sep","number": 28},
+                {"label": "8-Sep","number": 12},{"label": "9-Sep","number": 11},{"label": "10-Sep","number": 5},{"label": "11-Sep","number": 5},
+                {"label": "12-Sep","number": 1},{"label": "13-Sep","number": 3},{"label": "14-Sep","number": 0},{"label": "15-Sep","number": 1},
+                {"label": "16-Sep","number": 4},{"label": "17-Sep","number": 2},{"label": "18-Sep","number": 3},{"label": "19-Sep","number": 0},
+                {"label": "20-Sep","number": 0},{"label": "21-Sep","number": 2},{"label": "22-Sep","number": 1},{"label": "23-Sep","number": 1},
+                {"label": "24-Sep","number": 1},{"label": "25-Sep","number": 1},{"label": "26-Sep","number": 1},{"label": "27-Sep","number": 1},
+                {"label": "28-Sep","number": 0},{"label": "29-Sep","number": 0}
+            ];
+
+
                 // create a first guess for the projection
                 var center = d3.geo.centroid(json)
                 var scale  = 80;
@@ -181,8 +113,7 @@
                 var workHosueSvg = svg.append("g").attr("class", "workHouse");
                 var brewerySvg = svg.append("g").attr("class", "brewery");
                 var deathSvg = svg.append("g").attr("class", "deaths");
-                var deathdaySvg = svg2.attr("class", "deathdays");
-                var deathdayChart = svg3.append("g").attr("class", "chart1");  
+                var deathdaySvg = svg2.attr("class", "deathdays");  
 
              
 
@@ -304,58 +235,6 @@
                         .append("xhtml:body")
                         .html(function(d){ return "<form><input type=checkbox class=deathdaysFilter id="+d.label+" />"+d.label+"</form>"});
             d3.selectAll(".deathdaysFilter").on("change", updateDeaths);
-
-             deathdayChart.append("g")
-                  .attr("class", "xaxis")
-                  .attr("transform", "translate(0," + heightChart + ")")
-                  .call(xAxis)
-                  .selectAll("text")
-                  .style("text-anchor", "end")
-                  .attr("dx", "-.8em")
-                  .attr("dy", "-.55em")
-                  .attr("transform", "rotate(-90)" );
-
-              deathdayChart.append("g")
-                  .attr("class", "yaxis")
-                  .call(yAxis)
-                  .append("text")
-                  .attr("transform", "translate(0,0)")
-                  .attr("transform", "rotate(-90)")
-                  .attr("y", 6)
-                  .attr("dy", ".71em")
-                  .style("text-anchor", "end")
-                  .text("Number of Deaths");
-
-              deathdayChart.selectAll("bar")
-                  .data(deathdays)
-                  .enter().append("rect")
-                  .style("fill", "steelblue")
-                  .attr("x", function(d) { return x(d.label); })
-                  .attr("width", x.rangeBand())
-                  .attr("y", function(d) { return y(d.number); })
-                  .attr("height", function(d) { return heightChart - y(d.number); });
-
-              deathdayChart.append("g")
-              .attr("width", widthChart)
-              .attr("height", heightChart)
-              .selectAll("text")
-               .data(deathdays)
-               .enter()
-               .append("text")
-               .text(function(d) {
-                    return d.number;
-               })
-               .attr("text-anchor", "middle")
-               .attr("x", function(d, i) {
-                    return i * (widthChart / deathdays.length) + (widthChart / deathdays.length - barPadding) / 2;
-               })
-               .attr("y", function(d) {
-                    return heightChart - d.number ;
-               })
-               .attr("font-family", "sans-serif")
-               .attr("font-size", 12)
-               .attr("fill", "black");
-
             updateDeaths();
 
             function updateDeaths(){                    
@@ -368,11 +247,15 @@
                     });
       
                     if(choices.length > 0){
-                        newData = deaths.features.filter(function(d){return choices.includes(d.properties.deathday);})                                   
+                        newData = deaths.features.filter(function(d){return choices.includes(d.properties.deathday);})
+                            
+                       
+                        
                     } else {
                         newData = deaths.features;     
                     } 
-                                       
+                    
+                   
                     newRows = deathSvg.selectAll("circle")
                                     .data(newData,function(d){return d.id;});
                     newRows.enter()
@@ -387,13 +270,10 @@
                             .style("stroke", "black")
                             .classed("pin", true);    
                     
-                    newRows.exit().remove();                  
+                    newRows.exit().remove();   
+
+               
             }   
 
     }); 
   });
- 
-
-    </script>
-  </body>
-</html>
