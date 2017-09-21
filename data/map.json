@@ -11492,7 +11492,7 @@
          "type":"Feature",
          "id":"543",
          "properties":{  
-            "name":"brewery"
+            "name":"Brewery"
          },
          "geometry":{  
             "type":"Polygon",
@@ -11511,7 +11511,7 @@
          "type":"Feature",
          "id":"544",
          "properties":{  
-            "name":"Brewery"
+            "name":"what"
          },
          "geometry":{  
             "type":"Polygon",
