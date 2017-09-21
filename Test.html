@@ -457,7 +457,7 @@
             var xAxis2 = d3.svg.axis().scale(x2).orient("bottom");
             var yAxis2 = d3.svg.axis().scale(y2).orient("left").ticks(10);
             x2.domain(deaths.features.map(function(d){return d.properties.age; }));
-            y2.domain([0, 200]);
+            y2.domain([0, 100]);
 
             var choices1 = ["0-10", "11-20", "21-40", "41-60", "61-80", "> 80"];
             
@@ -476,18 +476,40 @@
                 {"age":"61-80", "number":newAgeGroup5.length},
                 {"age":"> 80", "number":newAgeGroup6.length}
             ];
-console.log(ageDataMale);
-//console.log(deaths.features.filter(function(d){return d.properties.age == choices1[0];}));
 
+            newAgeGroup1 = deaths.features.filter(function(d){return d.properties.age == choices1[0]&& d.properties.sex == "female";});
+            newAgeGroup2 = deaths.features.filter(function(d){return d.properties.age == choices1[1]&& d.properties.sex == "female";});
+            newAgeGroup3 = deaths.features.filter(function(d){return d.properties.age == choices1[2]&& d.properties.sex == "female";});
+            newAgeGroup4 = deaths.features.filter(function(d){return d.properties.age == choices1[3]&& d.properties.sex == "female";});
+            newAgeGroup5 = deaths.features.filter(function(d){return d.properties.age == choices1[4]&& d.properties.sex == "female";});
+            newAgeGroup6 = deaths.features.filter(function(d){return d.properties.age == choices1[5]&& d.properties.sex == "female";});
+
+            var ageDataFemale = [
+                {"age":"0-10", "number":newAgeGroup1.length},
+                {"age":"11-20", "number":newAgeGroup2.length},
+                {"age":"21-40", "number":newAgeGroup3.length},
+                {"age":"41-60", "number":newAgeGroup4.length},
+                {"age":"61-80", "number":newAgeGroup5.length},
+                {"age":"> 80", "number":newAgeGroup6.length}
+            ];
+
+
+//console.log(ageDataFemale);console.log(ageDataMale);
+//console.log(deaths.features.filter(function(d){return d.properties.age == choices1[0];}));
+//chart2 Male
             deathageChart.append("g")
                   .attr("class", "xaxis2")
-                  .attr("transform", "translate(5," + heightChart + ")")
+                  .attr("transform", "translate(5," + heightChart+ ")")
                   .call(xAxis2)
                   .selectAll("text")
-                  .style("text-anchor", "end")
+                  .attr("x",10)
+                  .attr("y",20)
                   .attr("dx", "-.8em")
                   .attr("dy", "-.55em")
-                  .attr("transform", "rotate(-90)" );
+                  .append("text")
+                  .attr("y",6)
+                  .style("text-anchor", "end")
+                  .text("Age");
 
             deathageChart.append("g")
                   .attr("class", "yaxis2")
@@ -501,36 +523,67 @@ console.log(ageDataMale);
                   .text("Number of Deaths");
 
             deathageChart.selectAll("bar")
-                  .data(deaths.features)
+                  .data(ageDataMale)
                   .enter().append("rect").attr("class", "chart2Bar")
                   .style("fill", "steelblue")
-                  .attr("x", function(d) { return x2(d.properties.age)+5; })
+                  .attr("x", function(d) { return x2(d.age)+50; })
                   .attr("width", x.rangeBand())
                   .attr("y", function(d) { return y2(d.number); })
-                  .attr("height", function(d) { return heightChart - y2(d.number); })
-                  //.attr("type","checkbox")
-                  .on("click",updateDeaths);
-            //d3.selectAll(".chart1Bar").on("click",updateDeaths);
+                  .attr("height", function(d) { return heightChart - y2(d.number); });
 
             deathageChart.append("g")
               .attr("class", "barNumber2")
               .attr("width", widthChart - margin.left - margin.right - 15)
               .attr("height", heightChart)
               .selectAll("text")
-               .data(deathdays)
+               .data(ageDataMale)
                .enter()
                .append("text")
                .text(function(d) {
                     return d.number;
                })
                .attr("text-anchor", "middle")
-              .attr("x", function(d) { return x(d.label)+10; })
+              .attr("x", function(d) { return x2(d.age)+55; })
               .attr("width", x.rangeBand())
-               .attr("y", function(d) { return y(d.number) - 2; })
+               .attr("y", function(d) { return y2(d.number) - 2; })
                .attr("font-family", "sans-serif")
                .attr("font-size", 12)
                .attr("fill", "black");
+//chart2 Female------------------------------------------------------------------
+            deathageChart.selectAll("bar")
+                  .data(ageDataFemale)
+                  .enter().append("rect").attr("class", "chart2Bar")
+                  .style("fill", "pink")
+                  .attr("x", function(d) { return x2(d.age)+35; })
+                  .attr("width", x.rangeBand())
+                  .attr("y", function(d) { return y2(d.number); })
+                  .attr("height", function(d) { return heightChart - y2(d.number); });
 
+            deathageChart.append("g")
+              .attr("class", "barNumber2")
+              .attr("width", widthChart - margin.left - margin.right - 15)
+              .attr("height", heightChart)
+              .selectAll("text")
+               .data(ageDataFemale)
+               .enter()
+               .append("text")
+               .text(function(d) {
+                    return d.number;
+               })
+               .attr("text-anchor", "middle")
+              .attr("x", function(d) { return x2(d.age)+40; })
+              .attr("width", x.rangeBand())
+               .attr("y", function(d) { return y2(d.number) - 2; })
+               .attr("font-family", "sans-serif")
+               .attr("font-size", 12)
+               .attr("fill", "black");
+            
+
+
+
+
+
+//funtion-----------------------------------------------------------------------
             function updateDeaths(){ 
                                       
                     var choices = [];

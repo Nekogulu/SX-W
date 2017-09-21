@@ -17,22 +17,7 @@
             ]
          }
       },
-      {  
-         "type":"Feature",
-         "id":"2",
-         "properties":{  
-            "age":"61-80",
-            "sex":"female",
-            "deathday":"20-Aug"
-         },
-         "geometry":{  
-            "type":"Point",
-            "coordinates":[  
-               "9.878124",
-               "12.55918"
-            ]
-         }
-      },
+
       {  
          "type":"Feature",
          "id":"3",
@@ -46,6 +31,70 @@
             "coordinates":[  
                "14.65398",
                "10.18044"
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "id":"66",
+         "properties":{  
+            "age":"11-20",
+            "sex":"male",
+            "deathday":"31-Aug"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               "9.487955",
+               "10.70568"
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "id":"6",
+         "properties":{  
+            "age":"21-40",
+            "sex":"female",
+            "deathday":"26-Aug"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               "13.80617",
+               "8.889046"
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "id":"15",
+         "properties":{  
+            "age":"41-60",
+            "sex":"male",
+            "deathday":"30-Aug"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               "16.56765",
+               "14.32268"
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "id":"2",
+         "properties":{  
+            "age":"61-80",
+            "sex":"female",
+            "deathday":"20-Aug"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               "9.878124",
+               "12.55918"
             ]
          }
       },
@@ -78,22 +127,6 @@
             "coordinates":[  
                "13.16265",
                "12.96319"
-            ]
-         }
-      },
-      {  
-         "type":"Feature",
-         "id":"6",
-         "properties":{  
-            "age":"21-40",
-            "sex":"female",
-            "deathday":"26-Aug"
-         },
-         "geometry":{  
-            "type":"Point",
-            "coordinates":[  
-               "13.80617",
-               "8.889046"
             ]
          }
       },
@@ -222,22 +255,6 @@
             "coordinates":[  
                "14.56957",
                "10.57711"
-            ]
-         }
-      },
-      {  
-         "type":"Feature",
-         "id":"15",
-         "properties":{  
-            "age":"41-60",
-            "sex":"male",
-            "deathday":"30-Aug"
-         },
-         "geometry":{  
-            "type":"Point",
-            "coordinates":[  
-               "16.56765",
-               "14.32268"
             ]
          }
       },
@@ -1038,22 +1055,6 @@
             "coordinates":[  
                "11.17129",
                "14.73371"
-            ]
-         }
-      },
-      {  
-         "type":"Feature",
-         "id":"66",
-         "properties":{  
-            "age":"11-20",
-            "sex":"male",
-            "deathday":"31-Aug"
-         },
-         "geometry":{  
-            "type":"Point",
-            "coordinates":[  
-               "9.487955",
-               "10.70568"
             ]
          }
       },
