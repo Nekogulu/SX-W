@@ -287,7 +287,14 @@
                     .attr("d", path)
                     .style("stroke-width", "1")
                     .style("stroke", "black")
-                    .style("fill", "yellow");
+                   // .filter(function(d){
+                   //     return d.properties.name == "WorkHouse";
+                  //  })
+                  //  .style("fill", "yellow")
+                    .filter(function(d){
+                        return d.properties.name == "Brewery";
+                    })
+                    .style("fill", "steelblue");
 //显示名字
 /*
               workHosueSvg.selectAll("text")
