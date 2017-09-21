@@ -23,7 +23,7 @@
       font-size: : 10px;
       stroke: #000;
       shape-rendering: crispEdges;
-      stroke-width: 1.5px;
+      stroke-width: 1px;
     }
 
     
@@ -38,13 +38,52 @@
         font-size: 10px;
     }
 
+    .chart2 text{
+        font-size: 10px;
+    }
+
+    h1{
+    font-size: 23px;
+    color: #000
+    }
+
+    .navbar ul {    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;}
+
+    .navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    padding: 0px 15px 5px 0px;
+    font-size: 18px;
+    display: block;
+        color: #337ab7;
+}
+
+.wrapper {position: relative;}
+
     </style>
     <script src="http://d3js.org/d3.v3.min.js" type="text/javascript"></script>
     <script src="d3/d3-geo-projection.js" type="text/javascript"></script>
 
   </head>
   <body>
-    <h2>Shuxian Wu's project1</h2>
+
+    <div class="wrapper" style="    border-bottom: 1px solid #999; margin-bottom: 20px">
+        <h1>Shuxian Wu's project1</h1>
+        <nav class="navbar pull-right" style="margin-bottom: 0">
+            <ul>
+                <li><a href="Test.html">Project</a></li>
+                <li><a href="documentation.html">Documentation</a></li>
+                <li><a href="https://youtu.be/bIkI-7Veoic" target="_blank">YouTube Video</a></li> 
+            </ul>
+        </nav>                   
+    </div>
+
+    
     <script>
         d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/streetsall.json", function(error, json) {
             if (error) throw error;
@@ -65,6 +104,7 @@
                 {"label": "28-Sep","number": 0},{"label": "29-Sep","number": 0}
             ];    
             
+    
 
 //放大缩小（不可用）     
 /*
@@ -116,34 +156,32 @@
                             .scaleExtent([1, 20])
                             .on("zoom", zoomed);
 */
-            var width = 700,
+            var width = 600,
                 height = 850;
             var barPadding = 1;
             
             var margin = {"top": 20, "right": 20, "bottom": 70, "left": 40},
-                widthChart = 600- margin.left - margin.right,
-                heightChart =  300 - margin.top - margin.bottom;
-            var x = d3.scale.ordinal().rangeRoundBands([0, widthChart], .05);
+                widthChart = 700- margin.left - margin.right,
+                heightChart =  400 - margin.top - margin.bottom;
+
+            var x = d3.scale.ordinal().rangeRoundBands([15, widthChart- margin.left - margin.right], .05);            
             var y = d3.scale.linear().range([heightChart, 0]);
 
             var svg2 = d3.select("body").append("svg").attr("width", 100).attr("height", height);
             var svg = d3.select("body").append("svg").attr("width", width).attr("height", height);
             var svg3 = d3.select("body").append("svg").attr("width",widthChart).attr("height", height)
                         .attr("transform", "translate(" + margin.left + "," + margin.top + ")") ;
-
             
-
+            
             var xAxis = d3.svg.axis().scale(x).orient("bottom");
-                //.tickFormat(d3.time.format("%d-%m"))
+            var yAxis = d3.svg.axis().scale(y).orient("left").ticks(15);
 
-            var yAxis = d3.svg.axis().scale(y).orient("left").ticks(10);
-
-
-
+         
 
             x.domain(deathdays.map(function(d) { return d.label; }));
-            y.domain([0, d3.max(deathdays, function(d) { return d.number; })]);
+            y.domain([0, (d3.max(deathdays, function(d) { return d.number; }) + 10)]);
 
+           
            
                 // create a first guess for the projection
                 var center = d3.geo.centroid(json)
@@ -182,7 +220,8 @@
                 var brewerySvg = svg.append("g").attr("class", "brewery");
                 var deathSvg = svg.append("g").attr("class", "deaths");
                 var deathdaySvg = svg2.attr("class", "deathdays");
-                var deathdayChart = svg3.append("g").attr("class", "chart1");  
+                var deathdayChart = svg3.append("g").attr("class", "chart1");
+                var deathageChart = svg3.append("svg").append("g").attr("class", "chart2").attr("transform","translate(0,"+(heightChart+100)+")");  
 
              
 
@@ -293,7 +332,8 @@
                     .classed("pin", true);   
                deathSvg.exit().remove(); 
 */
-             deathdaySvg.selectAll("foreignObject")
+/*
+            deathdaySvg.selectAll("foreignObject")
                         .data(deathdays)
                         .enter()
                         .append("foreignObject")
@@ -304,10 +344,12 @@
                         .append("xhtml:body")
                         .html(function(d){ return "<form><input type=checkbox class=deathdaysFilter id="+d.label+" />"+d.label+"</form>"});
             d3.selectAll(".deathdaysFilter").on("change", updateDeaths);
+*/
+            updateDeaths();
 
-             deathdayChart.append("g")
+            deathdayChart.append("g")
                   .attr("class", "xaxis")
-                  .attr("transform", "translate(0," + heightChart + ")")
+                  .attr("transform", "translate(5," + heightChart + ")")
                   .call(xAxis)
                   .selectAll("text")
                   .style("text-anchor", "end")
@@ -315,28 +357,57 @@
                   .attr("dy", "-.55em")
                   .attr("transform", "rotate(-90)" );
 
-              deathdayChart.append("g")
+            deathdayChart.append("g")
                   .attr("class", "yaxis")
+                  .attr("transform", "translate(25,0)")
                   .call(yAxis)
-                  .append("text")
-                  .attr("transform", "translate(0,0)")
+                  .append("text")  
                   .attr("transform", "rotate(-90)")
                   .attr("y", 6)
                   .attr("dy", ".71em")
                   .style("text-anchor", "end")
                   .text("Number of Deaths");
 
-              deathdayChart.selectAll("bar")
+            deathdayChart.selectAll("bar")
                   .data(deathdays)
-                  .enter().append("rect")
+                  .enter().append("rect").attr("class", "chart1Bar")
                   .style("fill", "steelblue")
-                  .attr("x", function(d) { return x(d.label); })
+                  .attr("x", function(d) { return x(d.label)+5; })
                   .attr("width", x.rangeBand())
                   .attr("y", function(d) { return y(d.number); })
-                  .attr("height", function(d) { return heightChart - y(d.number); });
+                  .attr("height", function(d) { return heightChart - y(d.number); })
+                  //.attr("type","checkbox")
+                  .on("click",function(d){
+                    var day = d.label;
+                    deathdayChart.selectAll(".chart1Bar")
+                        .style("fill","steelblue")
+                        .filter(function(d){return d.label==day;}) 
+                        .style("fill", "red");
 
-              deathdayChart.append("g")
-              .attr("width", widthChart)
+                    newRows = deathSvg.selectAll("circle")
+                                    .data(deaths.features.filter(function(d){return d.properties.deathday==day;}),function(d){return d.id;});
+                    newRows.enter()
+                            .append("circle")
+                            .attr("r", 2)
+                            .attr("transform", function(d) {
+                                //whatever transformation that needs to be done
+                                return "translate(" + projection(d.geometry.coordinates) + ")";
+                            })
+                            .style("fill", "red")
+                            .style("stroke-width", "1")
+                            .style("stroke", "black")
+                            .classed("pin", true)
+                            .filter(function(d){return d.properties.sex == "male";})
+                            .style("fill","blue");    
+                    
+                    newRows.exit().remove(); 
+
+                  });
+            //d3.selectAll(".chart1Bar").on("click",updateDeaths);
+
+            deathdayChart.append("g")
+              .attr("class", "barNumber")
+              .attr("width", widthChart - margin.left - margin.right - 15)
               .attr("height", heightChart)
               .selectAll("text")
                .data(deathdays)
@@ -346,33 +417,138 @@
                     return d.number;
                })
                .attr("text-anchor", "middle")
-               .attr("x", function(d, i) {
-                    return i * (widthChart / deathdays.length) + (widthChart / deathdays.length - barPadding) / 2;
+              .attr("x", function(d) { return x(d.label)+10; })
+              .attr("width", x.rangeBand())
+               .attr("y", function(d) { return y(d.number) - 2; })
+               .attr("font-family", "sans-serif")
+               .attr("font-size", 12)
+               .attr("fill", "black")
+               .on("click",function(d){
+                    var day = d.label;
+                    deathdayChart.selectAll(".chart1Bar")
+                        .style("fill","steelblue")
+                        .filter(function(d){return d.label==day;}) 
+                        .style("fill", "red");
+
+                    newRows = deathSvg.selectAll("circle")
+                                    .data(deaths.features.filter(function(d){return d.properties.deathday==day;}),function(d){return d.id;});
+                    newRows.enter()
+                            .append("circle")
+                            .attr("r", 2)
+                            .attr("transform", function(d) {
+                                //whatever transformation that needs to be done
+                                return "translate(" + projection(d.geometry.coordinates) + ")";
+                            })
+                            .style("fill", "red")
+                            .style("stroke-width", "1")
+                            .style("stroke", "black")
+                            .classed("pin", true)
+                            .filter(function(d){return d.properties.sex == "male";})
+                            .style("fill","blue");    
+                    
+                    newRows.exit().remove(); 
+
+                  });
+//chart2------------------------------------------------------------------------------
+            
+            var x2 = d3.scale.ordinal().rangeRoundBands([15, widthChart - margin.left - margin.right], .05);
+            var y2 = d3.scale.linear().range([heightChart, 0]);
+
+            var xAxis2 = d3.svg.axis().scale(x2).orient("bottom");
+            var yAxis2 = d3.svg.axis().scale(y2).orient("left").ticks(10);
+            x2.domain(deaths.features.map(function(d){return d.properties.age; }));
+            y2.domain([0, 200]);
+
+            var choices1 = ["0-10", "11-20", "21-40", "41-60", "61-80", "> 80"];
+            
+            var newAgeGroup1 = deaths.features.filter(function(d){return d.properties.age == choices1[0]&& d.properties.sex == "male";});
+            var newAgeGroup2 = deaths.features.filter(function(d){return d.properties.age == choices1[1]&& d.properties.sex == "male";});
+            var newAgeGroup3 = deaths.features.filter(function(d){return d.properties.age == choices1[2]&& d.properties.sex == "male";});
+            var newAgeGroup4 = deaths.features.filter(function(d){return d.properties.age == choices1[3]&& d.properties.sex == "male";});
+            var newAgeGroup5 = deaths.features.filter(function(d){return d.properties.age == choices1[4]&& d.properties.sex == "male";});
+            var newAgeGroup6 = deaths.features.filter(function(d){return d.properties.age == choices1[5]&& d.properties.sex == "male";});
+
+            var ageDataMale = [
+                {"age":"0-10", "number":newAgeGroup1.length},
+                {"age":"11-20", "number":newAgeGroup2.length},
+                {"age":"21-40", "number":newAgeGroup3.length},
+                {"age":"41-60", "number":newAgeGroup4.length},
+                {"age":"61-80", "number":newAgeGroup5.length},
+                {"age":"> 80", "number":newAgeGroup6.length}
+            ];
+console.log(ageDataMale);
+//console.log(deaths.features.filter(function(d){return d.properties.age == choices1[0];}));
+
+            deathageChart.append("g")
+                  .attr("class", "xaxis2")
+                  .attr("transform", "translate(5," + heightChart + ")")
+                  .call(xAxis2)
+                  .selectAll("text")
+                  .style("text-anchor", "end")
+                  .attr("dx", "-.8em")
+                  .attr("dy", "-.55em")
+                  .attr("transform", "rotate(-90)" );
+
+            deathageChart.append("g")
+                  .attr("class", "yaxis2")
+                  .attr("transform", "translate(25,0)")
+                  .call(yAxis2)
+                  .append("text")  
+                  .attr("transform", "rotate(-90)")
+                  .attr("y", 6)
+                  .attr("dy", ".71em")
+                  .style("text-anchor", "end")
+                  .text("Number of Deaths");
+
+            deathageChart.selectAll("bar")
+                  .data(deaths.features)
+                  .enter().append("rect").attr("class", "chart2Bar")
+                  .style("fill", "steelblue")
+                  .attr("x", function(d) { return x2(d.properties.age)+5; })
+                  .attr("width", x.rangeBand())
+                  .attr("y", function(d) { return y2(d.number); })
+                  .attr("height", function(d) { return heightChart - y2(d.number); })
+                  //.attr("type","checkbox")
+                  .on("click",updateDeaths);
+            //d3.selectAll(".chart1Bar").on("click",updateDeaths);
+
+            deathageChart.append("g")
+              .attr("class", "barNumber2")
+              .attr("width", widthChart - margin.left - margin.right - 15)
+              .attr("height", heightChart)
+              .selectAll("text")
+               .data(deathdays)
+               .enter()
+               .append("text")
+               .text(function(d) {
+                    return d.number;
                })
-               .attr("y", function(d) {
-                    return heightChart - d.number ;
-               })
+               .attr("text-anchor", "middle")
+              .attr("x", function(d) { return x(d.label)+10; })
+              .attr("width", x.rangeBand())
+               .attr("y", function(d) { return y(d.number) - 2; })
                .attr("font-family", "sans-serif")
                .attr("font-size", 12)
                .attr("fill", "black");
 
-            updateDeaths();
-
-            function updateDeaths(){                    
+            function updateDeaths(){ 
+                                      
                     var choices = [];
-                    d3.selectAll(".deathdaysFilter").each(function(d){
-                        cb = this; 
+                    d3.selectAll(".chart1Bar").each(function(d){
+                        cb = this; //console.log(d3.select(this)); 
                         if(cb.checked){
                             choices.push(cb.id);
                         }
                     });
       
                     if(choices.length > 0){
-                        newData = deaths.features.filter(function(d){return choices.includes(d.properties.deathday);})                                   
+                        newData = deaths.features.filter(function(d){return choices.includes(d.properties.deathday);}) 
+                        newDataBar = deathdays.filter(function(d){return choices.includes(d.label);})                                  
                     } else {
-                        newData = deaths.features;     
+                        newData = deaths.features;
+                        newDataBar = deathdays;     
                     } 
-                                       
+                                      
                     newRows = deathSvg.selectAll("circle")
                                     .data(newData,function(d){return d.id;});
                     newRows.enter()
@@ -385,9 +561,16 @@
                             .style("fill", "red")
                             .style("stroke-width", "1")
                             .style("stroke", "black")
-                            .classed("pin", true);    
+                            .classed("pin", true)
+                            .filter(function(d){return d.properties.sex == "male";})
+                            .style("fill","blue");    
                     
-                    newRows.exit().remove();                  
+                    newRows.exit().remove(); 
+
+                deathdayChart.selectAll(".chart1Bar")
+                  .filter(function(d){return choices.includes(d.label);}) 
+                  .style("fill", "red");
+                    
             }   
 
     }); 

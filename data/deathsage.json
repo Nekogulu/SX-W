@@ -6,7 +6,7 @@
          "id":"1",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"19-Aug"
          },
          "geometry":{  
@@ -22,7 +22,7 @@
          "id":"2",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"20-Aug"
          },
          "geometry":{  
@@ -70,7 +70,7 @@
          "id":"5",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"24-Aug"
          },
          "geometry":{  
@@ -86,7 +86,7 @@
          "id":"6",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"26-Aug"
          },
          "geometry":{  
@@ -102,7 +102,7 @@
          "id":"7",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"27-Aug"
          },
          "geometry":{  
@@ -150,7 +150,7 @@
          "id":"10",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"30-Aug"
          },
          "geometry":{  
@@ -182,7 +182,7 @@
          "id":"12",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"30-Aug"
          },
          "geometry":{  
@@ -198,7 +198,7 @@
          "id":"13",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"30-Aug"
          },
          "geometry":{  
@@ -214,7 +214,7 @@
          "id":"14",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"30-Aug"
          },
          "geometry":{  
@@ -246,7 +246,7 @@
          "id":"16",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"30-Aug"
          },
          "geometry":{  
@@ -278,7 +278,7 @@
          "id":"18",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug"
          },
          "geometry":{  
@@ -310,7 +310,7 @@
          "id":"20",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug"
          },
          "geometry":{  
@@ -358,7 +358,7 @@
          "id":"23",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug"
          },
          "geometry":{  
@@ -406,7 +406,7 @@
          "id":"26",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug"
          },
          "geometry":{  
@@ -438,7 +438,7 @@
          "id":"28",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug"
          },
          "geometry":{  
@@ -454,7 +454,7 @@
          "id":"29",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug"
          },
          "geometry":{  
@@ -486,7 +486,7 @@
          "id":"31",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug"
          },
          "geometry":{  
@@ -518,7 +518,7 @@
          "id":"33",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug"
          },
          "geometry":{  
@@ -550,7 +550,7 @@
          "id":"35",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug"
          },
          "geometry":{  
@@ -646,7 +646,7 @@
          "id":"41",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug"
          },
          "geometry":{  
@@ -742,7 +742,7 @@
          "id":"47",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug"
          },
          "geometry":{  
@@ -806,7 +806,7 @@
          "id":"51",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug"
          },
          "geometry":{  
@@ -822,7 +822,7 @@
          "id":"52",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug"
          },
          "geometry":{  
@@ -838,7 +838,7 @@
          "id":"53",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug"
          },
          "geometry":{  
@@ -854,7 +854,7 @@
          "id":"54",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug"
          },
          "geometry":{  
@@ -870,7 +870,7 @@
          "id":"55",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug"
          },
          "geometry":{  
@@ -950,7 +950,7 @@
          "id":"60",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug"
          },
          "geometry":{  
@@ -998,7 +998,7 @@
          "id":"63",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug"
          },
          "geometry":{  
@@ -1030,7 +1030,7 @@
          "id":"65",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug"
          },
          "geometry":{  
@@ -1062,7 +1062,7 @@
          "id":"67",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug"
          },
          "geometry":{  
@@ -1078,7 +1078,7 @@
          "id":"68",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug"
          },
          "geometry":{  
@@ -1094,7 +1094,7 @@
          "id":"69",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug"
          },
          "geometry":{  
@@ -1126,7 +1126,7 @@
          "id":"71",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug"
          },
          "geometry":{  
@@ -1142,7 +1142,7 @@
          "id":"72",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug"
          },
          "geometry":{  
@@ -1174,7 +1174,7 @@
          "id":"74",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -1206,7 +1206,7 @@
          "id":"76",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -1286,7 +1286,7 @@
          "id":"81",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -1334,7 +1334,7 @@
          "id":"84",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -1350,7 +1350,7 @@
          "id":"85",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -1430,7 +1430,7 @@
          "id":"90",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -1446,7 +1446,7 @@
          "id":"91",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -1494,7 +1494,7 @@
          "id":"94",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -1526,7 +1526,7 @@
          "id":"96",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -1542,7 +1542,7 @@
          "id":"97",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -1558,7 +1558,7 @@
          "id":"98",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -1590,7 +1590,7 @@
          "id":"100",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -1606,7 +1606,7 @@
          "id":"101",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -1622,7 +1622,7 @@
          "id":"102",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -1638,7 +1638,7 @@
          "id":"103",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -1718,7 +1718,7 @@
          "id":"108",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -1750,7 +1750,7 @@
          "id":"110",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -1782,7 +1782,7 @@
          "id":"112",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -1798,7 +1798,7 @@
          "id":"113",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -1814,7 +1814,7 @@
          "id":"114",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -1862,7 +1862,7 @@
          "id":"117",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -1878,7 +1878,7 @@
          "id":"118",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -1894,7 +1894,7 @@
          "id":"119",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -1910,7 +1910,7 @@
          "id":"120",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -1942,7 +1942,7 @@
          "id":"122",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -1958,7 +1958,7 @@
          "id":"123",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -1974,7 +1974,7 @@
          "id":"124",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -1990,7 +1990,7 @@
          "id":"125",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2006,7 +2006,7 @@
          "id":"126",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2022,7 +2022,7 @@
          "id":"127",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2038,7 +2038,7 @@
          "id":"128",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2054,7 +2054,7 @@
          "id":"129",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2070,7 +2070,7 @@
          "id":"130",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2086,7 +2086,7 @@
          "id":"131",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2102,7 +2102,7 @@
          "id":"132",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2118,7 +2118,7 @@
          "id":"133",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2134,7 +2134,7 @@
          "id":"134",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2230,7 +2230,7 @@
          "id":"140",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2246,7 +2246,7 @@
          "id":"141",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2278,7 +2278,7 @@
          "id":"143",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2294,7 +2294,7 @@
          "id":"144",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2310,7 +2310,7 @@
          "id":"145",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2326,7 +2326,7 @@
          "id":"146",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2390,7 +2390,7 @@
          "id":"150",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2454,7 +2454,7 @@
          "id":"154",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2502,7 +2502,7 @@
          "id":"157",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2582,7 +2582,7 @@
          "id":"162",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2614,7 +2614,7 @@
          "id":"164",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2630,7 +2630,7 @@
          "id":"165",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2662,7 +2662,7 @@
          "id":"167",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2694,7 +2694,7 @@
          "id":"169",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2710,7 +2710,7 @@
          "id":"170",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2726,7 +2726,7 @@
          "id":"171",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2742,7 +2742,7 @@
          "id":"172",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2758,7 +2758,7 @@
          "id":"173",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2774,7 +2774,7 @@
          "id":"174",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2790,7 +2790,7 @@
          "id":"175",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2822,7 +2822,7 @@
          "id":"177",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2870,7 +2870,7 @@
          "id":"180",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2886,7 +2886,7 @@
          "id":"181",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2934,7 +2934,7 @@
          "id":"184",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2950,7 +2950,7 @@
          "id":"185",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -2998,7 +2998,7 @@
          "id":"188",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -3014,7 +3014,7 @@
          "id":"189",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -3030,7 +3030,7 @@
          "id":"190",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -3046,7 +3046,7 @@
          "id":"191",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -3078,7 +3078,7 @@
          "id":"193",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -3094,7 +3094,7 @@
          "id":"194",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -3110,7 +3110,7 @@
          "id":"195",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -3158,7 +3158,7 @@
          "id":"198",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -3174,7 +3174,7 @@
          "id":"199",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -3190,7 +3190,7 @@
          "id":"200",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -3206,7 +3206,7 @@
          "id":"201",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -3254,7 +3254,7 @@
          "id":"204",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -3286,7 +3286,7 @@
          "id":"206",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -3334,7 +3334,7 @@
          "id":"209",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -3350,7 +3350,7 @@
          "id":"210",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -3430,7 +3430,7 @@
          "id":"215",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep"
          },
          "geometry":{  
@@ -3494,7 +3494,7 @@
          "id":"219",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -3510,7 +3510,7 @@
          "id":"220",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -3526,7 +3526,7 @@
          "id":"221",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -3558,7 +3558,7 @@
          "id":"223",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -3638,7 +3638,7 @@
          "id":"228",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -3654,7 +3654,7 @@
          "id":"229",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -3702,7 +3702,7 @@
          "id":"232",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -3734,7 +3734,7 @@
          "id":"234",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -3766,7 +3766,7 @@
          "id":"236",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -3782,7 +3782,7 @@
          "id":"237",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -3814,7 +3814,7 @@
          "id":"239",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -3878,7 +3878,7 @@
          "id":"243",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -3958,7 +3958,7 @@
          "id":"248",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -3974,7 +3974,7 @@
          "id":"249",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4134,7 +4134,7 @@
          "id":"259",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4150,7 +4150,7 @@
          "id":"260",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4166,7 +4166,7 @@
          "id":"261",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4214,7 +4214,7 @@
          "id":"264",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4246,7 +4246,7 @@
          "id":"266",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4262,7 +4262,7 @@
          "id":"267",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4358,7 +4358,7 @@
          "id":"273",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4374,7 +4374,7 @@
          "id":"274",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4390,7 +4390,7 @@
          "id":"275",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4406,7 +4406,7 @@
          "id":"276",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4454,7 +4454,7 @@
          "id":"279",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4470,7 +4470,7 @@
          "id":"280",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4502,7 +4502,7 @@
          "id":"282",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4566,7 +4566,7 @@
          "id":"286",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4582,7 +4582,7 @@
          "id":"287",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4598,7 +4598,7 @@
          "id":"288",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4614,7 +4614,7 @@
          "id":"289",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4630,7 +4630,7 @@
          "id":"290",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4646,7 +4646,7 @@
          "id":"291",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4662,7 +4662,7 @@
          "id":"292",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4678,7 +4678,7 @@
          "id":"293",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4694,7 +4694,7 @@
          "id":"294",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4742,7 +4742,7 @@
          "id":"297",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4758,7 +4758,7 @@
          "id":"298",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4806,7 +4806,7 @@
          "id":"301",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4822,7 +4822,7 @@
          "id":"302",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4838,7 +4838,7 @@
          "id":"303",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4854,7 +4854,7 @@
          "id":"304",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4870,7 +4870,7 @@
          "id":"305",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4902,7 +4902,7 @@
          "id":"307",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4918,7 +4918,7 @@
          "id":"308",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4934,7 +4934,7 @@
          "id":"309",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4950,7 +4950,7 @@
          "id":"310",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4966,7 +4966,7 @@
          "id":"311",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -4998,7 +4998,7 @@
          "id":"313",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -5078,7 +5078,7 @@
          "id":"318",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -5094,7 +5094,7 @@
          "id":"319",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -5110,7 +5110,7 @@
          "id":"320",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -5206,7 +5206,7 @@
          "id":"326",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -5222,7 +5222,7 @@
          "id":"327",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -5238,7 +5238,7 @@
          "id":"328",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -5286,7 +5286,7 @@
          "id":"331",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep"
          },
          "geometry":{  
@@ -5318,7 +5318,7 @@
          "id":"333",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep"
          },
          "geometry":{  
@@ -5334,7 +5334,7 @@
          "id":"334",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep"
          },
          "geometry":{  
@@ -5382,7 +5382,7 @@
          "id":"337",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep"
          },
          "geometry":{  
@@ -5414,7 +5414,7 @@
          "id":"339",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep"
          },
          "geometry":{  
@@ -5462,7 +5462,7 @@
          "id":"342",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep"
          },
          "geometry":{  
@@ -5478,7 +5478,7 @@
          "id":"343",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep"
          },
          "geometry":{  
@@ -5494,7 +5494,7 @@
          "id":"344",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep"
          },
          "geometry":{  
@@ -5510,7 +5510,7 @@
          "id":"345",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep"
          },
          "geometry":{  
@@ -5526,7 +5526,7 @@
          "id":"346",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep"
          },
          "geometry":{  
@@ -5590,7 +5590,7 @@
          "id":"350",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep"
          },
          "geometry":{  
@@ -5606,7 +5606,7 @@
          "id":"351",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep"
          },
          "geometry":{  
@@ -5638,7 +5638,7 @@
          "id":"353",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep"
          },
          "geometry":{  
@@ -5670,7 +5670,7 @@
          "id":"355",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep"
          },
          "geometry":{  
@@ -5798,7 +5798,7 @@
          "id":"363",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep"
          },
          "geometry":{  
@@ -5814,7 +5814,7 @@
          "id":"364",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep"
          },
          "geometry":{  
@@ -5830,7 +5830,7 @@
          "id":"365",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep"
          },
          "geometry":{  
@@ -5846,7 +5846,7 @@
          "id":"366",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep"
          },
          "geometry":{  
@@ -5878,7 +5878,7 @@
          "id":"368",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep"
          },
          "geometry":{  
@@ -5910,7 +5910,7 @@
          "id":"370",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep"
          },
          "geometry":{  
@@ -5926,7 +5926,7 @@
          "id":"371",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep"
          },
          "geometry":{  
@@ -5942,7 +5942,7 @@
          "id":"372",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep"
          },
          "geometry":{  
@@ -5958,7 +5958,7 @@
          "id":"373",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep"
          },
          "geometry":{  
@@ -5974,7 +5974,7 @@
          "id":"374",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep"
          },
          "geometry":{  
@@ -5990,7 +5990,7 @@
          "id":"375",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep"
          },
          "geometry":{  
@@ -6006,7 +6006,7 @@
          "id":"376",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep"
          },
          "geometry":{  
@@ -6022,7 +6022,7 @@
          "id":"377",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep"
          },
          "geometry":{  
@@ -6054,7 +6054,7 @@
          "id":"379",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep"
          },
          "geometry":{  
@@ -6070,7 +6070,7 @@
          "id":"380",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep"
          },
          "geometry":{  
@@ -6134,7 +6134,7 @@
          "id":"384",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep"
          },
          "geometry":{  
@@ -6166,7 +6166,7 @@
          "id":"386",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep"
          },
          "geometry":{  
@@ -6182,7 +6182,7 @@
          "id":"387",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep"
          },
          "geometry":{  
@@ -6214,7 +6214,7 @@
          "id":"389",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep"
          },
          "geometry":{  
@@ -6246,7 +6246,7 @@
          "id":"391",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep"
          },
          "geometry":{  
@@ -6262,7 +6262,7 @@
          "id":"392",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep"
          },
          "geometry":{  
@@ -6278,7 +6278,7 @@
          "id":"393",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep"
          },
          "geometry":{  
@@ -6326,7 +6326,7 @@
          "id":"396",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep"
          },
          "geometry":{  
@@ -6342,7 +6342,7 @@
          "id":"397",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep"
          },
          "geometry":{  
@@ -6358,7 +6358,7 @@
          "id":"398",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep"
          },
          "geometry":{  
@@ -6374,7 +6374,7 @@
          "id":"399",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep"
          },
          "geometry":{  
@@ -6438,7 +6438,7 @@
          "id":"403",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep"
          },
          "geometry":{  
@@ -6454,7 +6454,7 @@
          "id":"404",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep"
          },
          "geometry":{  
@@ -6470,7 +6470,7 @@
          "id":"405",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep"
          },
          "geometry":{  
@@ -6486,7 +6486,7 @@
          "id":"406",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep"
          },
          "geometry":{  
@@ -6582,7 +6582,7 @@
          "id":"412",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep"
          },
          "geometry":{  
@@ -6598,7 +6598,7 @@
          "id":"413",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep"
          },
          "geometry":{  
@@ -6614,7 +6614,7 @@
          "id":"414",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep"
          },
          "geometry":{  
@@ -6646,7 +6646,7 @@
          "id":"416",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep"
          },
          "geometry":{  
@@ -6662,7 +6662,7 @@
          "id":"417",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep"
          },
          "geometry":{  
@@ -6726,7 +6726,7 @@
          "id":"421",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep"
          },
          "geometry":{  
@@ -6742,7 +6742,7 @@
          "id":"422",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep"
          },
          "geometry":{  
@@ -6758,7 +6758,7 @@
          "id":"423",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep"
          },
          "geometry":{  
@@ -6790,7 +6790,7 @@
          "id":"425",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep"
          },
          "geometry":{  
@@ -6806,7 +6806,7 @@
          "id":"426",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep"
          },
          "geometry":{  
@@ -6822,7 +6822,7 @@
          "id":"427",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep"
          },
          "geometry":{  
@@ -6854,7 +6854,7 @@
          "id":"429",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep"
          },
          "geometry":{  
@@ -6886,7 +6886,7 @@
          "id":"431",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep"
          },
          "geometry":{  
@@ -6902,7 +6902,7 @@
          "id":"432",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep"
          },
          "geometry":{  
@@ -6934,7 +6934,7 @@
          "id":"434",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep"
          },
          "geometry":{  
@@ -6950,7 +6950,7 @@
          "id":"435",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep"
          },
          "geometry":{  
@@ -6966,7 +6966,7 @@
          "id":"436",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep"
          },
          "geometry":{  
@@ -6998,7 +6998,7 @@
          "id":"438",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep"
          },
          "geometry":{  
@@ -7078,7 +7078,7 @@
          "id":"443",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep"
          },
          "geometry":{  
@@ -7094,7 +7094,7 @@
          "id":"444",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep"
          },
          "geometry":{  
@@ -7142,7 +7142,7 @@
          "id":"447",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep"
          },
          "geometry":{  
@@ -7174,7 +7174,7 @@
          "id":"449",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep"
          },
          "geometry":{  
@@ -7206,7 +7206,7 @@
          "id":"451",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep"
          },
          "geometry":{  
@@ -7222,7 +7222,7 @@
          "id":"452",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep"
          },
          "geometry":{  
@@ -7254,7 +7254,7 @@
          "id":"454",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep"
          },
          "geometry":{  
@@ -7302,7 +7302,7 @@
          "id":"457",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep"
          },
          "geometry":{  
@@ -7398,7 +7398,7 @@
          "id":"463",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep"
          },
          "geometry":{  
@@ -7430,7 +7430,7 @@
          "id":"465",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep"
          },
          "geometry":{  
@@ -7446,7 +7446,7 @@
          "id":"466",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep"
          },
          "geometry":{  
@@ -7462,7 +7462,7 @@
          "id":"467",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep"
          },
          "geometry":{  
@@ -7510,7 +7510,7 @@
          "id":"470",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"6-Sep"
          },
          "geometry":{  
@@ -7526,7 +7526,7 @@
          "id":"471",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"6-Sep"
          },
          "geometry":{  
@@ -7558,7 +7558,7 @@
          "id":"473",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"6-Sep"
          },
          "geometry":{  
@@ -7590,7 +7590,7 @@
          "id":"475",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"6-Sep"
          },
          "geometry":{  
@@ -7606,7 +7606,7 @@
          "id":"476",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"6-Sep"
          },
          "geometry":{  
@@ -7622,7 +7622,7 @@
          "id":"477",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"6-Sep"
          },
          "geometry":{  
@@ -7638,7 +7638,7 @@
          "id":"478",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"6-Sep"
          },
          "geometry":{  
@@ -7670,7 +7670,7 @@
          "id":"480",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"6-Sep"
          },
          "geometry":{  
@@ -7798,7 +7798,7 @@
          "id":"488",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"6-Sep"
          },
          "geometry":{  
@@ -7814,7 +7814,7 @@
          "id":"489",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"7-Sep"
          },
          "geometry":{  
@@ -7862,7 +7862,7 @@
          "id":"492",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"7-Sep"
          },
          "geometry":{  
@@ -7910,7 +7910,7 @@
          "id":"495",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"7-Sep"
          },
          "geometry":{  
@@ -7942,7 +7942,7 @@
          "id":"497",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"7-Sep"
          },
          "geometry":{  
@@ -7958,7 +7958,7 @@
          "id":"498",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"7-Sep"
          },
          "geometry":{  
@@ -8006,7 +8006,7 @@
          "id":"501",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"7-Sep"
          },
          "geometry":{  
@@ -8022,7 +8022,7 @@
          "id":"502",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"7-Sep"
          },
          "geometry":{  
@@ -8070,7 +8070,7 @@
          "id":"505",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"7-Sep"
          },
          "geometry":{  
@@ -8118,7 +8118,7 @@
          "id":"508",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"7-Sep"
          },
          "geometry":{  
@@ -8134,7 +8134,7 @@
          "id":"509",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"7-Sep"
          },
          "geometry":{  
@@ -8182,7 +8182,7 @@
          "id":"512",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"7-Sep"
          },
          "geometry":{  
@@ -8214,7 +8214,7 @@
          "id":"514",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"7-Sep"
          },
          "geometry":{  
@@ -8246,7 +8246,7 @@
          "id":"516",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"7-Sep"
          },
          "geometry":{  
@@ -8326,7 +8326,7 @@
          "id":"521",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"8-Sep"
          },
          "geometry":{  
@@ -8342,7 +8342,7 @@
          "id":"522",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"8-Sep"
          },
          "geometry":{  
@@ -8422,7 +8422,7 @@
          "id":"527",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"8-Sep"
          },
          "geometry":{  
@@ -8486,7 +8486,7 @@
          "id":"531",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"9-Sep"
          },
          "geometry":{  
@@ -8518,7 +8518,7 @@
          "id":"533",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"9-Sep"
          },
          "geometry":{  
@@ -8534,7 +8534,7 @@
          "id":"534",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"9-Sep"
          },
          "geometry":{  
@@ -8550,7 +8550,7 @@
          "id":"535",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"9-Sep"
          },
          "geometry":{  
@@ -8678,7 +8678,7 @@
          "id":"543",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"10-Sep"
          },
          "geometry":{  
@@ -8694,7 +8694,7 @@
          "id":"544",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"10-Sep"
          },
          "geometry":{  
@@ -8710,7 +8710,7 @@
          "id":"545",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"11-Sep"
          },
          "geometry":{  
@@ -8742,7 +8742,7 @@
          "id":"547",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"11-Sep"
          },
          "geometry":{  
@@ -8774,7 +8774,7 @@
          "id":"549",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"11-Sep"
          },
          "geometry":{  
@@ -8790,7 +8790,7 @@
          "id":"550",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"12-Sep"
          },
          "geometry":{  
@@ -8806,7 +8806,7 @@
          "id":"551",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"13-Sep"
          },
          "geometry":{  
@@ -8870,7 +8870,7 @@
          "id":"555",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"16-Sep"
          },
          "geometry":{  
@@ -8934,7 +8934,7 @@
          "id":"559",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"17-Sep "
          },
          "geometry":{  
@@ -8950,7 +8950,7 @@
          "id":"560",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"17-Sep "
          },
          "geometry":{  
@@ -8998,7 +8998,7 @@
          "id":"563",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"18-Sep"
          },
          "geometry":{  
@@ -9030,7 +9030,7 @@
          "id":"565",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"21-Sep"
          },
          "geometry":{  
@@ -9046,7 +9046,7 @@
          "id":"566",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"22-Sep"
          },
          "geometry":{  
@@ -9062,7 +9062,7 @@
          "id":"567",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"23-Sep"
          },
          "geometry":{  
@@ -9078,7 +9078,7 @@
          "id":"568",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"24-Sep"
          },
          "geometry":{  
@@ -9094,7 +9094,7 @@
          "id":"569",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"25-Sep"
          },
          "geometry":{  
@@ -9110,7 +9110,7 @@
          "id":"570",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"26-Sep"
          },
          "geometry":{  
