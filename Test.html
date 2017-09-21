@@ -92,7 +92,7 @@
 
     
     <script>
-        d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/streets.json", function(error, json) {
+        d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/streetsall.json", function(error, json) {
             if (error) throw error;
         d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/deathsage.json",function(error, deaths) {
               if (error) throw error;  
@@ -196,7 +196,7 @@
            
                 // create a first guess for the projection
                 var center = d3.geo.centroid(json)
-                var scale  = 1000;
+                var scale  = 80;
                 var offset = [width/2, height/2];
                 var projection = d3.geo.mercator().scale(scale).center(center)
                     .translate(offset);
@@ -220,12 +220,12 @@
                     .scale(scale).translate(offset);
                 path = path.projection(projection);   
 
-            //    var points = json.features.filter(function(d){return d.geometry.type == "Point";});
-             //   var lines = json.features.filter(function(d){return d.geometry.type == "LineString";});
-           //     var workHouse = json.features.filter(function(d){return d.properties.name == "WorkHouse";});
-           //     var brewery = json.features.filter(function(d){return d.properties.name == "Brewery";});
+                var points = json.features.filter(function(d){return d.geometry.type == "Point";});
+                var lines = json.features.filter(function(d){return d.geometry.type == "LineString";});
+                var workHouse = json.features.filter(function(d){return d.properties.name == "WorkHouse";});
+                var brewery = json.features.filter(function(d){return d.properties.name == "Brewery";});
 
-            //    console.log(json);
+              //  console.log(json);
 
                 var pointSvg = svg.append("g").attr("class", "point");
                 var lineSvg = svg.append("g").attr("class", "lineString");
@@ -239,11 +239,11 @@
              
 
               lineSvg.selectAll("path")
-                    .data(json.features)
+                    .data(lines)
                     .enter()
                     .append("path")
                     .attr("d", path)
-                    .style("stroke-width", "2")
+                    .style("stroke-width", "1")
                     .style("stroke", "black");
 //显示街道名字                            
 /*                                            
@@ -265,7 +265,7 @@
 */
 
             pointSvg.selectAll("rect")
-                    .data(pumps.features)
+                    .data(points)
                     .enter()
                     .append("rect")
                     .attr("width", 10)
@@ -281,20 +281,19 @@
                     .classed("pin", true);
 
               workHosueSvg.selectAll("path")
-                    .data(buildings.features)
+                    .data(workHouse)
                     .enter()
                     .append("path")
                     .attr("d", path)
+                   // .filter(function(d){return d.properties.name == "WorkHouse";})
                     .style("stroke-width", "1")
                     .style("stroke", "black")
-                   // .filter(function(d){
-                    //    return d.properties.name == "WorkHouse";
-                   // })
-                    //.style("fill", "yellow")
-                    .filter(function(d){
-                        return d.properties.name == "Brewery";
-                    })
-                    .style("fill", "steelblue");
+                    .style("fill", "yellow");
+                  //  .filter(function(d){return d.properties.name == "Brewery";})
+                    //.style("stroke-width", "1")
+                   // .style("stroke", "black")
+                  //  .style("fill", "yellow")
+                    
 //显示名字
 /*
               workHosueSvg.selectAll("text")
@@ -313,16 +312,17 @@
                     .attr("text-anchor","middle")
                     //.attr("transform", "rotate(-30)")
                     .attr('font-size','6pt');
-
+*/
                brewerySvg.selectAll("path")
                     .data(brewery)
                     .enter()
                     .append("path")
                     .attr("d", path)
+                    //.filter(function(d){return d.properties.name == "Brewery";})
                     .style("stroke-width", "1")
                     .style("stroke", "black")
                     .style("fill", "green");
-*/
+
 //显示名字
 /*
               brewerySvg.selectAll("text")
