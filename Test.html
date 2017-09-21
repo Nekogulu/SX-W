@@ -300,6 +300,15 @@
                     .attr("text-anchor","middle")
                     .attr('font-size','6pt');
 
+               brewerySvg.selectAll("path")
+                    .data(brewery)
+                    .enter()
+                    .append("path")
+                    .attr("d", path)
+                    .style("stroke-width", "1")
+                    .style("stroke", "black")
+                    .style("fill", "green");
+
 //显示名字
 /*
               brewerySvg.selectAll("text")
