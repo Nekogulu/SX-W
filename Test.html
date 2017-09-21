@@ -92,10 +92,14 @@
 
     
     <script>
-        d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/streetsall.json", function(error, json) {
+        d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/streets.json", function(error, json) {
             if (error) throw error;
         d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/deathsage.json",function(error, deaths) {
               if (error) throw error;  
+        d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/buildings.json", function(error, buildings) {
+            if (error) throw error;
+        d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/pump.json", function(error, pumps) {
+            if (error) throw error;
 
         var deathdays = [
                 {"label": "19-Aug","number": 1},{"label": "20-Aug","number": 1},{"label": "21-Aug","number": 1},{"label": "22-Aug","number": 0},
@@ -192,7 +196,7 @@
            
                 // create a first guess for the projection
                 var center = d3.geo.centroid(json)
-                var scale  = 80;
+                var scale  = 1000;
                 var offset = [width/2, height/2];
                 var projection = d3.geo.mercator().scale(scale).center(center)
                     .translate(offset);
@@ -216,12 +220,12 @@
                     .scale(scale).translate(offset);
                 path = path.projection(projection);   
 
-                var points = json.features.filter(function(d){return d.geometry.type == "Point";});
-                var lines = json.features.filter(function(d){return d.geometry.type == "LineString";});
-                var workHouse = json.features.filter(function(d){return d.properties.name == "WorkHouse";});
-                var brewery = json.features.filter(function(d){return d.properties.name == "Brewery";});
+            //    var points = json.features.filter(function(d){return d.geometry.type == "Point";});
+             //   var lines = json.features.filter(function(d){return d.geometry.type == "LineString";});
+           //     var workHouse = json.features.filter(function(d){return d.properties.name == "WorkHouse";});
+           //     var brewery = json.features.filter(function(d){return d.properties.name == "Brewery";});
 
-                console.log(brewery);
+            //    console.log(json);
 
                 var pointSvg = svg.append("g").attr("class", "point");
                 var lineSvg = svg.append("g").attr("class", "lineString");
@@ -235,7 +239,7 @@
              
 
               lineSvg.selectAll("path")
-                    .data(lines)
+                    .data(json.features)
                     .enter()
                     .append("path")
                     .attr("d", path)
@@ -261,7 +265,7 @@
 */
 
             pointSvg.selectAll("rect")
-                    .data(points)
+                    .data(pumps.features)
                     .enter()
                     .append("rect")
                     .attr("width", 10)
@@ -277,7 +281,7 @@
                     .classed("pin", true);
 
               workHosueSvg.selectAll("path")
-                    .data(workHouse)
+                    .data(buildings.features)
                     .enter()
                     .append("path")
                     .attr("d", path)
@@ -677,7 +681,8 @@
                   .style("fill", "red");
                     
             }   
-
+    }); 
+    });         
     }); 
   });
  
