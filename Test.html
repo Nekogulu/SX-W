@@ -92,7 +92,7 @@
 
     
     <script>
-        d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/streetsall.json", function(error, json) {
+        d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/streets.json", function(error, json) {
             if (error) throw error;
         d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/deathsage.json",function(error, deaths) {
               if (error) throw error;  
@@ -221,6 +221,8 @@
                 var workHouse = json.features.filter(function(d){return d.properties.name == "WorkHouse";});
                 var brewery = json.features.filter(function(d){return d.properties.name == "Brewery";});
 
+                console.log(brewery);
+
                 var pointSvg = svg.append("g").attr("class", "point");
                 var lineSvg = svg.append("g").attr("class", "lineString");
                 var workHosueSvg = svg.append("g").attr("class", "workHouse");
@@ -283,7 +285,7 @@
                     .style("stroke", "black")
                     .style("fill", "yellow");
 //显示名字
-
+/*
               workHosueSvg.selectAll("text")
                     .data(workHouse)
                     .enter()
@@ -298,6 +300,7 @@
                         return  path.centroid(d)[1];
                     })
                     .attr("text-anchor","middle")
+                    //.attr("transform", "rotate(-30)")
                     .attr('font-size','6pt');
 
                brewerySvg.selectAll("path")
@@ -308,7 +311,7 @@
                     .style("stroke-width", "1")
                     .style("stroke", "black")
                     .style("fill", "green");
-
+*/
 //显示名字
 /*
               brewerySvg.selectAll("text")
