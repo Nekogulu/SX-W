@@ -9493,7 +9493,7 @@
          "properties":{  
             "age":"> 80",
             "sex":"female",
-            "deathday":"17-Sep ",
+            "deathday":"17-Sep",
             "color":"#f0dee4"
          },
          "geometry":{  
@@ -9510,7 +9510,7 @@
          "properties":{  
             "age":"61-80",
             "sex":"female",
-            "deathday":"17-Sep ",
+            "deathday":"17-Sep",
             "color":"#e6aabe"
          },
          "geometry":{  
