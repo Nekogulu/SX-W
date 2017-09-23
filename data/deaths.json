@@ -6,7 +6,7 @@
          "id":"1",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"19-Aug",
             "color":"#f0dee4"
          },
@@ -23,7 +23,7 @@
          "id":"2",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"20-Aug",
             "color":"#971d46"
          },
@@ -74,7 +74,7 @@
          "id":"5",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"24-Aug",
             "color":"#971d46"
          },
@@ -91,7 +91,7 @@
          "id":"6",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"26-Aug",
             "color":"#d67495"
          },
@@ -108,7 +108,7 @@
          "id":"7",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"27-Aug",
             "color":"#971d46"
          },
@@ -159,7 +159,7 @@
          "id":"10",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"30-Aug",
             "color":"#971d46"
          },
@@ -193,7 +193,7 @@
          "id":"12",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"30-Aug",
             "color":"#971d46"
          },
@@ -210,7 +210,7 @@
          "id":"13",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"30-Aug",
             "color":"#f0dee4"
          },
@@ -227,7 +227,7 @@
          "id":"14",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"30-Aug",
             "color":"#f0dee4"
          },
@@ -261,7 +261,7 @@
          "id":"16",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"30-Aug",
             "color":"#730027"
          },
@@ -295,7 +295,7 @@
          "id":"18",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug",
             "color":"#730027"
          },
@@ -329,7 +329,7 @@
          "id":"20",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug",
             "color":"#971d46"
          },
@@ -380,7 +380,7 @@
          "id":"23",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug",
             "color":"#d67495"
          },
@@ -431,7 +431,7 @@
          "id":"26",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug",
             "color":"#730027"
          },
@@ -465,7 +465,7 @@
          "id":"28",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug",
             "color":"#f0dee4"
          },
@@ -482,7 +482,7 @@
          "id":"29",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug",
             "color":"#971d46"
          },
@@ -516,7 +516,7 @@
          "id":"31",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug",
             "color":"#d67495"
          },
@@ -550,7 +550,7 @@
          "id":"33",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug",
             "color":"#d67495"
          },
@@ -584,7 +584,7 @@
          "id":"35",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug",
             "color":"#f0dee4"
          },
@@ -686,7 +686,7 @@
          "id":"41",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug",
             "color":"#971d46"
          },
@@ -788,7 +788,7 @@
          "id":"47",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug",
             "color":"#730027"
          },
@@ -856,7 +856,7 @@
          "id":"51",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug",
             "color":"#730027"
          },
@@ -873,7 +873,7 @@
          "id":"52",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug",
             "color":"#971d46"
          },
@@ -890,7 +890,7 @@
          "id":"53",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug",
             "color":"#d67495"
          },
@@ -907,7 +907,7 @@
          "id":"54",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug",
             "color":"#c34a73"
          },
@@ -924,7 +924,7 @@
          "id":"55",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug",
             "color":"#d67495"
          },
@@ -1009,7 +1009,7 @@
          "id":"60",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug",
             "color":"#f0dee4"
          },
@@ -1060,7 +1060,7 @@
          "id":"63",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug",
             "color":"#f0dee4"
          },
@@ -1094,7 +1094,7 @@
          "id":"65",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug",
             "color":"#f0dee4"
          },
@@ -1128,7 +1128,7 @@
          "id":"67",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug",
             "color":"#e6aabe"
          },
@@ -1145,7 +1145,7 @@
          "id":"68",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug",
             "color":"#f0dee4"
          },
@@ -1162,7 +1162,7 @@
          "id":"69",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug",
             "color":"#e6aabe"
          },
@@ -1196,7 +1196,7 @@
          "id":"71",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug",
             "color":"#c34a73"
          },
@@ -1213,7 +1213,7 @@
          "id":"72",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"31-Aug",
             "color":"#730027"
          },
@@ -1247,7 +1247,7 @@
          "id":"74",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#730027"
          },
@@ -1281,7 +1281,7 @@
          "id":"76",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#f0dee4"
          },
@@ -1366,7 +1366,7 @@
          "id":"81",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#730027"
          },
@@ -1417,7 +1417,7 @@
          "id":"84",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#d67495"
          },
@@ -1434,7 +1434,7 @@
          "id":"85",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#971d46"
          },
@@ -1519,7 +1519,7 @@
          "id":"90",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#730027"
          },
@@ -1536,7 +1536,7 @@
          "id":"91",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#f0dee4"
          },
@@ -1587,7 +1587,7 @@
          "id":"94",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#d67495"
          },
@@ -1621,7 +1621,7 @@
          "id":"96",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#c34a73"
          },
@@ -1638,7 +1638,7 @@
          "id":"97",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#c34a73"
          },
@@ -1655,7 +1655,7 @@
          "id":"98",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#730027"
          },
@@ -1689,7 +1689,7 @@
          "id":"100",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#f0dee4"
          },
@@ -1706,7 +1706,7 @@
          "id":"101",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#f0dee4"
          },
@@ -1723,7 +1723,7 @@
          "id":"102",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#f0dee4"
          },
@@ -1740,7 +1740,7 @@
          "id":"103",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#f0dee4"
          },
@@ -1825,7 +1825,7 @@
          "id":"108",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#730027"
          },
@@ -1859,7 +1859,7 @@
          "id":"110",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#c34a73"
          },
@@ -1893,7 +1893,7 @@
          "id":"112",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#e6aabe"
          },
@@ -1910,7 +1910,7 @@
          "id":"113",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#730027"
          },
@@ -1927,7 +1927,7 @@
          "id":"114",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#971d46"
          },
@@ -1978,7 +1978,7 @@
          "id":"117",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#730027"
          },
@@ -1995,7 +1995,7 @@
          "id":"118",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#971d46"
          },
@@ -2012,7 +2012,7 @@
          "id":"119",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#c34a73"
          },
@@ -2029,7 +2029,7 @@
          "id":"120",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#c34a73"
          },
@@ -2063,7 +2063,7 @@
          "id":"122",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#c34a73"
          },
@@ -2080,7 +2080,7 @@
          "id":"123",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#f0dee4"
          },
@@ -2097,7 +2097,7 @@
          "id":"124",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#e6aabe"
          },
@@ -2114,7 +2114,7 @@
          "id":"125",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#730027"
          },
@@ -2131,7 +2131,7 @@
          "id":"126",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#730027"
          },
@@ -2148,7 +2148,7 @@
          "id":"127",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#f0dee4"
          },
@@ -2165,7 +2165,7 @@
          "id":"128",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#d67495"
          },
@@ -2182,7 +2182,7 @@
          "id":"129",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#e6aabe"
          },
@@ -2199,7 +2199,7 @@
          "id":"130",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#730027"
          },
@@ -2216,7 +2216,7 @@
          "id":"131",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#f0dee4"
          },
@@ -2233,7 +2233,7 @@
          "id":"132",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#c34a73"
          },
@@ -2250,7 +2250,7 @@
          "id":"133",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#971d46"
          },
@@ -2267,7 +2267,7 @@
          "id":"134",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#c34a73"
          },
@@ -2369,7 +2369,7 @@
          "id":"140",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#f0dee4"
          },
@@ -2386,7 +2386,7 @@
          "id":"141",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#c34a73"
          },
@@ -2420,7 +2420,7 @@
          "id":"143",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#c34a73"
          },
@@ -2437,7 +2437,7 @@
          "id":"144",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#c34a73"
          },
@@ -2454,7 +2454,7 @@
          "id":"145",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#730027"
          },
@@ -2471,7 +2471,7 @@
          "id":"146",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#f0dee4"
          },
@@ -2539,7 +2539,7 @@
          "id":"150",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#f0dee4"
          },
@@ -2607,7 +2607,7 @@
          "id":"154",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#730027"
          },
@@ -2658,7 +2658,7 @@
          "id":"157",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#730027"
          },
@@ -2743,7 +2743,7 @@
          "id":"162",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#e6aabe"
          },
@@ -2777,7 +2777,7 @@
          "id":"164",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#730027"
          },
@@ -2794,7 +2794,7 @@
          "id":"165",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#730027"
          },
@@ -2828,7 +2828,7 @@
          "id":"167",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#730027"
          },
@@ -2862,7 +2862,7 @@
          "id":"169",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#730027"
          },
@@ -2879,7 +2879,7 @@
          "id":"170",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#971d46"
          },
@@ -2896,7 +2896,7 @@
          "id":"171",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#730027"
          },
@@ -2913,7 +2913,7 @@
          "id":"172",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#f0dee4"
          },
@@ -2930,7 +2930,7 @@
          "id":"173",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#971d46"
          },
@@ -2947,7 +2947,7 @@
          "id":"174",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#d67495"
          },
@@ -2964,7 +2964,7 @@
          "id":"175",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#f0dee4"
          },
@@ -2998,7 +2998,7 @@
          "id":"177",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#f0dee4"
          },
@@ -3049,7 +3049,7 @@
          "id":"180",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#d67495"
          },
@@ -3066,7 +3066,7 @@
          "id":"181",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#f0dee4"
          },
@@ -3117,7 +3117,7 @@
          "id":"184",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#730027"
          },
@@ -3134,7 +3134,7 @@
          "id":"185",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#f0dee4"
          },
@@ -3185,7 +3185,7 @@
          "id":"188",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#971d46"
          },
@@ -3202,7 +3202,7 @@
          "id":"189",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#f0dee4"
          },
@@ -3219,7 +3219,7 @@
          "id":"190",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#730027"
          },
@@ -3236,7 +3236,7 @@
          "id":"191",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#f0dee4"
          },
@@ -3270,7 +3270,7 @@
          "id":"193",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#730027"
          },
@@ -3287,7 +3287,7 @@
          "id":"194",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#971d46"
          },
@@ -3304,7 +3304,7 @@
          "id":"195",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#730027"
          },
@@ -3355,7 +3355,7 @@
          "id":"198",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#971d46"
          },
@@ -3372,7 +3372,7 @@
          "id":"199",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#730027"
          },
@@ -3389,7 +3389,7 @@
          "id":"200",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#730027"
          },
@@ -3406,7 +3406,7 @@
          "id":"201",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#971d46"
          },
@@ -3457,7 +3457,7 @@
          "id":"204",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#730027"
          },
@@ -3491,7 +3491,7 @@
          "id":"206",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#f0dee4"
          },
@@ -3542,7 +3542,7 @@
          "id":"209",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#c34a73"
          },
@@ -3559,7 +3559,7 @@
          "id":"210",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#c34a73"
          },
@@ -3644,7 +3644,7 @@
          "id":"215",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"1-Sep",
             "color":"#730027"
          },
@@ -3712,7 +3712,7 @@
          "id":"219",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#d67495"
          },
@@ -3729,7 +3729,7 @@
          "id":"220",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#971d46"
          },
@@ -3746,7 +3746,7 @@
          "id":"221",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#730027"
          },
@@ -3780,7 +3780,7 @@
          "id":"223",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#f0dee4"
          },
@@ -3865,7 +3865,7 @@
          "id":"228",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#d67495"
          },
@@ -3882,7 +3882,7 @@
          "id":"229",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#f0dee4"
          },
@@ -3933,7 +3933,7 @@
          "id":"232",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#730027"
          },
@@ -3967,7 +3967,7 @@
          "id":"234",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#f0dee4"
          },
@@ -4001,7 +4001,7 @@
          "id":"236",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#c34a73"
          },
@@ -4018,7 +4018,7 @@
          "id":"237",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#730027"
          },
@@ -4052,7 +4052,7 @@
          "id":"239",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#730027"
          },
@@ -4120,7 +4120,7 @@
          "id":"243",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#c34a73"
          },
@@ -4205,7 +4205,7 @@
          "id":"248",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#730027"
          },
@@ -4222,7 +4222,7 @@
          "id":"249",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#d67495"
          },
@@ -4392,7 +4392,7 @@
          "id":"259",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#971d46"
          },
@@ -4409,7 +4409,7 @@
          "id":"260",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#f0dee4"
          },
@@ -4426,7 +4426,7 @@
          "id":"261",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#c34a73"
          },
@@ -4477,7 +4477,7 @@
          "id":"264",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#971d46"
          },
@@ -4511,7 +4511,7 @@
          "id":"266",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#e6aabe"
          },
@@ -4528,7 +4528,7 @@
          "id":"267",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#730027"
          },
@@ -4630,7 +4630,7 @@
          "id":"273",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#f0dee4"
          },
@@ -4647,7 +4647,7 @@
          "id":"274",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#f0dee4"
          },
@@ -4664,7 +4664,7 @@
          "id":"275",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#e6aabe"
          },
@@ -4681,7 +4681,7 @@
          "id":"276",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#730027"
          },
@@ -4732,7 +4732,7 @@
          "id":"279",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#f0dee4"
          },
@@ -4749,7 +4749,7 @@
          "id":"280",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#f0dee4"
          },
@@ -4783,7 +4783,7 @@
          "id":"282",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#c34a73"
          },
@@ -4851,7 +4851,7 @@
          "id":"286",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#971d46"
          },
@@ -4868,7 +4868,7 @@
          "id":"287",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#d67495"
          },
@@ -4885,7 +4885,7 @@
          "id":"288",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#e6aabe"
          },
@@ -4902,7 +4902,7 @@
          "id":"289",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#f0dee4"
          },
@@ -4919,7 +4919,7 @@
          "id":"290",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#f0dee4"
          },
@@ -4936,7 +4936,7 @@
          "id":"291",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#e6aabe"
          },
@@ -4953,7 +4953,7 @@
          "id":"292",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#f0dee4"
          },
@@ -4970,7 +4970,7 @@
          "id":"293",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#730027"
          },
@@ -4987,7 +4987,7 @@
          "id":"294",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#730027"
          },
@@ -5038,7 +5038,7 @@
          "id":"297",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#f0dee4"
          },
@@ -5055,7 +5055,7 @@
          "id":"298",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#f0dee4"
          },
@@ -5106,7 +5106,7 @@
          "id":"301",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#730027"
          },
@@ -5123,7 +5123,7 @@
          "id":"302",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#e6aabe"
          },
@@ -5140,7 +5140,7 @@
          "id":"303",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#f0dee4"
          },
@@ -5157,7 +5157,7 @@
          "id":"304",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#f0dee4"
          },
@@ -5174,7 +5174,7 @@
          "id":"305",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#c34a73"
          },
@@ -5208,7 +5208,7 @@
          "id":"307",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#c34a73"
          },
@@ -5225,7 +5225,7 @@
          "id":"308",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#730027"
          },
@@ -5242,7 +5242,7 @@
          "id":"309",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#f0dee4"
          },
@@ -5259,7 +5259,7 @@
          "id":"310",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#730027"
          },
@@ -5276,7 +5276,7 @@
          "id":"311",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#971d46"
          },
@@ -5310,7 +5310,7 @@
          "id":"313",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#730027"
          },
@@ -5395,7 +5395,7 @@
          "id":"318",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#730027"
          },
@@ -5412,7 +5412,7 @@
          "id":"319",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#730027"
          },
@@ -5429,7 +5429,7 @@
          "id":"320",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#f0dee4"
          },
@@ -5531,7 +5531,7 @@
          "id":"326",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#d67495"
          },
@@ -5548,7 +5548,7 @@
          "id":"327",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#c34a73"
          },
@@ -5565,7 +5565,7 @@
          "id":"328",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#971d46"
          },
@@ -5616,7 +5616,7 @@
          "id":"331",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"2-Sep",
             "color":"#f0dee4"
          },
@@ -5650,7 +5650,7 @@
          "id":"333",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep",
             "color":"#730027"
          },
@@ -5667,7 +5667,7 @@
          "id":"334",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep",
             "color":"#f0dee4"
          },
@@ -5718,7 +5718,7 @@
          "id":"337",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep",
             "color":"#f0dee4"
          },
@@ -5752,7 +5752,7 @@
          "id":"339",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep",
             "color":"#971d46"
          },
@@ -5803,7 +5803,7 @@
          "id":"342",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep",
             "color":"#d67495"
          },
@@ -5820,7 +5820,7 @@
          "id":"343",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep",
             "color":"#c34a73"
          },
@@ -5837,7 +5837,7 @@
          "id":"344",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep",
             "color":"#e6aabe"
          },
@@ -5854,7 +5854,7 @@
          "id":"345",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep",
             "color":"#730027"
          },
@@ -5871,7 +5871,7 @@
          "id":"346",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep",
             "color":"#730027"
          },
@@ -5939,7 +5939,7 @@
          "id":"350",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep",
             "color":"#f0dee4"
          },
@@ -5956,7 +5956,7 @@
          "id":"351",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep",
             "color":"#c34a73"
          },
@@ -5990,7 +5990,7 @@
          "id":"353",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep",
             "color":"#730027"
          },
@@ -6024,7 +6024,7 @@
          "id":"355",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep",
             "color":"#f0dee4"
          },
@@ -6160,7 +6160,7 @@
          "id":"363",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep",
             "color":"#d67495"
          },
@@ -6177,7 +6177,7 @@
          "id":"364",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep",
             "color":"#f0dee4"
          },
@@ -6194,7 +6194,7 @@
          "id":"365",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep",
             "color":"#971d46"
          },
@@ -6211,7 +6211,7 @@
          "id":"366",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep",
             "color":"#730027"
          },
@@ -6245,7 +6245,7 @@
          "id":"368",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep",
             "color":"#f0dee4"
          },
@@ -6279,7 +6279,7 @@
          "id":"370",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep",
             "color":"#730027"
          },
@@ -6296,7 +6296,7 @@
          "id":"371",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep",
             "color":"#e6aabe"
          },
@@ -6313,7 +6313,7 @@
          "id":"372",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep",
             "color":"#730027"
          },
@@ -6330,7 +6330,7 @@
          "id":"373",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep",
             "color":"#d67495"
          },
@@ -6347,7 +6347,7 @@
          "id":"374",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep",
             "color":"#f0dee4"
          },
@@ -6364,7 +6364,7 @@
          "id":"375",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep",
             "color":"#f0dee4"
          },
@@ -6381,7 +6381,7 @@
          "id":"376",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep",
             "color":"#c34a73"
          },
@@ -6398,7 +6398,7 @@
          "id":"377",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep",
             "color":"#730027"
          },
@@ -6432,7 +6432,7 @@
          "id":"379",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep",
             "color":"#f0dee4"
          },
@@ -6449,7 +6449,7 @@
          "id":"380",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep",
             "color":"#730027"
          },
@@ -6517,7 +6517,7 @@
          "id":"384",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep",
             "color":"#e6aabe"
          },
@@ -6551,7 +6551,7 @@
          "id":"386",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"3-Sep",
             "color":"#971d46"
          },
@@ -6568,7 +6568,7 @@
          "id":"387",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep",
             "color":"#730027"
          },
@@ -6602,7 +6602,7 @@
          "id":"389",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep",
             "color":"#730027"
          },
@@ -6636,7 +6636,7 @@
          "id":"391",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep",
             "color":"#971d46"
          },
@@ -6653,7 +6653,7 @@
          "id":"392",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep",
             "color":"#730027"
          },
@@ -6670,7 +6670,7 @@
          "id":"393",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep",
             "color":"#f0dee4"
          },
@@ -6721,7 +6721,7 @@
          "id":"396",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep",
             "color":"#971d46"
          },
@@ -6738,7 +6738,7 @@
          "id":"397",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep",
             "color":"#730027"
          },
@@ -6755,7 +6755,7 @@
          "id":"398",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep",
             "color":"#730027"
          },
@@ -6772,7 +6772,7 @@
          "id":"399",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep",
             "color":"#730027"
          },
@@ -6840,7 +6840,7 @@
          "id":"403",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep",
             "color":"#f0dee4"
          },
@@ -6857,7 +6857,7 @@
          "id":"404",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep",
             "color":"#f0dee4"
          },
@@ -6874,7 +6874,7 @@
          "id":"405",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep",
             "color":"#d67495"
          },
@@ -6891,7 +6891,7 @@
          "id":"406",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep",
             "color":"#730027"
          },
@@ -6993,7 +6993,7 @@
          "id":"412",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep",
             "color":"#730027"
          },
@@ -7010,7 +7010,7 @@
          "id":"413",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep",
             "color":"#730027"
          },
@@ -7027,7 +7027,7 @@
          "id":"414",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep",
             "color":"#f0dee4"
          },
@@ -7061,7 +7061,7 @@
          "id":"416",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep",
             "color":"#730027"
          },
@@ -7078,7 +7078,7 @@
          "id":"417",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep",
             "color":"#730027"
          },
@@ -7146,7 +7146,7 @@
          "id":"421",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep",
             "color":"#971d46"
          },
@@ -7163,7 +7163,7 @@
          "id":"422",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep",
             "color":"#730027"
          },
@@ -7180,7 +7180,7 @@
          "id":"423",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep",
             "color":"#f0dee4"
          },
@@ -7214,7 +7214,7 @@
          "id":"425",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep",
             "color":"#730027"
          },
@@ -7231,7 +7231,7 @@
          "id":"426",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep",
             "color":"#c34a73"
          },
@@ -7248,7 +7248,7 @@
          "id":"427",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep",
             "color":"#971d46"
          },
@@ -7282,7 +7282,7 @@
          "id":"429",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep",
             "color":"#f0dee4"
          },
@@ -7316,7 +7316,7 @@
          "id":"431",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep",
             "color":"#730027"
          },
@@ -7333,7 +7333,7 @@
          "id":"432",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"4-Sep",
             "color":"#971d46"
          },
@@ -7367,7 +7367,7 @@
          "id":"434",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep",
             "color":"#f0dee4"
          },
@@ -7384,7 +7384,7 @@
          "id":"435",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep",
             "color":"#c34a73"
          },
@@ -7401,7 +7401,7 @@
          "id":"436",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep",
             "color":"#f0dee4"
          },
@@ -7435,7 +7435,7 @@
          "id":"438",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep",
             "color":"#c34a73"
          },
@@ -7520,7 +7520,7 @@
          "id":"443",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep",
             "color":"#c34a73"
          },
@@ -7537,7 +7537,7 @@
          "id":"444",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep",
             "color":"#f0dee4"
          },
@@ -7588,7 +7588,7 @@
          "id":"447",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep",
             "color":"#c34a73"
          },
@@ -7622,7 +7622,7 @@
          "id":"449",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep",
             "color":"#c34a73"
          },
@@ -7656,7 +7656,7 @@
          "id":"451",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep",
             "color":"#971d46"
          },
@@ -7673,7 +7673,7 @@
          "id":"452",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep",
             "color":"#730027"
          },
@@ -7707,7 +7707,7 @@
          "id":"454",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep",
             "color":"#d67495"
          },
@@ -7758,7 +7758,7 @@
          "id":"457",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep",
             "color":"#730027"
          },
@@ -7860,7 +7860,7 @@
          "id":"463",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep",
             "color":"#f0dee4"
          },
@@ -7894,7 +7894,7 @@
          "id":"465",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep",
             "color":"#e6aabe"
          },
@@ -7911,7 +7911,7 @@
          "id":"466",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep",
             "color":"#730027"
          },
@@ -7928,7 +7928,7 @@
          "id":"467",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"5-Sep",
             "color":"#f0dee4"
          },
@@ -7979,7 +7979,7 @@
          "id":"470",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"6-Sep",
             "color":"#f0dee4"
          },
@@ -7996,7 +7996,7 @@
          "id":"471",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"6-Sep",
             "color":"#f0dee4"
          },
@@ -8030,7 +8030,7 @@
          "id":"473",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"6-Sep",
             "color":"#c34a73"
          },
@@ -8064,7 +8064,7 @@
          "id":"475",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"6-Sep",
             "color":"#d67495"
          },
@@ -8081,7 +8081,7 @@
          "id":"476",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"6-Sep",
             "color":"#e6aabe"
          },
@@ -8098,7 +8098,7 @@
          "id":"477",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"6-Sep",
             "color":"#e6aabe"
          },
@@ -8115,7 +8115,7 @@
          "id":"478",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"6-Sep",
             "color":"#971d46"
          },
@@ -8149,7 +8149,7 @@
          "id":"480",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"6-Sep",
             "color":"#730027"
          },
@@ -8285,7 +8285,7 @@
          "id":"488",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"6-Sep",
             "color":"#730027"
          },
@@ -8302,7 +8302,7 @@
          "id":"489",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"7-Sep",
             "color":"#730027"
          },
@@ -8353,7 +8353,7 @@
          "id":"492",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"7-Sep",
             "color":"#f0dee4"
          },
@@ -8404,7 +8404,7 @@
          "id":"495",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"7-Sep",
             "color":"#971d46"
          },
@@ -8438,7 +8438,7 @@
          "id":"497",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"7-Sep",
             "color":"#971d46"
          },
@@ -8455,7 +8455,7 @@
          "id":"498",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"7-Sep",
             "color":"#971d46"
          },
@@ -8506,7 +8506,7 @@
          "id":"501",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"7-Sep",
             "color":"#f0dee4"
          },
@@ -8523,7 +8523,7 @@
          "id":"502",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"7-Sep",
             "color":"#971d46"
          },
@@ -8574,7 +8574,7 @@
          "id":"505",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"7-Sep",
             "color":"#730027"
          },
@@ -8625,7 +8625,7 @@
          "id":"508",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"7-Sep",
             "color":"#e6aabe"
          },
@@ -8642,7 +8642,7 @@
          "id":"509",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"7-Sep",
             "color":"#971d46"
          },
@@ -8693,7 +8693,7 @@
          "id":"512",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"7-Sep",
             "color":"#730027"
          },
@@ -8727,7 +8727,7 @@
          "id":"514",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"7-Sep",
             "color":"#c34a73"
          },
@@ -8761,7 +8761,7 @@
          "id":"516",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"7-Sep",
             "color":"#c34a73"
          },
@@ -8846,7 +8846,7 @@
          "id":"521",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"8-Sep",
             "color":"#730027"
          },
@@ -8863,7 +8863,7 @@
          "id":"522",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"8-Sep",
             "color":"#730027"
          },
@@ -8948,7 +8948,7 @@
          "id":"527",
          "properties":{  
             "age":"11-20",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"8-Sep",
             "color":"#e6aabe"
          },
@@ -9016,7 +9016,7 @@
          "id":"531",
          "properties":{  
             "age":"41-60",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"9-Sep",
             "color":"#c34a73"
          },
@@ -9050,7 +9050,7 @@
          "id":"533",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"9-Sep",
             "color":"#f0dee4"
          },
@@ -9067,7 +9067,7 @@
          "id":"534",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"9-Sep",
             "color":"#730027"
          },
@@ -9084,7 +9084,7 @@
          "id":"535",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"9-Sep",
             "color":"#730027"
          },
@@ -9220,7 +9220,7 @@
          "id":"543",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"10-Sep",
             "color":"#971d46"
          },
@@ -9237,7 +9237,7 @@
          "id":"544",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"10-Sep",
             "color":"#d67495"
          },
@@ -9254,7 +9254,7 @@
          "id":"545",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"11-Sep",
             "color":"#f0dee4"
          },
@@ -9288,7 +9288,7 @@
          "id":"547",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"11-Sep",
             "color":"#f0dee4"
          },
@@ -9322,7 +9322,7 @@
          "id":"549",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"11-Sep",
             "color":"#730027"
          },
@@ -9339,7 +9339,7 @@
          "id":"550",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"12-Sep",
             "color":"#730027"
          },
@@ -9356,7 +9356,7 @@
          "id":"551",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"13-Sep",
             "color":"#f0dee4"
          },
@@ -9424,7 +9424,7 @@
          "id":"555",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"16-Sep",
             "color":"#971d46"
          },
@@ -9492,7 +9492,7 @@
          "id":"559",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"17-Sep ",
             "color":"#730027"
          },
@@ -9509,7 +9509,7 @@
          "id":"560",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"17-Sep ",
             "color":"#971d46"
          },
@@ -9560,7 +9560,7 @@
          "id":"563",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"18-Sep",
             "color":"#f0dee4"
          },
@@ -9594,7 +9594,7 @@
          "id":"565",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"21-Sep",
             "color":"#971d46"
          },
@@ -9611,7 +9611,7 @@
          "id":"566",
          "properties":{  
             "age":"21-40",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"22-Sep",
             "color":"#d67495"
          },
@@ -9628,7 +9628,7 @@
          "id":"567",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"23-Sep",
             "color":"#f0dee4"
          },
@@ -9645,7 +9645,7 @@
          "id":"568",
          "properties":{  
             "age":"61-80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"24-Sep",
             "color":"#971d46"
          },
@@ -9662,7 +9662,7 @@
          "id":"569",
          "properties":{  
             "age":"> 80",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"25-Sep",
             "color":"#730027"
          },
@@ -9679,7 +9679,7 @@
          "id":"570",
          "properties":{  
             "age":"0-10",
-            "sex":"Female",
+            "sex":"female",
             "deathday":"26-Sep",
             "color":"#f0dee4"
          },
