@@ -3,106 +3,98 @@
   <head>
     <meta charset="utf-8">
     <title>SX's H517</title>
+ <link rel="shortcut icon" href="images/icon.png" />
+<!-- Bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+<!-- FontAwesome -->
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<!-- Animation -->
+<link rel="stylesheet" href="css/animate.css" />
+<!-- Main color style -->
+<link rel="stylesheet" href="css/red.css"/>
+<!-- Template styles-->
+<link rel="stylesheet" href="css/custom.css" />
+
+
     <style>
-      path {
+
+      	path {
               fill: none;
               stroke: #000;
               stroke-width: .1px;
               stroke-linejoin: round;
               stroke-linecap: round;
             }
-      h2{
-        margin:0;
-        padding:0;
-        font-size:18px;
-        font-weight:bold;
-        line-height:200%;
-      }
 
-    .axis {
-      font-size: : 10px;
-      stroke: #000;
-      shape-rendering: crispEdges;
-      stroke-width: 1px;
-    }
+
+    	.axis {
+    	  	font-size: : 10px;
+		    stroke: #000;
+		    shape-rendering: crispEdges;
+		    stroke-width: 1px;
+		}
 
     
-    .axis path, line {
-      fill: black;
-      stroke: #000;
-      shape-rendering: crispEdges;
-      stroke-width: 1px;
-    }
+	    .axis path, line {
+		      fill: black;
+		      stroke: #000;
+		      shape-rendering: crispEdges;
+		      stroke-width: 1px;
+		    }
 
-    .chart1 text{
-        font-size: 10px;
-    }
+	    .chart1 text{
+	        font-size: 10px;
+	    }
 
-    .chart2 text{
-        font-size: 10px;
-    }
+	    .chart2 text{
+	        font-size: 10px;
+	    }
 
-    h1{
-    font-size: 23px;
-    color: #000
-    }
 
-    .navbar ul {    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: left;
-    float: right;
-    }
-
-    .navbar li {
-    display: inline-block;
-}
-
-.navbar li a {
-    padding: 10px 15px 5px 0px;
-    font-size: 18px;
-    display: block;
-        color: #337ab7;
-}
-
-.wrapper {position: relative;}
-
-.legend {
-                padding: 5px;
-                font: 10px sans-serif;
-                background: yellow;
-                box-shadow: 2px 2px 1px #888;
-            }
+		.legend {
+		    padding: 5px;
+		    font: 10px sans-serif;
+		    background: yellow;
+		    box-shadow: 2px 2px 1px #888;
+		}
+		.legendMap {
+			background: linear-gradient(to right, #FCA107, #7F3121);
+			box-shadow: 2px 2px 1px #888;
+		}
 
     </style>
-    <script src="d3/d3.v3.min.js" type="text/javascript"></script>
-    <script src="d3/d3-geo-projection.js" type="text/javascript"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://d3js.org/d3.geo.projection.v0.min.js"></script>
 
   </head>
-  <body>
 
-    <div class="wrapper" style="    border-bottom: 1px solid #999; margin-bottom: 20px">
-        <nav class="navbar pull-right" style="margin-bottom: 0" >
-            <ul>
-                <li><a href="index.html">Project</a></li>
-                <li><a href="documentation.html">Documentation</a></li>
-                <li><a href="https://youtu.be/bIkI-7Veoic" target="_blank">YouTube Video</a></li> 
-            </ul>
-        </nav>
-        <h1>Shuxian Wu's H517 project1</h1>
-                           
-    </div>
-  
-    
-    <script>
-        d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/original.json", function(error, json) {
+<header id="section_header" class="navbar-fixed-top main-nav" role="banner">
+<div class="container">
+  <!-- <div class="row"> -->
+     <div class="navbar-header">
+               <img src="images/logo2.png" height="46" width="340" alt="">
+     </div><!--Navbar header End-->
+
+      <nav class="collapse navbar-collapse navigation" id="bs-example-navbar-collapse-1" role="navigation">
+        <ul class="nav navbar-nav navbar-right ">
+          <li class="active"> <a href="index.html" class="page-scroll">Project </a></li>
+          <li><a href="document.html"  class="page-scroll">Document</a> </li>
+          <li><a href="#portfolio" class="page-scroll" >Youtube Video</a> </li>
+        </ul>
+       </nav>
+    </div><!-- /.container-fluid -->
+</header>
+
+  <body>
+                          
+   <script>
+        d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/streetsall.json", function(error, json) {
             if (error) throw error;
-        d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/deathsage.json",function(error, deaths) {
+        d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/deaths.json",function(error, deaths) {
               if (error) throw error;  
-        d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/buildings.json", function(error, buildings) {
+        d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/streetsname.json", function(error, stname) {
             if (error) throw error;
-        d3.json("https://raw.githubusercontent.com/Nekogulu/SX-W/master/data/pump.json", function(error, pumps) {
-            if (error) throw error;
+        
 
         var deathdays = [
                 {"label": "19-Aug","number": 1},{"label": "20-Aug","number": 1},{"label": "21-Aug","number": 1},{"label": "22-Aug","number": 0},
@@ -119,23 +111,23 @@
             ];    
             
     
-            var width = 600,
-                height = 850;
+            var width = 690,
+                height = 640;
             var barPadding = 1;
             
-            var margin = {"top": 20, "right": 20, "bottom": 70, "left": 40},
+            var margin = {"top": 50, "right": 20, "bottom": 100, "left": 30},
                 widthChart = 700- margin.left - margin.right,
                 heightChart =  400 - margin.top - margin.bottom;
 
             var x = d3.scale.ordinal().rangeRoundBands([15, widthChart- margin.left - margin.right], .05);            
             var y = d3.scale.linear().range([heightChart, 0]);
 
-            var svg2 = d3.select("body").append("svg").attr("width", 1).attr("height", height);
-            var svg = d3.select("body").append("svg").attr("width", width).attr("height", height-300).attr("class", "map")
-                        .attr("transform", "translate(0 ,-200)") ;
-            var svg3 = d3.select("body").append("svg").attr("width",widthChart).attr("height", height)
+            var svg2 = d3.select("body").append("svg").attr("width", 10).attr("height", height).attr("class","chartOne");
+            var svg = d3.select("body").append("svg").attr("width", width).attr("height", height).attr("class", "map")
+                        .attr("transform", "translate(0 ,45)") ;
+            var svg3 = d3.select("body").append("svg").attr("width",widthChart).attr("height", height).attr("class","chartTwo")
                         .attr("transform", "translate(" + margin.left + "," + margin.top + ")") ;
-            var svg1 = d3.select(".map").append("svg").attr("width", width).attr("height", height-300).attr("class", "map2")
+            var svg1 = d3.select(".map").append("svg").attr("width", width).attr("height", height).attr("class", "map2")
                         .attr("transform", "translate(0 ,0)");
             
             var xAxis = d3.svg.axis().scale(x).orient("bottom");
@@ -151,7 +143,7 @@
                 // create a first guess for the projection
                 var center = d3.geo.centroid(json)
                 var scale  = 80;
-                var offset = [width/2, (height-300)/2];
+                var offset = [width/2, height/2];
                 var projection = d3.geo.mercator().scale(scale).center(center)
                     .translate(offset);
 
@@ -161,10 +153,10 @@
                 // using the path determine the bounds of the current map and use 
                 // these to determine better values for the scale and translation
                 var bounds  = path.bounds(json);
-                var hscale  = scale*width  / (bounds[1][0] - bounds[0][0]) -180 ;
-                var vscale  = scale*(height-300) / (bounds[1][1] - bounds[0][1]) ;
+                var hscale  = scale*width  / (bounds[1][0] - bounds[0][0])  ;
+                var vscale  = scale*(height - 60) / (bounds[1][1] - bounds[0][1]) ;
                 var scale   = (hscale < vscale) ? hscale : vscale;
-                var offset  = [width - (bounds[0][0] + bounds[1][0])/2, (height-300) - (bounds[0][1] + bounds[1][1]+130)/2];
+                var offset  = [width - (bounds[0][0] + bounds[1][0])/2, height - (bounds[0][1] + bounds[1][1] + 150)/2];
                 center1 = center;
                 scale1 = scale;
                 offset1 =  offset;
@@ -180,15 +172,15 @@
                 var brewery = json.features.filter(function(d){return d.properties.name == "Brewery";});
 
               //  console.log(json);
-
-                var pointSvg = svg1.append("g").attr("class", "point");
-                var lineSvg = svg1.append("g").attr("class", "lineString");
-                var workHosueSvg = svg1.append("g").attr("class", "workHouse");
-                var brewerySvg = svg1.append("g").attr("class", "brewery");
-                var deathSvg = svg1.append("g").attr("class", "deaths");
+				var lineSvg = svg1.append("g").attr("class", "mapSvg");
+				var lineSvg2 = svg1.append("g").attr("class", "mapSvg");
+                var pointSvg = svg1.append("g").attr("class", "mapSvg");
+                var workHosueSvg = svg1.append("g").attr("class", "mapSvg");
+                var brewerySvg = svg1.append("g").attr("class", "mapSvg");
+                var deathSvg = svg1.append("g").attr("class", "mapSvg");
                 var deathdaySvg = svg2.attr("class", "deathdays");
                 var deathdayChart = svg3.append("g").attr("class", "chart1");
-                var deathageChart = svg3.append("svg").append("g").attr("class", "chart2").attr("transform","translate(0,"+(heightChart+100)+")");  
+                var deathageChart = svg3.append("svg").append("g").attr("class", "chart2").attr("transform","translate(0,"+(heightChart+110)+")");  
 
              
 
@@ -197,27 +189,41 @@
                     .enter()
                     .append("path")
                     .attr("d", path)
-                    .style("stroke-width", "2")
+                    .style("stroke-width", "6.5")
                     .style("stroke", "black");
-//显示街道名字                            
-/*                                            
-              lineSvg.selectAll("text")
-                    .data(json.features)
+              lineSvg2.selectAll("path")
+                    .data(lines)
                     .enter()
-                    .append("svg:text")
-                    .text(function(d){
-                        return d.properties.name;
-                    })
-                    .attr("x", function(d){
-                        return path.centroid(d)[0];
-                    })
-                    .attr("y", function(d){
-                        return  path.centroid(d)[1];
-                    })
-                    .attr("text-anchor","middle")
-                    .attr('font-size','6pt');
-*/
+                    .append("path")
+                    .attr("d", path)
+                    .style("stroke-width", "4")
+                    .style("stroke", "white");
+              
 
+
+//pump image
+			var svg_name = "https://raw.githubusercontent.com/Nekogulu/SX-W/master/image/drop6.svg";
+			d3.xml(svg_name,"image/svg+xml", function(xml) {
+			 
+			  // Take xml as nodes.
+			  var imported_node = document.importNode(xml.documentElement, true);
+			 
+			  pointSvg.selectAll(".point")
+			  .data(points)
+			  .enter()
+			  .append("g")
+			  .attr("class", "pumpSvg")
+			  .attr("class","svg_image")
+			  
+			  .each(function(d,i){
+			    // Clone and append xml node to each data binded element.
+			    var imported_svg = this.appendChild(imported_node.cloneNode(true));
+			  })
+			  .attr("transform", function(d,i){return "translate(" + projection(d.geometry.coordinates) + ") scale(0.04)";}).attr("opacity", "1.0");
+
+			});
+
+/*
             pointSvg.selectAll("rect")
                     .data(points)
                     .enter()
@@ -225,14 +231,14 @@
                     .attr("width", 10)
                     .attr("height", 10)
                     .attr("transform", function(d) {
-                             /*whatever transformation that needs to be done*/
+                             //whatever transformation that needs to be done
                             return "translate(" + projection(d.geometry.coordinates) + ")";
                         })
-                    .style("opacity", "1.0")
+                    //.style("opacity", "1.0")
                     .style("fill", "black")
                     .style("stroke-width", "1")
                     .style("stroke", "black")
-                    .classed("pin", true);
+                    .classed("pin", true);*/
 
               workHosueSvg.selectAll("path")
                     .data(workHouse)
@@ -241,27 +247,27 @@
                     .attr("d", path)
                     .style("stroke-width", "1")
                     .style("stroke", "black")
-                    .style("fill", "yellow");
+                    .style("fill", "#39b7f2");
                     
 //显示名字
-/*
+
               workHosueSvg.selectAll("text")
                     .data(workHouse)
                     .enter()
-                    .append("svg:text")
+                    .append("text")     
+                    .attr("transform",function(d){
+                    	return "translate("+path.centroid(d)[0]+","+path.centroid(d)[1]+") rotate(-23)";}
+                    )
+                    .attr("text-anchor","middle")
+                    .attr("dy", ".35em")
+                    .attr('font-size','7pt')
+                    .attr("fill","white")
+                    .attr("stroke-width",0.5)
+                    .attr("stroke","white")
                     .text(function(d){
                         return d.properties.name;
-                    })
-                    .attr("x", function(d){
-                        return path.centroid(d)[0];
-                    })
-                    .attr("y", function(d){
-                        return  path.centroid(d)[1];
-                    })
-                    .attr("text-anchor","middle")
-                    //.attr("transform", "rotate(-30)")
-                    .attr('font-size','6pt');
-*/
+                    });
+
                brewerySvg.selectAll("path")
                     .data(brewery)
                     .enter()
@@ -269,27 +275,155 @@
                     .attr("d", path)
                     .style("stroke-width", "1")
                     .style("stroke", "black")
-                    .style("fill", "green");
+                    .style("fill", "#2dcb8a");
 
 //显示名字
-/*
+
               brewerySvg.selectAll("text")
                     .data(brewery)
                     .enter()
-                    .append("svg:text")
+                    .append("text")     
+                    .attr("transform",function(d){
+                    	return "translate("+path.centroid(d)[0]+","+path.centroid(d)[1]+") rotate(60)";}
+                    )
+                    .attr("text-anchor","middle")
+                    .attr("dy", ".35em")
+                    .attr('font-size','6pt')
+                    .attr("fill","white")
+                    .attr("stroke-width",0.5)
+                    .attr("stroke","white")
                     .text(function(d){
                         return d.properties.name;
-                    })
-                    .attr("x", function(d){
-                        return path.centroid(d)[0];
-                    })
-                    .attr("y", function(d){
-                        return  path.centroid(d)[1];
-                    })
+                    });
+
+
+//st name  
+                      
+            var stOX =  lineSvg2.append("g").attr("class","stOX");                             
+              
+                    stOX.selectAll("text")
+                    .data(stname.features.filter(function(d){return d.properties.name == "Oxford Street";}))
+                    .enter()
+                    .append("text")
+                    .attr("transform",function(d){
+                    	return "translate("+path.centroid(d)[0]+","+(path.centroid(d)[1]-1)+") rotate(-12)";}
+                    )
                     .attr("text-anchor","middle")
-                    .attr('font-size','6pt');
+                    .attr("dy", ".35em")
+                    .attr('font-size','10pt')
+                    .style('font-weight',900)
+                    .attr("fill","black")
+                    .attr("stroke-width",0.1)
+                    .attr("stroke","white")
+					.text(function(d){
+					    return d.properties.name;
+					});
+
+
+			var stRg =  lineSvg2.append("g").attr("class","stRg");                             
+              
+                    stRg.selectAll("text")
+                    .data(stname.features.filter(function(d){return d.properties.name == "Regent Street";}))
+                    .enter()
+                    .append("text")
+                    .attr("transform",function(d){
+                    	return "translate("+(path.centroid(d)[0]-27)+","+path.centroid(d)[1]+") rotate(60)";}
+                    )
+                    .attr("text-anchor","middle")
+                    .attr("dy", ".35em")
+                    .attr('font-size','10pt')
+                    .style('font-weight',900)
+                    .attr("fill","black")
+                    .attr("stroke-width",0.1)
+                    .attr("stroke","white")
+					.text(function(d){
+					    return d.properties.name;
+					});
             
-*/
+			var stDe =  lineSvg2.append("g").attr("class","stDe");                             
+              
+                    stDe.selectAll("text")
+                    .data(stname.features.filter(function(d){return d.properties.name == "Dean Street";}))
+                    .enter()
+                    .append("text")
+                    .attr("transform",function(d){
+                    	return "translate("+(path.centroid(d)[0]+2)+","+path.centroid(d)[1]+") rotate(67)";}
+                    )
+                    .attr("text-anchor","middle")
+                    .attr("dy", ".35em")
+                    .attr('font-size','10pt')
+                    .style('font-weight',900)
+                    .attr("fill","black")
+                    .attr("stroke-width",0.1)
+                    .attr("stroke","white")
+					.text(function(d){
+					    return d.properties.name;
+					});
+
+			var stBr =  lineSvg2.append("g").attr("class","stBr");                             
+              
+                    stBr.selectAll("text")
+                    .data(stname.features.filter(function(d){return d.properties.name == "Broad Street";}))
+                    .enter()
+                    .append("text")
+                    .attr("transform",function(d){
+                    	return "translate("+(path.centroid(d)[0])+","+path.centroid(d)[1]+") rotate(-26)";}
+                    )
+                    .attr("text-anchor","middle")
+                    .attr("dy", ".35em")
+                    .attr('font-size','7pt')
+                    .style('font-weight',900)
+                    .attr("fill","black")
+                    .attr("stroke-width",0.05)
+                    .attr("stroke","white")
+					.text(function(d){
+					    return d.properties.name;
+					});
+
+			var stGm =  lineSvg2.append("g").attr("class","stGm");                             
+              
+                    stGm.selectAll("text")
+                    .data(stname.features.filter(function(d){return d.properties.name == "Great Marlborough Street";}))
+                    .enter()
+                    .append("text")
+                    .attr("transform",function(d){
+                    	return "translate("+(path.centroid(d)[0]-20)+","+(path.centroid(d)[1]+8)+") rotate(-24)";}
+                    )
+                    .attr("text-anchor","middle")
+                    .attr("dy", ".35em")
+                    .attr('font-size','8pt')
+                    .style('font-weight',900)
+                    .attr("fill","black")
+                    .attr("stroke-width",0.05)
+                    .attr("stroke","white")
+					.text(function(d){
+					    return d.properties.name;
+					});
+
+			var stPl =  lineSvg2.append("g").attr("class","stPl");                             
+              
+                    stPl.selectAll("text")
+                    .data(stname.features.filter(function(d){return d.properties.name == "Poland Street";}))
+                    .enter()
+                    .append("text")
+                    .attr("transform",function(d){
+                    	return "translate("+(path.centroid(d)[0])+","+path.centroid(d)[1]+") rotate(67)";}
+                    )
+                    .attr("text-anchor","middle")
+                    .attr("dy", ".35em")
+                    .attr('font-size','8pt')
+                    .style('font-weight',900)
+                    .attr("fill","black")
+                    .attr("stroke-width",0.05)
+                    .attr("stroke","white")
+					.text(function(d){
+					    return d.properties.name;
+					});
+
+//console.log(path.centroid(brewery)[0]);console.log(path.centroid(brewery)[1]);
+
+
+
 //多选框
 /*
             deathdaySvg.selectAll("foreignObject")
@@ -305,48 +439,147 @@
             d3.selectAll(".deathdaysFilter").on("change", updateDeaths);
 */
 
-var xZoom,yZoom,sZoom;
+			var xZoom,yZoom,sZoom;
 
-var zoom = d3.behavior.zoom()
-    .translate([0, 0])
-    .scaleExtent([1, 10])
-    .scale(1)
-    .on("zoom", zoomed);
+			var zoom = d3.behavior.zoom()
+			    .translate([0, 0])
+			    .scaleExtent([1, 10])
+			    .scale(1)
+			    .on("zoom", zoomed);
 
-function zoomed() {
-  
-  xZoom=d3.event.translate[0];
-  yZoom=d3.event.translate[1];
-  sZoom=d3.event.scale;
-  svg1.selectAll("g").attr("transform", "translate(" + d3.event.translate + ") scale(" + d3.event.scale + ")");
-}
+			function zoomed() {
+			  
+			  xZoom=d3.event.translate[0];
+			  yZoom=d3.event.translate[1];
+			  sZoom=d3.event.scale;
+			  svg1.selectAll(".mapSvg").attr("transform", "translate(" + d3.event.translate + ") scale(" + d3.event.scale + ")");
+			}
 
-svg
-.style({
-  'border':'1px solid #000'
-})
-.call(zoom);
+			svg
+			.style({
+			  'border':'0px solid #000'
+			})
+			.call(zoom);
 
- svg.selectAll("foreignObject")
-    .data("1")
-    .enter()
-    .append("foreignObject")
-    .attr("class", "reset")
-    .attr("float","left")
-    .attr("x", -2)
-    .attr("y", -2)
-    .append("xhtml:body")
-    .html(function(d){ return "<form><input type=button value= "+"reset"+" /></form>"})
-     .on("click",function(){
-      d3.transition().duration(250).tween("zoom", function() {
-        var si = d3.interpolate(sZoom, 1);
-        var xi = d3.interpolate(xZoom, 0);
-        var yi = d3.interpolate(yZoom, 0);
-          return function(t){
-            svg1.call(zoom.translate([xi(t),yi(t)]).scale(si(t)).event);
-          }
-      });
-});
+			 svg.selectAll("foreignObject")
+			    .data("1")
+			    .enter()
+			    .append("foreignObject")
+			    .attr("class", "reset")
+			    .attr("float","left")
+			    .attr("x", width-50)
+			    .attr("y", 0)
+			    .append("xhtml:body")
+			    .html(function(d){ return "<form><input type=button class=button  value= "+"reset"+" /></form>"})
+			     .on("click",function(){
+			      d3.transition().duration(250).tween("zoom", function() {
+			        var si = d3.interpolate(sZoom, 1);
+			        var xi = d3.interpolate(xZoom, 0);
+			        var yi = d3.interpolate(yZoom, 0);
+			          return function(t){
+			            svg1.call(zoom.translate([xi(t),yi(t)]).scale(si(t)).event);
+			          }
+			      });
+			});
+
+
+//add legend-------------------------------------------------------------
+
+            var color = { 
+            			  0:["0-10", "#f0dee4"], 
+            			  1:["11-20", "#e6aabe"], 
+            			  2:["21-40", "#d67495"],
+            			  3:["41-60", "#c34a73"],
+            			  4:["61-80", "#971d46"],
+            			  5:[">80", "#730027"]
+            			}; 
+            var color2 = ["1","2","3","4","5","6"];
+
+            var legendMap = svg.append("g")
+              .attr("class", "legendMap")
+              .attr("x", width-220)
+              .attr("y", 0)
+              .attr("height", 200)
+              .attr("width", width)
+              .attr("stroke-width", 0.3)
+              .attr("stroke","black");     
+
+
+            legendMap.selectAll('.map').data(color2)
+              .enter()
+              .append('g')
+              .each(function(d, i) {
+                var g = d3.select(this);
+                g.append("rect")
+                  .attr("x", i*56+5)
+                  .attr("y", 10)
+                  .attr("width", 10)
+                  .attr("height", 10)
+                  .style("fill", color[String(i)][1]);
+                
+                g.append("text")
+                  .attr("x", i*56+17)
+                  .attr("y", 20)
+                  .attr("height",10)
+                  .attr("width",100)
+                  .style("fill","black")
+                  .text(color[String(i)][0]);
+
+              });
+			var legendPump = legendMap.selectAll('.map').data("1").enter();
+			      /*     legendPump.append("g")
+			            	  .append("rect")
+			            	  .attr("x", width-200)
+			            	  .attr("y", 10)
+			            	  .attr("width", 10)
+			            	  .attr("height", 10);*/
+			           	legendPump.append("text")
+			            	  .attr("x", width-190)
+			            	  .attr("y", 20)
+			            	  .text("Pump");
+			var svg_name = "https://raw.githubusercontent.com/Nekogulu/SX-W/master/image/drop.svg";
+			d3.xml(svg_name,"image/svg+xml", function(xml) { 
+			  // Take xml as nodes.
+				var imported_node = document.importNode(xml.documentElement, true);
+							  
+				legendPump.append("g")
+				  .attr("class", "pumpLegend")
+				  .attr("class","svg_image")
+				  .attr("opacity", "1.0")
+				  .each(function(d,i){
+				    // Clone and append xml node to each data binded element.
+				    var imported_svg = this.appendChild(imported_node.cloneNode(true));
+				  })
+				  .attr("transform", function(d,i){return "translate(" + (width-202) + ",8) scale(0.02)";});
+			});
+
+
+           
+
+            var legendMale = legendMap.selectAll('.map').data("1").enter();
+           legendMale.append("g")
+            	  .append("rect")
+            	  .attr("x", width-250)
+            	  .attr("y", 10)
+            	  .attr("width", 10)
+            	  .attr("height", 10)
+            	  .style("fill", "black");
+           	legendMale.append("text")
+            	  .attr("x", width-240)
+            	  .attr("y", 20)
+            	  .text("Male");
+
+            var ledgendFemale = legendMap.selectAll('.map').data("2").enter();
+           ledgendFemale.append("g")
+            	  .append("circle")
+            	  .attr("r",6)
+            	  .attr("transform", "translate("+(width-310)+",15)")
+            	  .attr("fill", "black");
+           	ledgendFemale.append("text")
+            	  .attr("x", width-303)
+            	  .attr("y", 20)
+            	  .text("Female");
+
 //chart1-------------------------------------------------------------------------
             updateDeaths();
 
@@ -380,7 +613,7 @@ svg
             deathdayChart.selectAll("bar")
                   .data(deathdays)
                   .enter().append("rect").attr("class", "chart1Bar")
-                  .style("fill", "steelblue")
+                  .style("fill", "#2db1b9")
                   .attr("x", function(d) { return x(d.label)+5; })
                   .attr("width", x.rangeBand())
                   .attr("y", function(d) { return y(d.number); })
@@ -389,28 +622,52 @@ svg
                   .on("click",function(d){
                     var day = d.label;
                     deathdayChart.selectAll(".chart1Bar")
-                        .style("fill","steelblue")
+                        .style("fill","#2db1b9")
                         .filter(function(d){return d.label==day;}) 
-                        .style("fill", "red");
+                        .style("fill", "#ff7b2b");
 
-                    newRows = deathSvg.selectAll("circle")
-                                    .data(deaths.features.filter(function(d){return d.properties.deathday==day;}),function(d){return d.id;});
-                    newRows.enter()
-                            .append("circle")
-                            .attr("r", 2)
-                            .attr("transform", function(d) {
-                                //whatever transformation that needs to be done
-                                return "translate(" + projection(d.geometry.coordinates) + ")";
-                            })
-                            .style("fill", "red")
-                            .style("stroke-width", "1")
-                            .style("stroke", "black")
-                            .classed("pin", true)
-                            .filter(function(d){return d.properties.sex == "male";})
-                            .style("fill","blue");    
+                    newData = deaths.features.filter(function(d){return d.properties.deathday==day;}); 
+
+                    newDataFemale = newData.filter(function(d){return d.properties.sex == "female"});
+                    newDataMale = newData.filter(function(d){return d.properties.sex == "male"});
+
+                   console.log(newDataFemale);
+                   console.log(newDataMale);
+
+                  	               
+	                    newRowsFemale = deathSvg.selectAll("circle")
+	                                    .data(newDataFemale,function(d){return d.id;});
+	                    newRowsFemale.enter()
+	                            .append("circle")
+	                            .attr("r", 3)
+	                            .attr("transform", function(d) {
+	                                //whatever transformation that needs to be done
+	                                return "translate(" + projection(d.geometry.coordinates) + ")";
+	                            })
+	                            .style("fill", function(d){return d.properties.color;})
+	                            .style("stroke-width", "0.5")
+	                            .style("stroke", "black")
+	                            .classed("pin", true);  
+	                   
+					 newRowsFemale.exit().remove();
                     
-                    newRows.exit().remove(); 
-
+					
+	                    newRowsMale = deathSvg.selectAll("rect")
+	                                    .data(newDataMale,function(d){return d.id;});
+	                    newRowsMale.enter()
+	                            .append("rect")
+	                            .attr("width", 5)
+	                            .attr("height",5)
+	                            .attr("transform", function(d) {
+	                                //whatever transformation that needs to be done
+	                                return "translate(" + projection(d.geometry.coordinates) + ")";
+	                            })
+	                            .style("fill", function(d){return d.properties.color;})
+	                            .style("stroke-width", "0.5")
+	                            .style("stroke", "black");
+	   
+	                    
+                      newRowsMale.exit().remove(); 
                   });
             
 
@@ -426,7 +683,7 @@ svg
                     return d.number;
                })
                .attr("text-anchor", "middle")
-              .attr("x", function(d) { return x(d.label)+10; })
+              .attr("x", function(d) { return x(d.label)+12; })
               .attr("width", x.rangeBand())
                .attr("y", function(d) { return y(d.number) - 2; })
                .attr("font-family", "sans-serif")
@@ -436,28 +693,52 @@ svg
 
                     var day = d.label;
                     deathdayChart.selectAll(".chart1Bar")
-                        .style("fill","steelblue")
+                        .style("fill","#2db1b9")
                         .filter(function(d){return d.label==day;}) 
-                        .style("fill", "red");
+                        .style("fill", "#ff7b2b");
 
-                    newRows = deathSvg.selectAll("circle")
-                                    .data(deaths.features.filter(function(d){return d.properties.deathday==day;}),function(d){return d.id;});
-                    newRows.enter()
-                            .append("circle")
-                            .attr("r", 2)
-                            .attr("transform", function(d) {
-                                //whatever transformation that needs to be done
-                                return "translate(" + projection(d.geometry.coordinates) + ")";
-                            })
-                            .style("fill", "red")
-                            .style("stroke-width", "1")
-                            .style("stroke", "black")
-                            .classed("pin", true)
-                            .filter(function(d){return d.properties.sex == "male";})
-                            .style("fill","blue");    
+                    newData = deaths.features.filter(function(d){return d.properties.deathday==day;});    
+
+                    newDataFemale = newData.filter(function(d){return d.properties.sex == "female"});
+                    newDataMale = newData.filter(function(d){return d.properties.sex == "male"});
+
+                   console.log(newDataFemale);
+                   console.log(newDataMale);
+
+                  	               
+	                    newRowsFemale = deathSvg.selectAll("circle")
+	                                    .data(newDataFemale,function(d){return d.id;});
+	                    newRowsFemale.enter()
+	                            .append("circle")
+	                            .attr("r", 3)
+	                            .attr("transform", function(d) {
+	                                //whatever transformation that needs to be done
+	                                return "translate(" + projection(d.geometry.coordinates) + ")";
+	                            })
+	                            .style("fill", function(d){return d.properties.color;})
+	                            .style("stroke-width", "0.5")
+	                            .style("stroke", "black")
+	                            .classed("pin", true);  
+	                    
+					newRowsFemale.exit().remove();
                     
-                    newRows.exit().remove(); 
-
+					
+	                    newRowsMale = deathSvg.selectAll("rect")
+	                                    .data(newDataMale,function(d){return d.id;});
+	                    newRowsMale.enter()
+	                            .append("rect")
+	                            .attr("width", 5)
+	                            .attr("height",5)
+	                            .attr("transform", function(d) {
+	                                //whatever transformation that needs to be done
+	                                return "translate(" + projection(d.geometry.coordinates) + ")";
+	                            })
+	                            .style("fill", function(d){return d.properties.color;})
+	                            .style("stroke-width", "0.5")
+	                            .style("stroke", "black");
+	   
+	                    
+                      newRowsMale.exit().remove();
                   });
 
                deathdayChart.selectAll("foreignObject")
@@ -469,29 +750,12 @@ svg
                         .attr("y", 10)
                         .attr("width", 60)
                         .append("xhtml:body")
-                        .html(function(d){ return "<form><input type=button value= "+"selectAllDays"+" /></form>"})
-                        .on("click",function(d){
-                          deathdayChart.selectAll(".chart1Bar")
-                                      .style("fill","steelblue");
+                        .html(function(d){ return "<form><input type=button class=button value= "+"selectAllDays"+" /></form>"})
+                        .on("click",updateDeaths);
 
-                          newRows = deathSvg.selectAll("circle")
-                                    .data(deaths.features,function(d){return d.id;});
-                          newRows.enter()
-                            .append("circle")
-                            .attr("r", 2)
-                            .attr("transform", function(d) {
-                                //whatever transformation that needs to be done
-                                return "translate(" + projection(d.geometry.coordinates) + ")";
-                            })
-                            .style("fill", "red")
-                            .style("stroke-width", "1")
-                            .style("stroke", "black")
-                            .classed("pin", true)
-                            .filter(function(d){return d.properties.sex == "male";})
-                            .style("fill","blue");    
-                    
-                    newRows.exit().remove();
-                        });
+
+
+
 //chart2------------------------------------------------------------------------------
 
             var x2 = d3.scale.ordinal().rangeRoundBands([15, widthChart - margin.left - margin.right], .05);
@@ -554,11 +818,11 @@ svg
                   .attr("y",20)
                   .attr("dx", "-.8em")
                   .attr("dy", "-.55em");
-                  deathageChart.append("text")
+            deathageChart.append("text")
                   .attr("class", "chart2XAxisText")
                   .style("text-anchor", "end")
-                  .attr("x",widthChart-65)
-                  .attr("y",heightChart-6)
+                  .attr("x",widthChart-50)
+                  .attr("y",heightChart+15)
                   .text("Age");
 
             deathageChart.append("g")
@@ -576,14 +840,14 @@ svg
                   .data(ageDataMale)
                   .enter().append("rect").attr("class", "chart2Bar")
                   .style("fill", "steelblue")
-                  .attr("x", function(d) { return x2(d.age)+50; })
+                  .attr("x", function(d) { return x2(d.age)+58; })
                   .attr("width", x.rangeBand())
                   .attr("y", function(d) { return y2(d.number); })
                   .attr("height", function(d) { return heightChart - y2(d.number); });
 
             deathageChart.append("g")
               .attr("class", "barNumber2")
-              .attr("width", widthChart - margin.left - margin.right - 15)
+              .attr("width", widthChart - margin.left - margin.right - 20)
               .attr("height", heightChart)
               .selectAll("text")
                .data(ageDataMale)
@@ -593,7 +857,7 @@ svg
                     return d.number;
                })
                .attr("text-anchor", "middle")
-              .attr("x", function(d) { return x2(d.age)+55; })
+              .attr("x", function(d) { return x2(d.age)+65; })
               .attr("width", x.rangeBand())
                .attr("y", function(d) { return y2(d.number) - 2; })
                .attr("font-family", "sans-serif")
@@ -603,15 +867,15 @@ svg
             deathageChart.selectAll("bar")
                   .data(ageDataFemale)
                   .enter().append("rect").attr("class", "chart2Bar")
-                  .style("fill", "pink")
-                  .attr("x", function(d) { return x2(d.age)+35; })
+                  .style("fill", "#faadc6")
+                  .attr("x", function(d) { return x2(d.age)+42; })
                   .attr("width", x.rangeBand())
                   .attr("y", function(d) { return y2(d.number); })
                   .attr("height", function(d) { return heightChart - y2(d.number); });
 
             deathageChart.append("g")
               .attr("class", "barNumber2")
-              .attr("width", widthChart - margin.left - margin.right - 15)
+              .attr("width", widthChart - margin.left - margin.right - 20)
               .attr("height", heightChart)
               .selectAll("text")
                .data(ageDataFemale)
@@ -621,7 +885,7 @@ svg
                     return d.number;
                })
                .attr("text-anchor", "middle")
-              .attr("x", function(d) { return x2(d.age)+40; })
+              .attr("x", function(d) { return x2(d.age)+48; })
               .attr("width", x.rangeBand())
                .attr("y", function(d) { return y2(d.number) - 2; })
                .attr("font-family", "sans-serif")
@@ -629,7 +893,7 @@ svg
                .attr("fill", "black");
 
 //add legend-------------------------------------------------------------
-            var color_hash = { 0:["Female", "pink"], 1:["Male", "steelblue"]}; 
+            var color_hash = { 0:["Female", "#faadc6"], 1:["Male", "steelblue"]}; 
 
             var legend = deathageChart.append("g")
               .attr("class", "legend")
@@ -655,8 +919,10 @@ svg
                   .attr("y", i * 25 + 8)
                   .attr("height",30)
                   .attr("width",100)
-                  .style("fill", color_hash[String(i)][1])
+                  .style("fill", "black")
                   .text(color_hash[String(i)][0]);
+
+
 
               });
             
@@ -679,31 +945,50 @@ svg
                         newData = deaths.features;
                         newDataBar = deathdays;     
                     } 
-                                      
-                    newRows = deathSvg.selectAll("circle")
-                                    .data(newData,function(d){return d.id;});
-                    newRows.enter()
-                            .append("circle")
-                            .attr("r", 2)
-                            .attr("transform", function(d) {
-                                //whatever transformation that needs to be done
-                                return "translate(" + projection(d.geometry.coordinates) + ")";
-                            })
-                            .style("fill", "red")
-                            .style("stroke-width", "1")
-                            .style("stroke", "black")
-                            .classed("pin", true)
-                            .filter(function(d){return d.properties.sex == "male";})
-                            .style("fill","blue");    
-                    
-                    newRows.exit().remove(); 
 
-                deathdayChart.selectAll(".chart1Bar")
-                  .filter(function(d){return choices.includes(d.label);}) 
-                  .style("fill", "red");
+                    newDataFemale = newData.filter(function(d){return d.properties.sex == "female"});
+                    newDataMale = newData.filter(function(d){return d.properties.sex == "male"});
+
+                   console.log(newDataFemale);
+                   console.log(newDataMale);
+
+                  	                
+	                    newRowsFemale = deathSvg.selectAll("circle")
+	                                    .data(newDataFemale,function(d){return d.id;});
+	                    newRowsFemale.enter()
+	                            .append("circle")
+	                            .attr("r", 3)
+	                            .attr("transform", function(d) {
+	                                //whatever transformation that needs to be done
+	                                return "translate(" + projection(d.geometry.coordinates) + ")";
+	                            })
+	                            .style("fill", function(d){return d.properties.color;})
+	                            .style("stroke-width", "0.5")
+	                            .style("stroke", "black")
+	                            .classed("pin", true);  
+	                    
+					newRowsFemale.exit().remove();
+                    
+					
+	                    newRowsMale = deathSvg.selectAll("rect")
+	                                    .data(newDataMale,function(d){return d.id;});
+	                    newRowsMale.enter()
+	                            .append("rect")
+	                            .attr("width", 5)
+	                            .attr("height",5)
+	                            .attr("transform", function(d) {
+	                                //whatever transformation that needs to be done
+	                                return "translate(" + projection(d.geometry.coordinates) + ")";
+	                            })
+	                            .style("fill", function(d){return d.properties.color;})
+	                            .style("stroke-width", "0.5")
+	                            .style("stroke", "black");	                    
+                      newRowsMale.exit().remove();               
+
+                deathdayChart.selectAll(".chart1Bar").style("fill", '#2db1b9');
                     
             }   
-    }); 
+   
     });         
     }); 
   });

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SX's H517</title>
+ <link rel="shortcut icon" href="images/icon.png" />
+<!-- Bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+<!-- FontAwesome -->
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<!-- Animation -->
+<link rel="stylesheet" href="css/animate.css" />
+<!-- Main color style -->
+<link rel="stylesheet" href="css/red.css"/>
+<!-- Template styles-->
+<link rel="stylesheet" href="css/custom.css" />
+
+<style>
+  body{
+    
+    margin:80px 100px 80px 80px;
+  }
+
+  iframe{
+    margin: 80px 10px 10px 10px;
+
+  }
+
+  img{
+    display: flex;
+    margin: auto;
+    text-align:center;
+  }
+
+</style>
+
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/d3.geo.projection.v0.min.js"></script>
+
+  </head>
+
+<header id="section_header" class="navbar-fixed-top main-nav" role="banner">
+<div class="container">
+  <!-- <div class="row"> -->
+     <div class="navbar-header">
+               <img src="images/logo2.png" height="46" width="340" alt="">
+     </div><!--Navbar header End-->
+
+      <nav class="collapse navbar-collapse navigation" id="bs-example-navbar-collapse-1" role="navigation">
+        <ul class="nav navbar-nav navbar-right ">
+          <li > <a href="index.html" class="page-scroll">Project </a></li>
+          <li class="active"><a href="document.html"  class="page-scroll">Document</a> </li>
+          <li><a href="#portfolio" class="page-scroll" >Youtube Video</a> </li>
+        </ul>
+       </nav>
+    </div><!-- /.container-fluid -->
+</header>
+
+<body>
+  <h3>Design Process</h3>
+  <p>
+  In the beginning, I looked through the requirements and came up with the website layout which I thought would cover all the requirements, like the Fig1. At this time I am not focusing on the visual aspect but the layout aspect. However, when I began to search stuff for my project, I found a website <a href="http://www.vmateevitsi.com/2009/09/01/john-snows-interactive-cholera-map/" class="page-scroll" >JOHN SNOW’S INTERACTIVE CHOLERA MAP(Victor Mateevitsi 2009)</a>[1] which is very similar to my project, I knew that I might mistake the meaning of the requirements, and changed it to another layout, the Fig 2. 
+  </p>
+  <img src="images/process1.png" width="70%" height="70%" ></img></br>
+  <p>
+  After the layout design, I began to read D3 book <a href="http://chimera.labs.oreilly.com/books/1230000000345/index.html" class="page-scroll" >"Interactive Data Visualization for the Web with D3"(Scott Murray,  March 2013) </a> [2]. I used about 2-3 days to create the map using JSON, which is made by the python. I listed the requirements of the JSON data format and asked my undergraduate classmate <a href="http://chellynov.github.io" class="page-scroll" >Yihuang Cai</a>[3] to help me write the python. 
+  </p>
+  <p>
+  Since the JSON data was ready, I then began to complete the project requirements. As my Bachelor in software engineering, I did not care much about the visual but just focused on completing the function that I could do, just like this:
+  </p>
+  <img src="images/process2.png" width="70%" height="70%" ></img>
+  <p style="text-align: center;color: black;">Fg3.I was working on the chart function</p>
+  <p>
+  When the functions were done, I began to focus on visualization that I worked with my teammate Huang Fu. He helped me to choose a template on the web and helped me to modify my website. Actually, I am weak at visual design, so Huang helps me a lot! Then I modified the functions, layout, and color of the project page, made it looked in a comfortable way. As you can see, I did not follow my initial design, because I am a totally new web developer when I was doing my project, I found that the initial design is difficult for me to follow, so I changed my design in the coding procedure. Also, the Victor Mateevitsi’s website[1] helps me a lot to understand the functional requirements. 
+  </p>
+  <img src="images/process3.png" width="70%" height="70%"></img>
+  <p style="text-align: center;color: black;">Fg4. the final page</p>
+
+  <h3>Rationale of your design choices</h3>
+  <h4>Death points color and shape</h4>
+  <p>
+  As the requirements mentioned “1.ability to easily see on the map whether each victim was male or female 2.ability to easily see on the map the age of each victim” and the exact meaning from professor, I need to show the data into female and male, and the age of each victim. So, I just chose a simple way that the female is circle, the male is rectangular, and used different color in saturation sequence to identify the age so that it can be identified both in sex and age. Also, the set of color has been tested by <a href="http://colororacle.org/" class="page-scroll" >colororacle</a>[4]. 
+  </p>
+
+  <h4>Map show</h4>
+  <p>
+  I just modified the line map to make it looked more like a street map. 
+  </p>
+
+  <h4>Pump shape</h4>
+  <p>
+  At the beginning, I just used bigger black rectangular to represent the pump. However, it looked terrible when adding death points as the Fg3 shows. So I found another picture which might be kind of representative pump and simple shape icon to replace the rectangular(The most typical one as Fg5 shows, I did not choose because I knew a classmate is using). When there is much other graphical information on the map, the secondary information in a simple and different color range to help the user filter out this secondary information in order to focus on important information and reduce visual interference.
+  </p>
+  <img src="images/pump.png" width="40%" height="40%"></img>
+
+  <h4>Buildings color and street name</h4>
+  <p>
+  As the first B requirement “more data to the map - major street names and the location of the brewery and the work house”, I think these are not the main information that uses would like to know initially, so the street name I made it small with thin white stroke,make it easy to catch but not in detail, and the buildings color in totally different color from the death points, and the building name in white color which reduces the visual interference.
+  </p>
+
+  <h4>Timeline graph</h4>
+  <p>
+  As the C requirement on timeline graph, it needs to not only show the number of deaths per day but also be clickable to choose which day to visualize the deaths on the map. So, I chose bar chart with the number on the top of each bar which is easy to click a bar to choose which day, even though I know that line chart would be more proper to show the trend of the number of deaths per day.  As for the color that I chose, it is from Huang’s option. He used to be a visualization designer in E-Business company, I believe his choice. The color looked soft and matched with the set of death points color.
+  </p>
+
+  <h4>Distribution graph of deaths by sex and age overall</h4>
+  <p>
+  Since this graph aims to compare, the bar chart is very suitable. As the bar color of female and male, I use pink(#faadc6) for female and blue(steel blue) for male as people common sense that red for women and blue for men. These two colors are also from Huang’s choice while I think it is matched the whole website color style.
+  </p>
+
+  <h4>The button style</h4>
+  <p>
+  At last, the button style is from website template, I think it’s obvious so that when users do some operation, they can notice the buttons.
+  </p>
+
+  <h3>Describe how you used your visualizations to discover facts or answer questions you had</h3>
+
+
+  <h3>Reference</h3>
+<p>
+[1]Victor Mateevitsi 2009.JOHN SNOW’S INTERACTIVE CHOLERA MAP</br>
+<a href="http://www.vmateevitsi.com/2009/09/01/john-snows-interactive-cholera-map/" class="page-scroll" >http://www.vmateevitsi.com/2009/09/01/john-snows-interactive-cholera-map/</a>  
+</p>
+
+<p>
+[2]Scott Murray,  March 2013.Interactive Data Visualization for the Web with D3</br>
+
+<a href="http://chimera.labs.oreilly.com/books/1230000000345/index.html" class="page-scroll" >http://chimera.labs.oreilly.com/books/1230000000345/index.html</a>  
+</p>
+
+<p>
+[3]Yihuang Cai, help to generate JSON data with python. The link is his homepage.</br>
+<a href="http://colororacle.org/" class="page-scroll" >http://colororacle.org/</a>  
+</p>
+
+<p>[4]Colororacle</br>
+<a href="http://chellynov.github.io" class="page-scroll" >http://chellynov.github.io</a>  
+</p>
+
+
+
+</body>
