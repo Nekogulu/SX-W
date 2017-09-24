@@ -63,8 +63,8 @@
 		}
 
     </style>
-    <script src="http://d3js.org/d3.v3.min.js"></script>
-    <script src="http://d3js.org/d3.geo.projection.v0.min.js"></script>
+    <script src="d3/d3.v3.min.js"></script>
+    <script src="d3/d3-geo-projection.js"></script>
 
   </head>
 
@@ -202,7 +202,7 @@
 
 
 //pump image
-			var svg_name = "https://raw.githubusercontent.com/Nekogulu/SX-W/master/image/drop6.svg";
+			var svg_name = "https://raw.githubusercontent.com/Nekogulu/SX-W/master/images/drop6.svg";
 			d3.xml(svg_name,"image/svg+xml", function(xml) {
 			 
 			  // Take xml as nodes.
@@ -219,22 +219,22 @@
 			    // Clone and append xml node to each data binded element.
 			    var imported_svg = this.appendChild(imported_node.cloneNode(true));
 			  })
-			  .attr("transform", function(d,i){return "translate(" + projection(d.geometry.coordinates) + ") scale(0.04)";}).attr("opacity", "1.0");
+			  .attr("transform", function(d,i){return "translate(" + projection(d.geometry.coordinates) + ") scale(0.03)";});
 
 			});
 
 /*
-            pointSvg.selectAll("rect")
+            pointSvg.selectAll("text")
                     .data(points)
                     .enter()
-                    .append("rect")
-                    .attr("width", 10)
-                    .attr("height", 10)
+                    .append("text")
                     .attr("transform", function(d) {
                              //whatever transformation that needs to be done
                             return "translate(" + projection(d.geometry.coordinates) + ")";
                         })
-                    //.style("opacity", "1.0")
+                    .text(function(d){
+                        return d.properties.name;
+                    })
                     .style("fill", "black")
                     .style("stroke-width", "1")
                     .style("stroke", "black")
@@ -537,7 +537,7 @@
 			            	  .attr("x", width-190)
 			            	  .attr("y", 20)
 			            	  .text("Pump");
-			var svg_name = "https://raw.githubusercontent.com/Nekogulu/SX-W/master/image/drop.svg";
+			var svg_name = "https://raw.githubusercontent.com/Nekogulu/SX-W/master/images/drop6.svg";
 			d3.xml(svg_name,"image/svg+xml", function(xml) { 
 			  // Take xml as nodes.
 				var imported_node = document.importNode(xml.documentElement, true);
@@ -550,7 +550,7 @@
 				    // Clone and append xml node to each data binded element.
 				    var imported_svg = this.appendChild(imported_node.cloneNode(true));
 				  })
-				  .attr("transform", function(d,i){return "translate(" + (width-202) + ",8) scale(0.02)";});
+				  .attr("transform", function(d,i){return "translate(" + (width-202) + ",8) scale(0.03)";});
 			});
 
 

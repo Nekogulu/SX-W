@@ -36,17 +36,17 @@ a:focus{
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #4CAF50;
+  background-color: #5ca2d3;
   border: none;
-  border-radius: 5px;
-  box-shadow: 0 2px #999;
+  border-radius: 3px;
+  box-shadow: 0 2px #3d84b5;
 }
 
-.button:hover {background-color: #3e8e41}
+.button:hover {background-color: #438bbe}
 
 .button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 2px #666;
+  background-color: #4781aa;
+  box-shadow: 0 2px #164b70;
   
 }
 
