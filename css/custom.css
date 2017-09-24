@@ -44,6 +44,8 @@ a:focus{
 
 .button:hover {background-color: #438bbe}
 
+.button:disabled {background-color: grey}
+
 .button:active {
   background-color: #4781aa;
   box-shadow: 0 2px #164b70;

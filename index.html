@@ -156,7 +156,7 @@
                 var hscale  = scale*width  / (bounds[1][0] - bounds[0][0])  ;
                 var vscale  = scale*(height - 60) / (bounds[1][1] - bounds[0][1]) ;
                 var scale   = (hscale < vscale) ? hscale : vscale;
-                var offset  = [width - (bounds[0][0] + bounds[1][0])/2, height - (bounds[0][1] + bounds[1][1] + 150)/2];
+                var offset  = [width - (bounds[0][0] + bounds[1][0]-20)/2, height - (bounds[0][1] + bounds[1][1] + 110)/2];
                 center1 = center;
                 scale1 = scale;
                 offset1 =  offset;
@@ -448,7 +448,10 @@
 			    .on("zoom", zoomed);
 
 			function zoomed() {
-			  
+
+			  var resetButton = document.getElementById("reset");
+              resetButton.disabled=false;
+
 			  xZoom=d3.event.translate[0];
 			  yZoom=d3.event.translate[1];
 			  sZoom=d3.event.scale;
@@ -467,12 +470,12 @@
 			    .append("foreignObject")
 			    .attr("class", "reset")
 			    .attr("float","left")
-			    .attr("x", width-50)
-			    .attr("y", 0)
+			    .attr("x", width-60)
+			    .attr("y", 10)
 			    .append("xhtml:body")
-			    .html(function(d){ return "<form><input type=button class=button  value= "+"reset"+" /></form>"})
-			     .on("click",function(){
-			      d3.transition().duration(250).tween("zoom", function() {
+			    .html(function(d){ return "<form><input type=button class=button id=reset value=reset disabled=true /></form>"})
+			    .on("click",function(){
+                  d3.transition().duration(250).tween("zoom", function() {
 			        var si = d3.interpolate(sZoom, 1);
 			        var xi = d3.interpolate(xZoom, 0);
 			        var yi = d3.interpolate(yZoom, 0);
@@ -512,14 +515,14 @@
                 var g = d3.select(this);
                 g.append("rect")
                   .attr("x", i*56+5)
-                  .attr("y", 10)
+                  .attr("y", 15)
                   .attr("width", 10)
                   .attr("height", 10)
                   .style("fill", color[String(i)][1]);
                 
                 g.append("text")
                   .attr("x", i*56+17)
-                  .attr("y", 20)
+                  .attr("y", 25)
                   .attr("height",10)
                   .attr("width",100)
                   .style("fill","black")
@@ -535,7 +538,7 @@
 			            	  .attr("height", 10);*/
 			           	legendPump.append("text")
 			            	  .attr("x", width-190)
-			            	  .attr("y", 20)
+			            	  .attr("y", 25)
 			            	  .text("Pump");
 			var svg_name = "https://raw.githubusercontent.com/Nekogulu/SX-W/master/images/drop6.svg";
 			d3.xml(svg_name,"image/svg+xml", function(xml) { 
@@ -550,7 +553,7 @@
 				    // Clone and append xml node to each data binded element.
 				    var imported_svg = this.appendChild(imported_node.cloneNode(true));
 				  })
-				  .attr("transform", function(d,i){return "translate(" + (width-202) + ",8) scale(0.03)";});
+				  .attr("transform", function(d,i){return "translate(" + (width-202) + ",13) scale(0.03)";});
 			});
 
 
@@ -560,24 +563,24 @@
            legendMale.append("g")
             	  .append("rect")
             	  .attr("x", width-250)
-            	  .attr("y", 10)
+            	  .attr("y", 15)
             	  .attr("width", 10)
             	  .attr("height", 10)
             	  .style("fill", "black");
            	legendMale.append("text")
             	  .attr("x", width-240)
-            	  .attr("y", 20)
+            	  .attr("y", 25)
             	  .text("Male");
 
             var ledgendFemale = legendMap.selectAll('.map').data("2").enter();
            ledgendFemale.append("g")
             	  .append("circle")
             	  .attr("r",6)
-            	  .attr("transform", "translate("+(width-310)+",15)")
+            	  .attr("transform", "translate("+(width-310)+",20)")
             	  .attr("fill", "black");
            	ledgendFemale.append("text")
             	  .attr("x", width-303)
-            	  .attr("y", 20)
+            	  .attr("y", 25)
             	  .text("Female");
 
 //chart1-------------------------------------------------------------------------
@@ -620,6 +623,10 @@
                   .attr("height", function(d) { return heightChart - y(d.number); })
                   //.attr("type","checkbox")
                   .on("click",function(d){
+
+                    var seADBt = document.getElementById("setDay");
+                    seADBt.disabled = false;
+
                     var day = d.label;
                     deathdayChart.selectAll(".chart1Bar")
                         .style("fill","#2db1b9")
@@ -630,9 +637,6 @@
 
                     newDataFemale = newData.filter(function(d){return d.properties.sex == "female"});
                     newDataMale = newData.filter(function(d){return d.properties.sex == "male"});
-
-                   console.log(newDataFemale);
-                   console.log(newDataMale);
 
                   	               
 	                    newRowsFemale = deathSvg.selectAll("circle")
@@ -691,6 +695,9 @@
                .attr("fill", "black")
                .on("click",function(d){
 
+                    var seADBt1 = document.getElementById("setDay");
+                    seADBt1.disabled = false;
+
                     var day = d.label;
                     deathdayChart.selectAll(".chart1Bar")
                         .style("fill","#2db1b9")
@@ -701,9 +708,6 @@
 
                     newDataFemale = newData.filter(function(d){return d.properties.sex == "female"});
                     newDataMale = newData.filter(function(d){return d.properties.sex == "male"});
-
-                   console.log(newDataFemale);
-                   console.log(newDataMale);
 
                   	               
 	                    newRowsFemale = deathSvg.selectAll("circle")
@@ -747,10 +751,10 @@
                         .append("foreignObject")
                         .attr("class", "selectAllDays")
                         .attr("x", widthChart - 150)
-                        .attr("y", 10)
+                        .attr("y", 5)
                         .attr("width", 60)
                         .append("xhtml:body")
-                        .html(function(d){ return "<form><input type=button class=button value= "+"selectAllDays"+" /></form>"})
+                        .html(function(d){ return "<form><input type=button class=button id=setDay value=selectAllDays /></form>"})
                         .on("click",updateDeaths);
 
 
@@ -949,8 +953,6 @@
                     newDataFemale = newData.filter(function(d){return d.properties.sex == "female"});
                     newDataMale = newData.filter(function(d){return d.properties.sex == "male"});
 
-                   console.log(newDataFemale);
-                   console.log(newDataMale);
 
                   	                
 	                    newRowsFemale = deathSvg.selectAll("circle")
