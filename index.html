@@ -79,7 +79,7 @@
         <ul class="nav navbar-nav navbar-right ">
           <li class="active"> <a href="index.html" class="page-scroll">Project </a></li>
           <li><a href="document.html"  class="page-scroll">Document</a> </li>
-          <li><a href="#portfolio" class="page-scroll" >Youtube Video</a> </li>
+          <li><a href="video.html" class="page-scroll" >Youtube Video</a> </li>
         </ul>
        </nav>
     </div><!-- /.container-fluid -->
@@ -621,7 +621,7 @@
                   .attr("width", x.rangeBand())
                   .attr("y", function(d) { return y(d.number); })
                   .attr("height", function(d) { return heightChart - y(d.number); })
-                  //.attr("type","checkbox")
+                  .style("cursor","pointer")
                   .on("click",function(d){
 
                     var seADBt = document.getElementById("setDay");
@@ -750,11 +750,11 @@
                         .enter()
                         .append("foreignObject")
                         .attr("class", "selectAllDays")
-                        .attr("x", widthChart - 150)
+                        .attr("x", widthChart - 100)
                         .attr("y", 5)
                         .attr("width", 60)
                         .append("xhtml:body")
-                        .html(function(d){ return "<form><input type=button class=button id=setDay value=selectAllDays /></form>"})
+                        .html(function(d){ return "<form><input type=button class=button id=setDay value=reset /></form>"})
                         .on("click",updateDeaths);
 
 
@@ -844,7 +844,7 @@
                   .data(ageDataMale)
                   .enter().append("rect").attr("class", "chart2Bar")
                   .style("fill", "steelblue")
-                  .attr("x", function(d) { return x2(d.age)+58; })
+                  .attr("x", function(d) { return x2(d.age)+53; })
                   .attr("width", x.rangeBand())
                   .attr("y", function(d) { return y2(d.number); })
                   .attr("height", function(d) { return heightChart - y2(d.number); });
@@ -861,7 +861,7 @@
                     return d.number;
                })
                .attr("text-anchor", "middle")
-              .attr("x", function(d) { return x2(d.age)+65; })
+              .attr("x", function(d) { return x2(d.age)+58; })
               .attr("width", x.rangeBand())
                .attr("y", function(d) { return y2(d.number) - 2; })
                .attr("font-family", "sans-serif")
@@ -872,7 +872,7 @@
                   .data(ageDataFemale)
                   .enter().append("rect").attr("class", "chart2Bar")
                   .style("fill", "#faadc6")
-                  .attr("x", function(d) { return x2(d.age)+42; })
+                  .attr("x", function(d) { return x2(d.age)+37; })
                   .attr("width", x.rangeBand())
                   .attr("y", function(d) { return y2(d.number); })
                   .attr("height", function(d) { return heightChart - y2(d.number); });
@@ -889,7 +889,7 @@
                     return d.number;
                })
                .attr("text-anchor", "middle")
-              .attr("x", function(d) { return x2(d.age)+48; })
+              .attr("x", function(d) { return x2(d.age)+43; })
               .attr("width", x.rangeBand())
                .attr("y", function(d) { return y2(d.number) - 2; })
                .attr("font-family", "sans-serif")

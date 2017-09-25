@@ -45,7 +45,7 @@
         <ul class="nav navbar-nav navbar-right ">
           <li > <a href="index.html" class="page-scroll">Project </a></li>
           <li class="active"><a href="document.html"  class="page-scroll">Document</a> </li>
-          <li><a href="#portfolio" class="page-scroll" >Youtube Video</a> </li>
+          <li><a href="video.html" class="page-scroll" >Youtube Video</a> </li>
         </ul>
        </nav>
     </div><!-- /.container-fluid -->
@@ -71,7 +71,7 @@
   <img src="images/process3.png" width="70%" height="70%"></img>
   <p style="text-align: center;color: black;">Fg4. the final page</p>
 
-  <h3>Rationale of your design choices</h3>
+  <h3>Rationale of design choices</h3>
   <h4>Death points color and shape</h4>
   <p>
   As the requirements mentioned “1.ability to easily see on the map whether each victim was male or female 2.ability to easily see on the map the age of each victim” and the exact meaning from professor, I need to show the data into female and male, and the age of each victim. So, I just chose a simple way that the female is circle, the male is rectangular, and used different color in saturation sequence to identify the age so that it can be identified both in sex and age. Also, the set of color has been tested by <a href="http://colororacle.org/" class="page-scroll" >colororacle</a>[4]. 
@@ -107,11 +107,48 @@
   <p>
   At last, the button style is from website template, I think it’s obvious so that when users do some operation, they can notice the buttons.
   </p>
+  
+  <h4>Color test</h4>
+  <p>
+  Here are the color test by Colororacle[4]. 
+  </p>
+    <img src="images/Color1.png" width="70%" height="70%"></img>
+  <p style="text-align: center;color: black;">Fg5. Deuteranopia(Common)</p>
+    <img src="images/Color2.png" width="70%" height="70%"></img>
+  <p style="text-align: center;color: black;">Fg6. Protanopia(Rare)</p>
+    <img src="images/Color3.png" width="70%" height="70%"></img>
+  <p style="text-align: center;color: black;">Fg7. Tritanopia(Very rare)</p>
 
-  <h3>Describe how you used your visualizations to discover facts or answer questions you had</h3>
+  <h3>Questions & Discoveries</h3>
+  <h4>Q1. What day that the number of deaths is the most? What age of deaths is the most at that day?</h4>
+  <p>
+  It is easily to see that the biggest number of deaths is at 1-Sep and the subsequence is at 2-Sep. Through the chart on the top, I can get that the number of deaths mainly concentrate between 30-Aug to 7-Sep. When focusing on the 1-Sep, the map shows that the deaths mainly concentrate on Broad Street, and the color of death points show that the age is mainly concentrate on >80.
+  </p>
+  <img src="images/Q1-1.png" width="70%" height="70%"></img>
+  <p style="text-align: center;color: black;">Fg8. Distribution of deaths on 1-Sep</p>
+  <img src="images/Q1-2.png" width="70%" height="70%"></img>
+  <p style="text-align: center;color: black;">Fg9. Magnified screenshot of the concentrated area on 1-Sep</p>
 
+  <h4>Q2. Why the number of deaths suddenly rise up so much on 1-Sep?</h4>
+  <p>
+  I filter per day before 1-Sep. Between 17-Aug and 29-Aug, the death is very little but most of the death near the Broad Street and their water would be from the Broad Street pump. As on 30-Aug, the number of deaths is 8, when focusing on this day, the distribution of deaths shows as Fg9.  One death very near the pump since the former days there are 3 deaths also near the pump’s street.
+  </p>
+  <img src="images/Q2-1.png" width="70%" height="70%"></img>
+  <p style="text-align: center;color: black;">Fg10. Distribution of deaths on 30-Aug</p>
+  <p>
+  When focusing on 31-Aug, the death of people rise up about 7 times of that on the former day(Fg10)!  And the age of deaths mainly concentrates on 0-10 and >80, which is the poor physical resistance group. This time, the deaths are more near the Broad Street pump and the number of deaths which near the pump also gets bigger. So, combining with John Snow’s hypothesis, it is reasonable that the pump in Broad Street was contaminated and caused the culprit of death.
+  </p>
+  <img src="images/Q2-2.png" width="70%" height="70%"></img>
+  <p style="text-align: center;color: black;">Fg11. Distribution of deaths on 31-Aug</p>
 
-  <h3>Reference</h3>
+  <h4>Q3. Why there is still a small number of deaths after the pump handle removal on 8-Sep of so many days?</h4>
+  <p>
+  I filter per day after 11-Sep, and the data shows that these deaths are mainly concentrated on the Broad Street or using water from the Broad Street pump and their ages also mainly are 0-10 or >80, which I can assume that the deaths may be caused by the remainder of virus in the water or on the pump. And as common sense, 0-10 and >80 (especially for female) is the group that in poor physical resistance, so it is reasonable that the deaths were caused by the remainders of cholera, since there is almost no 21-60 age death.
+  </p>
+  <img src="images/Q3.png" width="100%" height="100%"></img>
+  <p style="text-align: center;color: black;">Fg12. Distribution of deaths between 12-Sep and 27-Sep</p>
+
+<h3>Reference</h3>
 <p>
 [1]Victor Mateevitsi 2009.JOHN SNOW’S INTERACTIVE CHOLERA MAP</br>
 <a href="http://www.vmateevitsi.com/2009/09/01/john-snows-interactive-cholera-map/" class="page-scroll" >http://www.vmateevitsi.com/2009/09/01/john-snows-interactive-cholera-map/</a>  
@@ -140,4 +177,11 @@
 <a href="https://bl.ocks.org" class="page-scroll" >https://bl.ocks.org</a>  
 </p>
 
+<p>[7]D3 Github</br>
+<a href="https://github.com/d3/d3-3.x-api-reference" class="page-scroll" >https://github.com/d3/d3-3.x-api-reference</a>  
+</p>
+
+<p>[8]China Webmaster(style template)</br>
+<a href="http://sc.chinaz.com" class="page-scroll" >http://sc.chinaz.com</a>  
+</p>
 </body>
